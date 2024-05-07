@@ -1,3 +1,5 @@
+include "%L"
+
 #######################
 # MATHEMATICAL ITALIC #
 #######################
@@ -115,57 +117,57 @@
 # MATHEMATICAL SCRIPT #
 #######################
 
-<Multi_key> <t>  <A>  : "𝒜" # MATHEMATICAL SCRIPT CAPITAL A U+1d49c
-<Multi_key> <t>  <B>  : "ℬ" # SCRIPT CAPITAL B U+212C
-<Multi_key> <t>  <C>  : "𝒞" # MATHEMATICAL SCRIPT CAPITAL C U+1d49e
-<Multi_key> <t>  <D>  : "𝒟" # MATHEMATICAL SCRIPT CAPITAL D U+1d49f
-<Multi_key> <t>  <E>  : "ℰ" # SCRIPT CAPITAL E U+2130
-<Multi_key> <t>  <F>  : "ℱ" # SCRIPT CAPITAL E U+2131
-<Multi_key> <t>  <G>  : "𝒢" # MATHEMATICAL SCRIPT CAPITAL G U+1d4a2
-<Multi_key> <t>  <H>  : "ℋ" # SCRIPT CAPITAL H U+210B
-<Multi_key> <t>  <I>  : "ℐ" # SCRIPT CAPITAL I U+2110
-<Multi_key> <t>  <J>  : "𝒥" # MATHEMATICAL SCRIPT CAPITAL J U+1d4a5
-<Multi_key> <t>  <K>  : "𝒦" # MATHEMATICAL SCRIPT CAPITAL K U+1d4a6
-<Multi_key> <t>  <L>  : "ℒ" # SCRIPT CAPITAL L U+2112
-<Multi_key> <t>  <M>  : "ℳ" # SCRIPT CAPITAL M U+2133
-<Multi_key> <t>  <N>  : "𝒩" # MATHEMATICAL SCRIPT CAPITAL N U+1d4a9
-<Multi_key> <t>  <O>  : "𝒪" # MATHEMATICAL SCRIPT CAPITAL O U+1d4aa
-<Multi_key> <t>  <P>  : "𝒫" # MATHEMATICAL SCRIPT CAPITAL P U+1d4ab
-<Multi_key> <t>  <R>  : "ℛ" # SCRIPT CAPITAL R U+211B
-<Multi_key> <t>  <Q>  : "𝒬" # MATHEMATICAL SCRIPT CAPITAL Q U+1d4ac
-<Multi_key> <t>  <S>  : "𝒮" # MATHEMATICAL SCRIPT CAPITAL S U+1d4ae
-<Multi_key> <t>  <T>  : "𝒯" # MATHEMATICAL SCRIPT CAPITAL T U+1d4af
-<Multi_key> <t>  <U>  : "𝒰" # MATHEMATICAL SCRIPT CAPITAL U U+1d4b0
-<Multi_key> <t>  <V>  : "𝒱" # MATHEMATICAL SCRIPT CAPITAL V U+1d4b1
-<Multi_key> <t>  <W>  : "𝒲" # MATHEMATICAL SCRIPT CAPITAL W U+1d4b2
-<Multi_key> <t>  <X>  : "𝒳" # MATHEMATICAL SCRIPT CAPITAL X U+1d4b3
-<Multi_key> <t>  <Y>  : "𝒴" # MATHEMATICAL SCRIPT CAPITAL Y U+1d4b4
-<Multi_key> <t>  <Z>  : "𝒵" # MATHEMATICAL SCRIPT CAPITAL Z U+1d4b5
-<Multi_key> <t>  <a>  : "𝒶" # MATHEMATICAL SCRIPT SMALL A U+1d4b6
-<Multi_key> <t>  <b>  : "𝒷" # MATHEMATICAL SCRIPT SMALL B U+1d4b7
-<Multi_key> <t>  <c>  : "𝒸" # MATHEMATICAL SCRIPT SMALL C U+1d4b8
-<Multi_key> <t>  <d>  : "𝒹" # MATHEMATICAL SCRIPT SMALL D U+1d4b9
-<Multi_key> <t>  <e>  : "ℯ"
-<Multi_key> <t>  <f>  : "𝒻" # MATHEMATICAL SCRIPT SMALL F U+1d4bb
-<Multi_key> <t>  <h>  : "𝒽" # MATHEMATICAL SCRIPT SMALL H U+1d4bd
-<Multi_key> <t>  <i>  : "𝒾" # MATHEMATICAL SCRIPT SMALL I U+1d4be
-<Multi_key> <t>  <j>  : "𝒿" # MATHEMATICAL SCRIPT SMALL J U+1d4bf
-<Multi_key> <t>  <k>  : "𝓀" # MATHEMATICAL SCRIPT SMALL K U+1d4c0
-<Multi_key> <t>  <l>  : "𝓁" # MATHEMATICAL SCRIPT SMALL L U+1d4c1
-<Multi_key> <t>  <m>  : "𝓂" # MATHEMATICAL SCRIPT SMALL M U+1d4c2
-<Multi_key> <t>  <n>  : "𝓃" # MATHEMATICAL SCRIPT SMALL N U+1d4c3
-<Multi_key> <t>  <o>  : "ℴ" # SCRIPT SMALL LETTER O
-<Multi_key> <t>  <p>  : "𝓅" # MATHEMATICAL SCRIPT SMALL P U+1d4c5
-<Multi_key> <t>  <q>  : "𝓆" # MATHEMATICAL SCRIPT SMALL Q U+1d4c6
-<Multi_key> <t>  <r>  : "𝓇" # MATHEMATICAL SCRIPT SMALL R U+1d4c7
-<Multi_key> <t>  <s>  : "𝓈" # MATHEMATICAL SCRIPT SMALL S U+1d4c8
-<Multi_key> <t>  <t>  : "𝓉" # MATHEMATICAL SCRIPT SMALL T U+1d4c9
-<Multi_key> <t>  <u>  : "𝓊" # MATHEMATICAL SCRIPT SMALL U U+1d4ca
-<Multi_key> <t>  <v>  : "𝓋" # MATHEMATICAL SCRIPT SMALL V U+1d4cb
-<Multi_key> <t>  <w>  : "𝓌" # MATHEMATICAL SCRIPT SMALL W U+1d4cc
-<Multi_key> <t>  <x>  : "𝓍" # MATHEMATICAL SCRIPT SMALL X U+1d4cd
-<Multi_key> <t>  <y>  : "𝓎" # MATHEMATICAL SCRIPT SMALL Y U+1d4ce
-<Multi_key> <t>  <z>  : "𝓏" # MATHEMATICAL SCRIPT SMALL Z U+1d4cf
+<Multi_key> <z>  <A>  : "𝒜" # MATHEMATICAL SCRIPT CAPITAL A U+1d49c
+<Multi_key> <z>  <B>  : "ℬ" # SCRIPT CAPITAL B U+212C
+<Multi_key> <z>  <C>  : "𝒞" # MATHEMATICAL SCRIPT CAPITAL C U+1d49e
+<Multi_key> <z>  <D>  : "𝒟" # MATHEMATICAL SCRIPT CAPITAL D U+1d49f
+<Multi_key> <z>  <E>  : "ℰ" # SCRIPT CAPITAL E U+2130
+<Multi_key> <z>  <F>  : "ℱ" # SCRIPT CAPITAL E U+2131
+<Multi_key> <z>  <G>  : "𝒢" # MATHEMATICAL SCRIPT CAPITAL G U+1d4a2
+<Multi_key> <z>  <H>  : "ℋ" # SCRIPT CAPITAL H U+210B
+<Multi_key> <z>  <I>  : "ℐ" # SCRIPT CAPITAL I U+2110
+<Multi_key> <z>  <J>  : "𝒥" # MATHEMATICAL SCRIPT CAPITAL J U+1d4a5
+<Multi_key> <z>  <K>  : "𝒦" # MATHEMATICAL SCRIPT CAPITAL K U+1d4a6
+<Multi_key> <z>  <L>  : "ℒ" # SCRIPT CAPITAL L U+2112
+<Multi_key> <z>  <M>  : "ℳ" # SCRIPT CAPITAL M U+2133
+<Multi_key> <z>  <N>  : "𝒩" # MATHEMATICAL SCRIPT CAPITAL N U+1d4a9
+<Multi_key> <z>  <O>  : "𝒪" # MATHEMATICAL SCRIPT CAPITAL O U+1d4aa
+<Multi_key> <z>  <P>  : "𝒫" # MATHEMATICAL SCRIPT CAPITAL P U+1d4ab
+<Multi_key> <z>  <R>  : "ℛ" # SCRIPT CAPITAL R U+211B
+<Multi_key> <z>  <Q>  : "𝒬" # MATHEMATICAL SCRIPT CAPITAL Q U+1d4ac
+<Multi_key> <z>  <S>  : "𝒮" # MATHEMATICAL SCRIPT CAPITAL S U+1d4ae
+<Multi_key> <z>  <T>  : "𝒯" # MATHEMATICAL SCRIPT CAPITAL T U+1d4af
+<Multi_key> <z>  <U>  : "𝒰" # MATHEMATICAL SCRIPT CAPITAL U U+1d4b0
+<Multi_key> <z>  <V>  : "𝒱" # MATHEMATICAL SCRIPT CAPITAL V U+1d4b1
+<Multi_key> <z>  <W>  : "𝒲" # MATHEMATICAL SCRIPT CAPITAL W U+1d4b2
+<Multi_key> <z>  <X>  : "𝒳" # MATHEMATICAL SCRIPT CAPITAL X U+1d4b3
+<Multi_key> <z>  <Y>  : "𝒴" # MATHEMATICAL SCRIPT CAPITAL Y U+1d4b4
+<Multi_key> <z>  <Z>  : "𝒵" # MATHEMATICAL SCRIPT CAPITAL Z U+1d4b5
+<Multi_key> <z>  <a>  : "𝒶" # MATHEMATICAL SCRIPT SMALL A U+1d4b6
+<Multi_key> <z>  <b>  : "𝒷" # MATHEMATICAL SCRIPT SMALL B U+1d4b7
+<Multi_key> <z>  <c>  : "𝒸" # MATHEMATICAL SCRIPT SMALL C U+1d4b8
+<Multi_key> <z>  <d>  : "𝒹" # MATHEMATICAL SCRIPT SMALL D U+1d4b9
+<Multi_key> <z>  <e>  : "ℯ"
+<Multi_key> <z>  <f>  : "𝒻" # MATHEMATICAL SCRIPT SMALL F U+1d4bb
+<Multi_key> <z>  <h>  : "𝒽" # MATHEMATICAL SCRIPT SMALL H U+1d4bd
+<Multi_key> <z>  <i>  : "𝒾" # MATHEMATICAL SCRIPT SMALL I U+1d4be
+<Multi_key> <z>  <j>  : "𝒿" # MATHEMATICAL SCRIPT SMALL J U+1d4bf
+<Multi_key> <z>  <k>  : "𝓀" # MATHEMATICAL SCRIPT SMALL K U+1d4c0
+<Multi_key> <z>  <l>  : "𝓁" # MATHEMATICAL SCRIPT SMALL L U+1d4c1
+<Multi_key> <z>  <m>  : "𝓂" # MATHEMATICAL SCRIPT SMALL M U+1d4c2
+<Multi_key> <z>  <n>  : "𝓃" # MATHEMATICAL SCRIPT SMALL N U+1d4c3
+<Multi_key> <z>  <o>  : "ℴ" # SCRIPT SMALL LETTER O
+<Multi_key> <z>  <p>  : "𝓅" # MATHEMATICAL SCRIPT SMALL P U+1d4c5
+<Multi_key> <z>  <q>  : "𝓆" # MATHEMATICAL SCRIPT SMALL Q U+1d4c6
+<Multi_key> <z>  <r>  : "𝓇" # MATHEMATICAL SCRIPT SMALL R U+1d4c7
+<Multi_key> <z>  <s>  : "𝓈" # MATHEMATICAL SCRIPT SMALL S U+1d4c8
+<Multi_key> <z>  <t>  : "𝓉" # MATHEMATICAL SCRIPT SMALL T U+1d4c9
+<Multi_key> <z>  <u>  : "𝓊" # MATHEMATICAL SCRIPT SMALL U U+1d4ca
+<Multi_key> <z>  <v>  : "𝓋" # MATHEMATICAL SCRIPT SMALL V U+1d4cb
+<Multi_key> <z>  <w>  : "𝓌" # MATHEMATICAL SCRIPT SMALL W U+1d4cc
+<Multi_key> <z>  <x>  : "𝓍" # MATHEMATICAL SCRIPT SMALL X U+1d4cd
+<Multi_key> <z>  <y>  : "𝓎" # MATHEMATICAL SCRIPT SMALL Y U+1d4ce
+<Multi_key> <z>  <z>  : "𝓏" # MATHEMATICAL SCRIPT SMALL Z U+1d4cf
 
 ############################
 # MATHEMATICAL BOLD SCRIPT #
@@ -432,7 +434,7 @@
 <Multi_key> <F> <r> <a> <c>                 : "／" UFF0F # FULL-WIDTH SOLIDUS
 <Multi_key> <n> <o> <t>                     : "̸" U0338 # COMBINING LONG SOLIDUS OVERLAY
 
-<Multi_key> <c> <p>                     : "∩" U2229 # INTERSECTION \cap
+<Multi_key> <c> <a> <p>                     : "∩" U2229 # INTERSECTION \cap
 <Multi_key> <s> <q> <c> <a> <p>             : "⊓" U2293 # SQUARE CAP \sqcap
 <Multi_key> <C> <a> <p>                     : "⋂" U22C2 # N-ARY INTERSECTION \bigcap
 <Multi_key> <S> <q> <c> <a> <p>             : "⨅" U2A05 # N-ARY SQUARE INTERSECTION OPERATOR \bigsqcap
@@ -623,7 +625,7 @@
 # <Multi_key> <Up> <period>     		: "⇡"	U21E1		# UPWARDS DASHED ARROW
 # <Multi_key> <Right> <period>     	: "⇢"	U21E2		# RIGHTWARDS DASHED ARROW
 # <Multi_key> <Down> <period>      	: "⇣"	U21E3		# DOWNWARDS DASHED ARROW
-<Multi_key> <z> <z> <greater>           : "↯"   U21AF           # DOWNWARDS ZIGZAG ARROW
+<Multi_key> <z> <z> <v>           : "↯"   U21AF           # DOWNWARDS ZIGZAG ARROW
 
 <Multi_key> <l> <minus> <less>  : "⟵" U27F5 # LONG LEFTWARDS ARROW
 <Multi_key> <l> <minus> <greater> : "⟶" U27F6 # LONG RIGHTWARDS ARROW
@@ -832,3 +834,5 @@
 <Multi_key> <e> <c> <i> <r> <c>         : "⃝" U20DD # COMBINING ENCLOSING CIRCLE
 <Multi_key> <b> <a> <n>                  : "⃠" U20E0 # COMBINING ENCLOSING CIRCLE BACKSLASH
 <Multi_key> <h> <minus>			:   "ℏ"	U210F	# PLANCK CONSTANT OVER TWO PI
+
+"

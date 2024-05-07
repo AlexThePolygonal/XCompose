@@ -7,7 +7,7 @@ TLDR: XCompose for maths
 3. Config rules:
    - `<i>` means mathematical italic
    - `<i> <a>` is italic bold
-   - `<t>` is script (cause collisions, its t)
+   - `<z>` is script (cause collisions, its t)
    - `<k>` is calligraphic (kalligraphic, geddit?? because collisions)
    - `<f>` is fraktur
    - `<f> <a>` is bold fraktur
