@@ -7,8 +7,8 @@ TLDR: XCompose for maths
 3. Config rules:
    - `<i>` means mathematical italic
    - `<i> <a>` is italic bold
-   - `<s>` is script
-   - `<c>` is calligraphic
+   - `<t>` is script (cause collisions, its t)
+   - `<k>` is calligraphic (kalligraphic, geddit?? because collisions)
    - `<f>` is fraktur
    - `<f> <a>` is bold fraktur
    - `<m>` is small caps (`<s>` and `<c>` are already taken ...)
@@ -20,6 +20,6 @@ TLDR: XCompose for maths
    - `<_>` or `<underscore>` is subscript
    - Mathematicals symbols are random, my own mnemonics
   TLDR: read the file, it's not that large
-4. Fun facts: 
+1. Fun facts: 
     - There are two types of fraktur, double-struck and script letters. Compare 𝔹, ℂ, ℍ, ℕ, ℚ and 𝔸, 𝔼, 𝕌, 𝕎, They look slighly different and come from different unicode blocks. Why? Because we live in a society.
     - How do I type `<dagger` or `<†>`? Well I modded my /usr/share/X11/xkb/symbols. Enjoy.

@@ -115,112 +115,114 @@
 # MATHEMATICAL SCRIPT #
 #######################
 
-<Multi_key> <s>  <A>  : "𝒜" # MATHEMATICAL SCRIPT CAPITAL A U+1d49c
-<Multi_key> <s>  <B>  : "ℬ" # SCRIPT CAPITAL B U+212C
-<Multi_key> <s>  <C>  : "𝒞" # MATHEMATICAL SCRIPT CAPITAL C U+1d49e
-<Multi_key> <s>  <D>  : "𝒟" # MATHEMATICAL SCRIPT CAPITAL D U+1d49f
-<Multi_key> <s>  <E>  : "ℰ" # SCRIPT CAPITAL E U+2130
-<Multi_key> <s>  <F>  : "ℱ" # SCRIPT CAPITAL E U+2131
-<Multi_key> <s>  <G>  : "𝒢" # MATHEMATICAL SCRIPT CAPITAL G U+1d4a2
-<Multi_key> <s>  <H>  : "ℋ" # SCRIPT CAPITAL H U+210B
-<Multi_key> <s>  <I>  : "ℐ" # SCRIPT CAPITAL I U+2110
-<Multi_key> <s>  <J>  : "𝒥" # MATHEMATICAL SCRIPT CAPITAL J U+1d4a5
-<Multi_key> <s>  <K>  : "𝒦" # MATHEMATICAL SCRIPT CAPITAL K U+1d4a6
-<Multi_key> <s>  <L>  : "ℒ" # SCRIPT CAPITAL L U+2112
-<Multi_key> <s>  <M>  : "ℳ" # SCRIPT CAPITAL M U+2133
-<Multi_key> <s>  <N>  : "𝒩" # MATHEMATICAL SCRIPT CAPITAL N U+1d4a9
-<Multi_key> <s>  <O>  : "𝒪" # MATHEMATICAL SCRIPT CAPITAL O U+1d4aa
-<Multi_key> <s>  <P>  : "𝒫" # MATHEMATICAL SCRIPT CAPITAL P U+1d4ab
-<Multi_key> <s>  <R>  : "ℛ" # SCRIPT CAPITAL R U+211B
-<Multi_key> <s>  <Q>  : "𝒬" # MATHEMATICAL SCRIPT CAPITAL Q U+1d4ac
-<Multi_key> <s>  <S>  : "𝒮" # MATHEMATICAL SCRIPT CAPITAL S U+1d4ae
-<Multi_key> <s>  <T>  : "𝒯" # MATHEMATICAL SCRIPT CAPITAL T U+1d4af
-<Multi_key> <s>  <U>  : "𝒰" # MATHEMATICAL SCRIPT CAPITAL U U+1d4b0
-<Multi_key> <s>  <V>  : "𝒱" # MATHEMATICAL SCRIPT CAPITAL V U+1d4b1
-<Multi_key> <s>  <W>  : "𝒲" # MATHEMATICAL SCRIPT CAPITAL W U+1d4b2
-<Multi_key> <s>  <X>  : "𝒳" # MATHEMATICAL SCRIPT CAPITAL X U+1d4b3
-<Multi_key> <s>  <Y>  : "𝒴" # MATHEMATICAL SCRIPT CAPITAL Y U+1d4b4
-<Multi_key> <s>  <Z>  : "𝒵" # MATHEMATICAL SCRIPT CAPITAL Z U+1d4b5
-<Multi_key> <s>  <a>  : "𝒶" # MATHEMATICAL SCRIPT SMALL A U+1d4b6
-<Multi_key> <s>  <b>  : "𝒷" # MATHEMATICAL SCRIPT SMALL B U+1d4b7
-<Multi_key> <s>  <c>  : "𝒸" # MATHEMATICAL SCRIPT SMALL C U+1d4b8
-<Multi_key> <s>  <d>  : "𝒹" # MATHEMATICAL SCRIPT SMALL D U+1d4b9
-<Multi_key> <s>  <f>  : "𝒻" # MATHEMATICAL SCRIPT SMALL F U+1d4bb
-<Multi_key> <s>  <h>  : "𝒽" # MATHEMATICAL SCRIPT SMALL H U+1d4bd
-<Multi_key> <s>  <i>  : "𝒾" # MATHEMATICAL SCRIPT SMALL I U+1d4be
-<Multi_key> <s>  <j>  : "𝒿" # MATHEMATICAL SCRIPT SMALL J U+1d4bf
-<Multi_key> <s>  <k>  : "𝓀" # MATHEMATICAL SCRIPT SMALL K U+1d4c0
-<Multi_key> <s>  <l>  : "𝓁" # MATHEMATICAL SCRIPT SMALL L U+1d4c1
-<Multi_key> <s>  <m>  : "𝓂" # MATHEMATICAL SCRIPT SMALL M U+1d4c2
-<Multi_key> <s>  <n>  : "𝓃" # MATHEMATICAL SCRIPT SMALL N U+1d4c3
-<Multi_key> <s>  <p>  : "𝓅" # MATHEMATICAL SCRIPT SMALL P U+1d4c5
-<Multi_key> <s>  <q>  : "𝓆" # MATHEMATICAL SCRIPT SMALL Q U+1d4c6
-<Multi_key> <s>  <r>  : "𝓇" # MATHEMATICAL SCRIPT SMALL R U+1d4c7
-<Multi_key> <s>  <s>  : "𝓈" # MATHEMATICAL SCRIPT SMALL S U+1d4c8
-<Multi_key> <s>  <t>  : "𝓉" # MATHEMATICAL SCRIPT SMALL T U+1d4c9
-<Multi_key> <s>  <u>  : "𝓊" # MATHEMATICAL SCRIPT SMALL U U+1d4ca
-<Multi_key> <s>  <v>  : "𝓋" # MATHEMATICAL SCRIPT SMALL V U+1d4cb
-<Multi_key> <s>  <w>  : "𝓌" # MATHEMATICAL SCRIPT SMALL W U+1d4cc
-<Multi_key> <s>  <x>  : "𝓍" # MATHEMATICAL SCRIPT SMALL X U+1d4cd
-<Multi_key> <s>  <y>  : "𝓎" # MATHEMATICAL SCRIPT SMALL Y U+1d4ce
-<Multi_key> <s>  <z>  : "𝓏" # MATHEMATICAL SCRIPT SMALL Z U+1d4cf
+<Multi_key> <t>  <A>  : "𝒜" # MATHEMATICAL SCRIPT CAPITAL A U+1d49c
+<Multi_key> <t>  <B>  : "ℬ" # SCRIPT CAPITAL B U+212C
+<Multi_key> <t>  <C>  : "𝒞" # MATHEMATICAL SCRIPT CAPITAL C U+1d49e
+<Multi_key> <t>  <D>  : "𝒟" # MATHEMATICAL SCRIPT CAPITAL D U+1d49f
+<Multi_key> <t>  <E>  : "ℰ" # SCRIPT CAPITAL E U+2130
+<Multi_key> <t>  <F>  : "ℱ" # SCRIPT CAPITAL E U+2131
+<Multi_key> <t>  <G>  : "𝒢" # MATHEMATICAL SCRIPT CAPITAL G U+1d4a2
+<Multi_key> <t>  <H>  : "ℋ" # SCRIPT CAPITAL H U+210B
+<Multi_key> <t>  <I>  : "ℐ" # SCRIPT CAPITAL I U+2110
+<Multi_key> <t>  <J>  : "𝒥" # MATHEMATICAL SCRIPT CAPITAL J U+1d4a5
+<Multi_key> <t>  <K>  : "𝒦" # MATHEMATICAL SCRIPT CAPITAL K U+1d4a6
+<Multi_key> <t>  <L>  : "ℒ" # SCRIPT CAPITAL L U+2112
+<Multi_key> <t>  <M>  : "ℳ" # SCRIPT CAPITAL M U+2133
+<Multi_key> <t>  <N>  : "𝒩" # MATHEMATICAL SCRIPT CAPITAL N U+1d4a9
+<Multi_key> <t>  <O>  : "𝒪" # MATHEMATICAL SCRIPT CAPITAL O U+1d4aa
+<Multi_key> <t>  <P>  : "𝒫" # MATHEMATICAL SCRIPT CAPITAL P U+1d4ab
+<Multi_key> <t>  <R>  : "ℛ" # SCRIPT CAPITAL R U+211B
+<Multi_key> <t>  <Q>  : "𝒬" # MATHEMATICAL SCRIPT CAPITAL Q U+1d4ac
+<Multi_key> <t>  <S>  : "𝒮" # MATHEMATICAL SCRIPT CAPITAL S U+1d4ae
+<Multi_key> <t>  <T>  : "𝒯" # MATHEMATICAL SCRIPT CAPITAL T U+1d4af
+<Multi_key> <t>  <U>  : "𝒰" # MATHEMATICAL SCRIPT CAPITAL U U+1d4b0
+<Multi_key> <t>  <V>  : "𝒱" # MATHEMATICAL SCRIPT CAPITAL V U+1d4b1
+<Multi_key> <t>  <W>  : "𝒲" # MATHEMATICAL SCRIPT CAPITAL W U+1d4b2
+<Multi_key> <t>  <X>  : "𝒳" # MATHEMATICAL SCRIPT CAPITAL X U+1d4b3
+<Multi_key> <t>  <Y>  : "𝒴" # MATHEMATICAL SCRIPT CAPITAL Y U+1d4b4
+<Multi_key> <t>  <Z>  : "𝒵" # MATHEMATICAL SCRIPT CAPITAL Z U+1d4b5
+<Multi_key> <t>  <a>  : "𝒶" # MATHEMATICAL SCRIPT SMALL A U+1d4b6
+<Multi_key> <t>  <b>  : "𝒷" # MATHEMATICAL SCRIPT SMALL B U+1d4b7
+<Multi_key> <t>  <c>  : "𝒸" # MATHEMATICAL SCRIPT SMALL C U+1d4b8
+<Multi_key> <t>  <d>  : "𝒹" # MATHEMATICAL SCRIPT SMALL D U+1d4b9
+<Multi_key> <t>  <e>  : "ℯ"
+<Multi_key> <t>  <f>  : "𝒻" # MATHEMATICAL SCRIPT SMALL F U+1d4bb
+<Multi_key> <t>  <h>  : "𝒽" # MATHEMATICAL SCRIPT SMALL H U+1d4bd
+<Multi_key> <t>  <i>  : "𝒾" # MATHEMATICAL SCRIPT SMALL I U+1d4be
+<Multi_key> <t>  <j>  : "𝒿" # MATHEMATICAL SCRIPT SMALL J U+1d4bf
+<Multi_key> <t>  <k>  : "𝓀" # MATHEMATICAL SCRIPT SMALL K U+1d4c0
+<Multi_key> <t>  <l>  : "𝓁" # MATHEMATICAL SCRIPT SMALL L U+1d4c1
+<Multi_key> <t>  <m>  : "𝓂" # MATHEMATICAL SCRIPT SMALL M U+1d4c2
+<Multi_key> <t>  <n>  : "𝓃" # MATHEMATICAL SCRIPT SMALL N U+1d4c3
+<Multi_key> <t>  <o>  : "ℴ" # SCRIPT SMALL LETTER O
+<Multi_key> <t>  <p>  : "𝓅" # MATHEMATICAL SCRIPT SMALL P U+1d4c5
+<Multi_key> <t>  <q>  : "𝓆" # MATHEMATICAL SCRIPT SMALL Q U+1d4c6
+<Multi_key> <t>  <r>  : "𝓇" # MATHEMATICAL SCRIPT SMALL R U+1d4c7
+<Multi_key> <t>  <s>  : "𝓈" # MATHEMATICAL SCRIPT SMALL S U+1d4c8
+<Multi_key> <t>  <t>  : "𝓉" # MATHEMATICAL SCRIPT SMALL T U+1d4c9
+<Multi_key> <t>  <u>  : "𝓊" # MATHEMATICAL SCRIPT SMALL U U+1d4ca
+<Multi_key> <t>  <v>  : "𝓋" # MATHEMATICAL SCRIPT SMALL V U+1d4cb
+<Multi_key> <t>  <w>  : "𝓌" # MATHEMATICAL SCRIPT SMALL W U+1d4cc
+<Multi_key> <t>  <x>  : "𝓍" # MATHEMATICAL SCRIPT SMALL X U+1d4cd
+<Multi_key> <t>  <y>  : "𝓎" # MATHEMATICAL SCRIPT SMALL Y U+1d4ce
+<Multi_key> <t>  <z>  : "𝓏" # MATHEMATICAL SCRIPT SMALL Z U+1d4cf
 
 ############################
 # MATHEMATICAL BOLD SCRIPT #
 ############################
 
-<Multi_key> <c>  <A>  : "𝓐" # MATHEMATICAL BOLD SCRIPT CAPITAL A U+1d4d0
-<Multi_key> <c>  <B>  : "𝓑" # MATHEMATICAL BOLD SCRIPT CAPITAL B U+1d4d1
-<Multi_key> <c>  <C>  : "𝓒" # MATHEMATICAL BOLD SCRIPT CAPITAL C U+1d4d2
-<Multi_key> <c>  <D>  : "𝓓" # MATHEMATICAL BOLD SCRIPT CAPITAL D U+1d4d3
-<Multi_key> <c>  <E>  : "𝓔" # MATHEMATICAL BOLD SCRIPT CAPITAL E U+1d4d4
-<Multi_key> <c>  <F>  : "𝓕" # MATHEMATICAL BOLD SCRIPT CAPITAL F U+1d4d5
-<Multi_key> <c>  <G>  : "𝓖" # MATHEMATICAL BOLD SCRIPT CAPITAL G U+1d4d6
-<Multi_key> <c>  <H>  : "𝓗" # MATHEMATICAL BOLD SCRIPT CAPITAL H U+1d4d7
-<Multi_key> <c>  <I>  : "𝓘" # MATHEMATICAL BOLD SCRIPT CAPITAL I U+1d4d8
-<Multi_key> <c>  <J>  : "𝓙" # MATHEMATICAL BOLD SCRIPT CAPITAL J U+1d4d9
-<Multi_key> <c>  <K>  : "𝓚" # MATHEMATICAL BOLD SCRIPT CAPITAL K U+1d4da
-<Multi_key> <c>  <L>  : "𝓛" # MATHEMATICAL BOLD SCRIPT CAPITAL L U+1d4db
-<Multi_key> <c>  <M>  : "𝓜" # MATHEMATICAL BOLD SCRIPT CAPITAL M U+1d4dc
-<Multi_key> <c>  <N>  : "𝓝" # MATHEMATICAL BOLD SCRIPT CAPITAL N U+1d4dd
-<Multi_key> <c>  <O>  : "𝓞" # MATHEMATICAL BOLD SCRIPT CAPITAL O U+1d4de
-<Multi_key> <c>  <P>  : "𝓟" # MATHEMATICAL BOLD SCRIPT CAPITAL P U+1d4df
-<Multi_key> <c>  <Q>  : "𝓠" # MATHEMATICAL BOLD SCRIPT CAPITAL Q U+1d4e0
-<Multi_key> <c>  <R>  : "𝓡" # MATHEMATICAL BOLD SCRIPT CAPITAL R U+1d4e1
-<Multi_key> <c>  <S>  : "𝓢" # MATHEMATICAL BOLD SCRIPT CAPITAL S U+1d4e2
-<Multi_key> <c>  <T>  : "𝓣" # MATHEMATICAL BOLD SCRIPT CAPITAL T U+1d4e3
-<Multi_key> <c>  <U>  : "𝓤" # MATHEMATICAL BOLD SCRIPT CAPITAL U U+1d4e4
-<Multi_key> <c>  <V>  : "𝓥" # MATHEMATICAL BOLD SCRIPT CAPITAL V U+1d4e5
-<Multi_key> <c>  <W>  : "𝓦" # MATHEMATICAL BOLD SCRIPT CAPITAL W U+1d4e6
-<Multi_key> <c>  <X>  : "𝓧" # MATHEMATICAL BOLD SCRIPT CAPITAL X U+1d4e7
-<Multi_key> <c>  <Y>  : "𝓨" # MATHEMATICAL BOLD SCRIPT CAPITAL Y U+1d4e8
-<Multi_key> <c>  <Z>  : "𝓩" # MATHEMATICAL BOLD SCRIPT CAPITAL Z U+1d4e9
-<Multi_key> <c>  <a>  : "𝓪" # MATHEMATICAL BOLD SCRIPT SMALL A U+1d4ea
-<Multi_key> <c>  <b>  : "𝓫" # MATHEMATICAL BOLD SCRIPT SMALL B U+1d4eb
-<Multi_key> <c>  <c>  : "𝓬" # MATHEMATICAL BOLD SCRIPT SMALL C U+1d4ec
-<Multi_key> <c>  <d>  : "𝓭" # MATHEMATICAL BOLD SCRIPT SMALL D U+1d4ed
-<Multi_key> <c>  <e>  : "𝓮" # MATHEMATICAL BOLD SCRIPT SMALL E U+1d4ee
-<Multi_key> <c>  <f>  : "𝓯" # MATHEMATICAL BOLD SCRIPT SMALL F U+1d4ef
-<Multi_key> <c>  <g>  : "𝓰" # MATHEMATICAL BOLD SCRIPT SMALL G U+1d4f0
-<Multi_key> <c>  <h>  : "𝓱" # MATHEMATICAL BOLD SCRIPT SMALL H U+1d4f1
-<Multi_key> <c>  <i>  : "𝓲" # MATHEMATICAL BOLD SCRIPT SMALL I U+1d4f2
-<Multi_key> <c>  <j>  : "𝓳" # MATHEMATICAL BOLD SCRIPT SMALL J U+1d4f3
-<Multi_key> <c>  <k>  : "𝓴" # MATHEMATICAL BOLD SCRIPT SMALL K U+1d4f4
-<Multi_key> <c>  <l>  : "𝓵" # MATHEMATICAL BOLD SCRIPT SMALL L U+1d4f5
-<Multi_key> <c>  <m>  : "𝓶" # MATHEMATICAL BOLD SCRIPT SMALL M U+1d4f6
-<Multi_key> <c>  <n>  : "𝓷" # MATHEMATICAL BOLD SCRIPT SMALL N U+1d4f7
-<Multi_key> <c>  <o>  : "𝓸" # MATHEMATICAL BOLD SCRIPT SMALL O U+1d4f8
-<Multi_key> <c>  <p>  : "𝓹" # MATHEMATICAL BOLD SCRIPT SMALL P U+1d4f9
-<Multi_key> <c>  <q>  : "𝓺" # MATHEMATICAL BOLD SCRIPT SMALL Q U+1d4fa
-<Multi_key> <c>  <r>  : "𝓻" # MATHEMATICAL BOLD SCRIPT SMALL R U+1d4fb
-<Multi_key> <c>  <s>  : "𝓼" # MATHEMATICAL BOLD SCRIPT SMALL S U+1d4fc
-<Multi_key> <c>  <t>  : "𝓽" # MATHEMATICAL BOLD SCRIPT SMALL T U+1d4fd
-<Multi_key> <c>  <u>  : "𝓾" # MATHEMATICAL BOLD SCRIPT SMALL U U+1d4fe
-<Multi_key> <c>  <v>  : "𝓿" # MATHEMATICAL BOLD SCRIPT SMALL V U+1d4ff
-<Multi_key> <c>  <w>  : "𝔀" # MATHEMATICAL BOLD SCRIPT SMALL W U+1d500
-<Multi_key> <c>  <x>  : "𝔁" # MATHEMATICAL BOLD SCRIPT SMALL X U+1d501
-<Multi_key> <c>  <y>  : "𝔂" # MATHEMATICAL BOLD SCRIPT SMALL Y U+1d502
-<Multi_key> <c>  <z>  : "𝔃" # MATHEMATICAL BOLD SCRIPT SMALL Z U+1d503
+<Multi_key> <k>  <A>  : "𝓐" # MATHEMATICAL BOLD SCRIPT CAPITAL A U+1d4d0
+<Multi_key> <k>  <B>  : "𝓑" # MATHEMATICAL BOLD SCRIPT CAPITAL B U+1d4d1
+<Multi_key> <k>  <C>  : "𝓒" # MATHEMATICAL BOLD SCRIPT CAPITAL C U+1d4d2
+<Multi_key> <k>  <D>  : "𝓓" # MATHEMATICAL BOLD SCRIPT CAPITAL D U+1d4d3
+<Multi_key> <k>  <E>  : "𝓔" # MATHEMATICAL BOLD SCRIPT CAPITAL E U+1d4d4
+<Multi_key> <k>  <F>  : "𝓕" # MATHEMATICAL BOLD SCRIPT CAPITAL F U+1d4d5
+<Multi_key> <k>  <G>  : "𝓖" # MATHEMATICAL BOLD SCRIPT CAPITAL G U+1d4d6
+<Multi_key> <k>  <H>  : "𝓗" # MATHEMATICAL BOLD SCRIPT CAPITAL H U+1d4d7
+<Multi_key> <k>  <I>  : "𝓘" # MATHEMATICAL BOLD SCRIPT CAPITAL I U+1d4d8
+<Multi_key> <k>  <J>  : "𝓙" # MATHEMATICAL BOLD SCRIPT CAPITAL J U+1d4d9
+<Multi_key> <k>  <K>  : "𝓚" # MATHEMATICAL BOLD SCRIPT CAPITAL K U+1d4da
+<Multi_key> <k>  <L>  : "𝓛" # MATHEMATICAL BOLD SCRIPT CAPITAL L U+1d4db
+<Multi_key> <k>  <M>  : "𝓜" # MATHEMATICAL BOLD SCRIPT CAPITAL M U+1d4dc
+<Multi_key> <k>  <N>  : "𝓝" # MATHEMATICAL BOLD SCRIPT CAPITAL N U+1d4dd
+<Multi_key> <k>  <O>  : "𝓞" # MATHEMATICAL BOLD SCRIPT CAPITAL O U+1d4de
+<Multi_key> <k>  <P>  : "𝓟" # MATHEMATICAL BOLD SCRIPT CAPITAL P U+1d4df
+<Multi_key> <k>  <Q>  : "𝓠" # MATHEMATICAL BOLD SCRIPT CAPITAL Q U+1d4e0
+<Multi_key> <k>  <R>  : "𝓡" # MATHEMATICAL BOLD SCRIPT CAPITAL R U+1d4e1
+<Multi_key> <k>  <S>  : "𝓢" # MATHEMATICAL BOLD SCRIPT CAPITAL S U+1d4e2
+<Multi_key> <k>  <T>  : "𝓣" # MATHEMATICAL BOLD SCRIPT CAPITAL T U+1d4e3
+<Multi_key> <k>  <U>  : "𝓤" # MATHEMATICAL BOLD SCRIPT CAPITAL U U+1d4e4
+<Multi_key> <k>  <V>  : "𝓥" # MATHEMATICAL BOLD SCRIPT CAPITAL V U+1d4e5
+<Multi_key> <k>  <W>  : "𝓦" # MATHEMATICAL BOLD SCRIPT CAPITAL W U+1d4e6
+<Multi_key> <k>  <X>  : "𝓧" # MATHEMATICAL BOLD SCRIPT CAPITAL X U+1d4e7
+<Multi_key> <k>  <Y>  : "𝓨" # MATHEMATICAL BOLD SCRIPT CAPITAL Y U+1d4e8
+<Multi_key> <k>  <Z>  : "𝓩" # MATHEMATICAL BOLD SCRIPT CAPITAL Z U+1d4e9
+<Multi_key> <k>  <a>  : "𝓪" # MATHEMATICAL BOLD SCRIPT SMALL A U+1d4ea
+<Multi_key> <k>  <b>  : "𝓫" # MATHEMATICAL BOLD SCRIPT SMALL B U+1d4eb
+<Multi_key> <k>  <c>  : "𝓬" # MATHEMATICAL BOLD SCRIPT SMALL C U+1d4ec
+<Multi_key> <k>  <d>  : "𝓭" # MATHEMATICAL BOLD SCRIPT SMALL D U+1d4ed
+<Multi_key> <k>  <e>  : "𝓮" # MATHEMATICAL BOLD SCRIPT SMALL E U+1d4ee
+<Multi_key> <k>  <f>  : "𝓯" # MATHEMATICAL BOLD SCRIPT SMALL F U+1d4ef
+<Multi_key> <k>  <g>  : "𝓰" # MATHEMATICAL BOLD SCRIPT SMALL G U+1d4f0
+<Multi_key> <k>  <h>  : "𝓱" # MATHEMATICAL BOLD SCRIPT SMALL H U+1d4f1
+<Multi_key> <k>  <i>  : "𝓲" # MATHEMATICAL BOLD SCRIPT SMALL I U+1d4f2
+<Multi_key> <k>  <j>  : "𝓳" # MATHEMATICAL BOLD SCRIPT SMALL J U+1d4f3
+<Multi_key> <k>  <k>  : "𝓴" # MATHEMATICAL BOLD SCRIPT SMALL K U+1d4f4
+<Multi_key> <k>  <l>  : "𝓵" # MATHEMATICAL BOLD SCRIPT SMALL L U+1d4f5
+<Multi_key> <k>  <m>  : "𝓶" # MATHEMATICAL BOLD SCRIPT SMALL M U+1d4f6
+<Multi_key> <k>  <n>  : "𝓷" # MATHEMATICAL BOLD SCRIPT SMALL N U+1d4f7
+<Multi_key> <k>  <o>  : "𝓸" # MATHEMATICAL BOLD SCRIPT SMALL O U+1d4f8
+<Multi_key> <k>  <p>  : "𝓹" # MATHEMATICAL BOLD SCRIPT SMALL P U+1d4f9
+<Multi_key> <k>  <q>  : "𝓺" # MATHEMATICAL BOLD SCRIPT SMALL Q U+1d4fa
+<Multi_key> <k>  <r>  : "𝓻" # MATHEMATICAL BOLD SCRIPT SMALL R U+1d4fb
+<Multi_key> <k>  <s>  : "𝓼" # MATHEMATICAL BOLD SCRIPT SMALL S U+1d4fc
+<Multi_key> <k>  <t>  : "𝓽" # MATHEMATICAL BOLD SCRIPT SMALL T U+1d4fd
+<Multi_key> <k>  <u>  : "𝓾" # MATHEMATICAL BOLD SCRIPT SMALL U U+1d4fe
+<Multi_key> <k>  <v>  : "𝓿" # MATHEMATICAL BOLD SCRIPT SMALL V U+1d4ff
+<Multi_key> <k>  <w>  : "𝔀" # MATHEMATICAL BOLD SCRIPT SMALL W U+1d500
+<Multi_key> <k>  <x>  : "𝔁" # MATHEMATICAL BOLD SCRIPT SMALL X U+1d501
+<Multi_key> <k>  <y>  : "𝔂" # MATHEMATICAL BOLD SCRIPT SMALL Y U+1d502
+<Multi_key> <k>  <z>  : "𝔃" # MATHEMATICAL BOLD SCRIPT SMALL Z U+1d503
 
 
 ########################
@@ -385,7 +387,7 @@
 <Multi_key> <f> <a>  <z>  : "𝖟" # MATHEMATICAL BOLD FRAKTUR SMALL Z U+1d59f
 <Multi_key> <i> <dagger>  <i>  : "𝚤" # MATHEMATICAL ITALIC SMALL DOTLESS I U+1d6a4
 <Multi_key> <i> <dagger>  <j>  : "𝚥" # MATHEMATICAL ITALIC SMALL DOTLESS J U+1d6a5
-
+<Multi_key> <s> <dagger>  <l>  : "ℓ"
 
 <Multi_key> <b>  <0>  : "𝟘" # MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO U+1d7d8
 <Multi_key> <b>  <1>  : "𝟙" # MATHEMATICAL DOUBLE-STRUCK DIGIT ONE U+1d7d9
