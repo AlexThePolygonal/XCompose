@@ -409,7 +409,7 @@
 <Multi_key> <slash> <e> <x> <i> <s> <t>     : "∄" U2204 # THERE DOES NOT EXIST
 <Multi_key> <p> <d>                         : "∂" U2202 # Partial Differential U+2202, \partial
 <Multi_key> <e> <m> <p> <t> <y>             : "∅" U2205 # Empty set U+2205, \empty
-<Multi_key> <i> <n>                         : "∊" U220A # Small element of U+220A, \in
+<Multi_key> <c> <minus>                     : "∊" U220A # Small element of U+220A, \in
 <Multi_key> <I> <n>                         : "∈" U2208 # ELEMENT OF
 <Multi_key> <c> <o> <n> <t> <a> <i> <n> <s> : "∍" U220D # SMALL CONTAINS AS MEMBER
 <Multi_key> <slash> <i> <n>                 : "∉" U2209 # NOT AN ELEMENT OF
