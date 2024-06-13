@@ -6,15 +6,15 @@ TLDR: XCompose for maths
 2. Why XCompose? Sometimes, you want to talk about mathematics with people. For articles, we have latex, however messengers don't support it, so people try to write latex explicitly \hat{Z} \otimes C or pictograms \hat{Z} (x) {C} and it's unreadable. And that's terrible. However, messengers support unicode, and unicode supports a bunch of mathematical symbols, so we can type ℤ̂  ⨂ ℂ, which is somewhat better. 
 3. Config rules:
    - `<i>` means mathematical italic
-   - `<i> <a>` is italic bold
-   - `<z>` is script (cause collisions, its t)
+   - `<i> <dagger>` is italic bold
+   - `<z>` is script (cause collisions)
    - `<k>` is calligraphic (kalligraphic, geddit?? because collisions)
    - `<f>` is fraktur
-   - `<f> <a>` is bold fraktur
+   - `<f> <dagger>` is bold fraktur
    - `<m>` is small caps (`<s>` and `<c>` are already taken ...)
    - `<g>` is greek
    - `r` is roman numerals
-   - `<!>` or `<exclam>` is usually negation
+   - `<slash>` is usually negation
    - Capital letters correspond to large (N-ary) versions of the symbol
    - `<^>` or `<asciicircum` is superscript or combining above characters
    - `<_>` or `<underscore>` is subscript
