@@ -4,7 +4,8 @@ TLDR: XCompose for maths
 
 1. What is XCompose? First, look it up. Second, its a multi-key input system for X. RCtrl + c + , = ç, RCtrl + b + N = ℕ, that kind of thing.
 2. Why XCompose? Sometimes, you want to talk about mathematics with people. For articles, we have latex, however messengers don't support it, so people try to write latex explicitly \hat{Z} \otimes C or pictograms \hat{Z} (x) {C} and it's unreadable. And that's terrible. However, messengers support unicode, and unicode supports a bunch of mathematical symbols, so we can type ℤ̂  ⨂ ℂ, which is somewhat better. 
-3. Config rules:
+3. The config is `XCompose`, all other files are intermediate files which I used for processing at some point. They are still kept in case reprocessing is necessary.
+4. Config rules:
    - `<i>` means mathematical italic
    - `<i> <dagger>` is italic bold
    - `<z>` is script (cause collisions)
@@ -23,3 +24,4 @@ TLDR: XCompose for maths
 1. Fun facts: 
     - There are two types of fraktur, double-struck and script letters. Compare 𝔹, ℂ, ℍ, ℕ, ℚ and 𝔸, 𝔼, 𝕌, 𝕎, They look slighly different and come from different unicode blocks. Why? Because we live in a society.
     - How do I type `<dagger` or `<†>`? Well I modded my /usr/share/X11/xkb/symbols. Enjoy.
+  
