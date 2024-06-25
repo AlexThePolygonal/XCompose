@@ -1,5 +1,3 @@
-include "%L"
-
 #######################
 # MATHEMATICAL ITALIC #
 #######################
@@ -60,7 +58,7 @@ include "%L"
 ##################################
 # MATHEMATICAL SANS_SERIF DIGITS #
 ##################################
-
+<Multi_key> <i>  <0>  : "𝟢" # MATHEMATICAL SANS-SERIF DIGIT ZERO 0x1d7e2
 <Multi_key> <i>  <1>  : "𝟣" # MATHEMATICAL SANS-SERIF DIGIT ONE 0x1d7e3
 <Multi_key> <i>  <2>  : "𝟤" # MATHEMATICAL SANS-SERIF DIGIT TWO 0x1d7e4
 <Multi_key> <i>  <3>  : "𝟥" # MATHEMATICAL SANS-SERIF DIGIT THREE 0x1d7e5
@@ -424,7 +422,8 @@ include "%L"
 <Multi_key> <f> <o> <r> <a> <l> <l>         : "∀" U2200 # FOR ALL U+2200, \forall
 <Multi_key> <e> <x> <i> <s> <t>             : "∃" U2203 # THERE EXISTS U+2203, \exists
 <Multi_key> <slash> <e> <x> <i> <s> <t>     : "∄" U2204 # THERE DOES NOT EXIST
-<Multi_key> <p> <d>                         : "∂" U2202 # Partial Differential U+2202, \partial
+<Multi_key> <dagger> <p> <d>                         : "∂" U2202 # Partial Differential U+2202, \partial
+<Multi_key> <p> <d>                         : "𝜕"
 <Multi_key> <e> <m> <p> <t> <y>             : "∅" U2205 # Empty set U+2205, \empty
 <Multi_key> <c> <minus>                     : "∊" U220A # Small element of U+220A, \in
 <Multi_key> <С> <minus>                         : "∈" U2208 # ELEMENT OF
@@ -466,8 +465,8 @@ include "%L"
 
 <Multi_key> <b> <e> <c> <a> <u> <s> <e>     : "∵" U2235 # BECAUSE \because
 <Multi_key> <t> <h> <e> <n>  : "∴" U2234 # THEREFORE \therefore
-<Multi_key> <n> <a> <b> <l> <a>             : "∇" U2207 # Nabla U+2207, \nabla
-<Multi_key> <i> <n> <a> <b> <l> <a>         : "𝛻" U1D6FB # Mathematical Italic Nabla U+1D6FB, \nabla
+<Multi_key> <dagger> <n> <a> <b> <l> <a>             : "∇" U2207 # Nabla U+2207, \nabla
+<Multi_key> <n> <a> <b> <l> <a>         : "𝛻" U1D6FB # Mathematical Italic Nabla U+1D6FB, \nabla
 
 
 
@@ -563,18 +562,22 @@ include "%L"
 #######################
 
 <Multi_key> <a> <s> <t>                 : "∗" U2217 # Asterisk Operator U+2217, \ast
+<Multi_Key> <A> <s> <t>                 : "＊"
 <Multi_key> <a> <y> <e>                 : "✵" U2735 # EIGHT POINTED PINWHEEL STAR
 # <Multi_key> <X> <X>                     : "■" U25A0 # BLACK SQUARE
 <Multi_key> <Z> <X>                       : "█" U2588 # FULL BLOCK
 <Multi_key> <s> <e> <c>                 : "§"   U00A7   # SECTION SIGN
 <Multi_key> <d> <a> <g>                 : "†" U2020  # DAGGER
 <Multi_key> <d> <d> <a> <g>             : "‡" U2021  # DOUBLE DAGGER
+<Multi_key> <less> <less>               : "«" 
+<Multi_key> <greater> <greater>         : "»"
 
 <Multi_key> <period> <period>  : "…" U2026  # HORIZONTAL ELLIPSIS
 <Multi_key> <v> <period> <period> : "⋮" U22EE  # VERTICAL ELLIPSIS
+<Multi_key> <bar> <period> <period> : "⋮" U22EE  # VERTICAL ELLIPSIS
 <Multi_key> <c> <period> <period> : "⋯" U22EF  # MIDLINE HORIZONTAL ELLIPSIS
+<Multi_key> <minus> <period> <period> : "⋯" U22EF  # MIDLINE HORIZONTAL ELLIPSIS
 <Multi_key> <slash> <period> <period> : "⋰" U22F0  # UP RIGHT DIAGONAL ELLIPSIS
-# To avoid conflict with \. for combining dot above.
 <Multi_key> <backslash> <period> <period> : "⋱" U22F1  # DOWN RIGHT DIAGONAL ELLIPSIS
 
 ##############
@@ -655,11 +658,10 @@ include "%L"
 <Multi_key> <l> <bar> <minus> <less>  : "⟻" U27FB # LONG LEFTWARDS ARROW FROM BAR
 <Multi_key> <l> <bar> <minus> <greater> : "⟼" U27FC # LONG RIGHTWARDS ARROW FROM BAR
 
-# Actually useful arrows
+# MATHEATICAL ARROWS WHICH I USE
 
 <Multi_key> <t> <o> : "⟶" U27F6 # LONG RIGHTWARDS ARROW
 <Multi_key> <m> <a> <p> <t> <o> : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
-
 <Multi_key> <c> <i> <m> <m> : "⤔" U2914 
 <Multi_key> <s> <u> <r> <j> : "↠" U21A0
 <Multi_key> <i> <n> <j>     : "↣" U21A3
@@ -679,6 +681,7 @@ include "%L"
 <Multi_key> <asciicircum> <period> <period>          : "̈"          # Combining diaeresis U+308
 <Multi_key> <asciicircum> <period> <period> <period> : "⃛"          # Combining three dots above U+20DB
 <Multi_key> <asciicircum> <i> <n> <f>                : "᪲" U1AB2 # COMBINING INFINITY 
+<Multi_key> <asciicircum> <asterisk>                 : "⃰" 
 
 <Multi_key> <asciicircum> <0> : "⁰"
 <Multi_key> <asciicircum> <1> : "¹"
@@ -843,8 +846,13 @@ include "%L"
 <Multi_key> <h> <U>  : "Θ" U0398  # GREEK CAPITAL LETTER THETA
 <Multi_key> <h> <V>  : "Ω" U03A9  # GREEK CAPITAL LETTER OMEGA
 
+<Multi_Key> <h> <dagger> <e> : "ϵ" 
 <Multi_key> <h> <dagger> <u> : "ϑ" U03D1     # GREEK THETA SYMBOL
 <Multi_key> <h> <dagger> <f> : "ϕ" U03D5     # GREEK PHI SYMBOL
+<Multi_Key> <h> <dagger> <k> : "ϰ"
+<Multi_Key> <h> <dagger> <r> : "ϱ"
+<Multi_Key> <h> <dagger> <p> : "ϖ"
+
 
 ##############################
 # MATHEMATICAL GREEK LETTERS #
@@ -860,7 +868,7 @@ include "%L"
 <Multi_key> <g> <h>  : "𝜂"
 <Multi_key> <g> <i>  : "𝜄"
 <Multi_key> <g> <j>  : "𝜉"
-<Multi_key> <g> <k>       : "𝜘"
+<Multi_key> <g> <k>  : "𝜅"
 <Multi_key> <g> <l>  : "𝜆"
 <Multi_key> <g> <m>  : "𝜇"
 <Multi_key> <g> <n>  : "𝜈"
@@ -902,9 +910,12 @@ include "%L"
 <Multi_key> <g> <Y>  : "𝛶"
 <Multi_key> <g> <Z>  : "𝛧"
 
-
+<Multi_key> <g> <dagger> <e> : "𝜖" 
+<Multi_key> <g> <dagger> <k> : "𝜘"
 <Multi_key> <g> <dagger> <u> : "𝜗"
-<Multi_key> <g> <dagger> <f> : "𝜙" 
+<Multi_key> <g> <dagger> <f> : "𝜙"
+<Multi_key> <g> <dagger> <p> : "𝜛"
+<Multi_key> <g> <dagger> <r> : "𝜚" 
 
 ######################
 # MISCELLANIOUS #
