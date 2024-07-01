@@ -938,7 +938,7 @@
 <Multi_key> <space> <6> <M>   : " " U2006    # SIX-PER-EM SPACE
 <Multi_key> <space> <comma>   : " " U2008    # PUNCTUATION SPACE
 <Multi_key> <space> <plus>   : " " U205F    # MEDIUM MATHEMATICAL SPACE
-
+<Multi_key< <space> <0>      : "​" U200B 
 
 <Multi_key> <e> <y> <e> <s>             : "👀" 
 <Multi_key> <M> <a> <r> <s>             : "♂" U2642 # MALE SIGN
