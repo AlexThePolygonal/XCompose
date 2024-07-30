@@ -126,7 +126,7 @@
 17 asterisk
 18 parenleft
 19 parenright
-94 U27F9
+94 dollar
 59 Cyrillic_BE
 60 Cyrillic_YU
 61 comma

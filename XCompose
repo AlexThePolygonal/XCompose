@@ -404,7 +404,7 @@ include "%L"
 <Multi_key> <f> <dagger> <z>                         : "𝖟" U1D59F # MATHEMATICAL BOLD FRAKTUR SMALL Z
 <Multi_key> <i> <space> <i>                          : "𝚤" U1D6A4 # MATHEMATICAL ITALIC SMALL DOTLESS I
 <Multi_key> <i> <space> <j>                          : "𝚥" U1D6A5 # MATHEMATICAL ITALIC SMALL DOTLESS J
-<Multi_key> <s> <dagger> <l>                         : "ℓ" U2113 # SCRIPT SMALL L
+<Multi_key> <z> <dagger> <l>                         : "ℓ" U2113 # SCRIPT SMALL L
 
 <Multi_key> <b> <0>                                  : "𝟘" U1D7D8 # MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO
 <Multi_key> <b> <1>                                  : "𝟙" U1D7D9 # MATHEMATICAL DOUBLE-STRUCK DIGIT ONE
@@ -421,22 +421,22 @@ include "%L"
 # MATH OPERATORS #
 ##################
 
-<Multi_key> <f> <o> <r> <a> <l> <l>                  : "∀" U2200 # FOR ALL
-<Multi_key> <e> <x> <i> <s> <t>                      : "∃" U2203 # THERE EXISTS
-<Multi_key> <slash> <e> <x> <i> <s> <t>              : "∄" U2204 # THERE DOES NOT EXIST
+<Multi_key> <F> <o> <r> <a> <l> <l>                  : "∀" U2200 # FOR ALL
+<Multi_key> <E> <x> <i> <s> <t>                      : "∃" U2203 # THERE EXISTS
+<Multi_key> <slash> <E> <x> <i> <s> <t>              : "∄" U2204 # THERE DOES NOT EXIST
 <Multi_key> <dagger> <p> <d>                         : "∂" U2202 # PARTIAL DIFFERENTIAL
 <Multi_key> <p> <d>                                  : "𝜕" U1D715 # MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL
 <Multi_key> <e> <m> <p> <t> <y>                      : "∅" U2205 # EMPTY SET
 <Multi_key> <c> <minus>                              : "∊" U220A # SMALL ELEMENT OF
-<Multi_key> <С> <minus>                              : "∈" U2208 # ELEMENT OF
-<Multi_key> <c> <o> <n> <t> <a> <i> <n> <s>          : "∍" U220D # SMALL CONTAINS AS MEMBER
+<Multi_key> <C> <minus>                              : "∈" U2208 # ELEMENT OF
+<Multi_key> <minus> <c>                              : "∍" U220D # SMALL CONTAINS AS MEMBER
 <Multi_key> <slash> <i> <n>                          : "∉" U2209 # NOT AN ELEMENT OF
 <Multi_key> <q> <e> <d>                              : "∎" U220E # END OF PROOF
-<Multi_key> <i> <n> <t>                              : "∫" U222B # INTEGRAL
+<Multi_key> <I> <n> <t>                              : "∫" U222B # INTEGRAL
 <Multi_key> <c> <i> <n> <t>                          : "∮" U222E # CONTOUR INTEGRAL
 <Multi_key> <P> <r> <o> <d>                          : "∏" U220F # N-ARY PRODUCT
-<Multi_key> <C> <o> <p> <r> <o> <d>                  : "∐" U2210 # N-ARY COPRODUCT
-<Multi_key> <c> <o> <p> <r> <o> <d>                  : "⨿" U2A3F # AMALGAMATION OR COPRODUCT
+<Multi_key> <C> <a> <t> <s> <u> <m>                  : "∐" U2210 # N-ARY COPRODUCT
+<Multi_key> <c> <a> <t> <s> <u> <m>                  : "⨿" U2A3F # AMALGAMATION OR COPRODUCT
 <Multi_key> <s> <u> <m>                              : "∑" U2211 # N-ARY SUMMATION
 <Multi_key> <minus> <plus>                           : "∓" U2213 # MINUS-OR-PLUS SIGN
 <Multi_key> <o> <v> <e> <r>                          : "∕" U2215 # DIVISION SLASH
@@ -444,7 +444,7 @@ include "%L"
 <Multi_key> <c> <i> <r> <c>                          : "∘" U2218 # RING OPERATOR
 <Multi_key> <C> <d> <o> <t>                          : "•" U2022 # BULLET
 <Multi_key> <c> <d> <o> <t>                          : "·" UB7 # MIDDLE DOT
-<Multi_key> <i> <n> <f>                              : "∞" U221E # INFINITY
+<Multi_key> <I> <n> <f>                              : "∞" U221E # INFINITY
 <Multi_key> <s> <q> <r> <t>                          : "√" U221A # SQUARE ROOT
 <Multi_key> <t> <i> <m> <e> <s>                      : "×" UD7 # MULTIPLICATION SIGN
 <Multi_key> <T> <i> <m> <e> <s>                      : "⨉" U2A09 # N-ARY TIMES OPERATOR
@@ -459,13 +459,13 @@ include "%L"
 <Multi_key> <s> <q> <c> <u> <p>                      : "⊔" U2294 # SQUARE CUP
 <Multi_key> <C> <u> <p>                              : "⋃" U22C3 # N-ARY UNION
 <Multi_key> <S> <q> <c> <u> <p>                      : "⨆" U2A06 # N-ARY SQUARE UNION OPERATOR
-<Multi_key> <b> <r> <a>                              : "⟨" U27E8 # MATHEMATICAL LEFT ANGLE BRACKET
-<Multi_key> <k> <e> <t>                              : "⟩" U27E9 # MATHEMATICAL RIGHT ANGLE BRACKET
+<Multi_key> <dagger> <parenright>                    : "⟨" U27E8 # MATHEMATICAL LEFT ANGLE BRACKET
+<Multi_key> <dagger> <parenright>                    : "⟩" U27E9 # MATHEMATICAL RIGHT ANGLE BRACKET
 
 
 
 
-<Multi_key> <b> <e> <c> <a> <u> <s> <e>              : "∵" U2235 # BECAUSE
+# <Multi_key> <b> <e> <c> <a> <u> <s> <e>     : "∵" U2235 # BECAUSE \because
 <Multi_key> <t> <h> <e> <n>                          : "∴" U2234 # THEREFORE
 <Multi_key> <dagger> <n> <a> <b> <l> <a>             : "∇" U2207 # NABLA
 <Multi_key> <n> <a> <b> <l> <a>                      : "𝛻" U1D6FB # MATHEMATICAL ITALIC NABLA
@@ -496,9 +496,10 @@ include "%L"
 <Multi_key> <slash> <i> <equal>                      : "≇" U2247 # NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
 <Multi_key> <s> <equal>                              : "≡" U2261 # IDENTICAL TO
 <Multi_key> <slash> <s> <equal>                      : "≢" U2262 # NOT IDENTICAL TO
+<Multi_key> <asciitilde> <asciitilde>                : "≈" U2248 # ALMOST EQUAL TO
 <Multi_key> <a> <p> <p> <r> <o> <x>                  : "≈" U2248 # ALMOST EQUAL TO
 <Multi_key> <slash> <a> <p> <p> <r> <o> <x>          : "≉" U2249 # NOT ALMOST EQUAL TO
-<Multi_key> <slash> <tilde> <tilde>                  : "≉" U2249 # NOT ALMOST EQUAL TO
+<Multi_key> <slash> <asciitilde> <asciitilde>        : "≉" U2249 # NOT ALMOST EQUAL TO
 
 
 # COMPARISONS
@@ -564,7 +565,7 @@ include "%L"
 #######################
 
 <Multi_key> <a> <s> <t>                              : "∗" U2217 # ASTERISK OPERATOR
-<Multi_Key> <A> <s> <t>                              : "＊" UFF0A # FULLWIDTH ASTERISK
+<Multi_key> <A> <s> <t>                              : "＊" UFF0A # FULLWIDTH ASTERISK
 <Multi_key> <a> <y> <e>                              : "✵" U2735 # EIGHT POINTED PINWHEEL STAR
 # <Multi_key> <X> <X>                     : "■" U25A0 # BLACK SQUARE
 <Multi_key> <Z> <X>                                  : "█" U2588 # FULL BLOCK
@@ -649,7 +650,7 @@ include "%L"
 # <Multi_key> <Up> <period>       : "⇡" U21E1  # UPWARDS DASHED ARROW
 # <Multi_key> <Right> <period>      : "⇢" U21E2  # RIGHTWARDS DASHED ARROW
 # <Multi_key> <Down> <period>       : "⇣" U21E3  # DOWNWARDS DASHED ARROW
-<Multi_key> <z> <z> <v>                              : "↯" U21AF # DOWNWARDS ZIGZAG ARROW
+<Multi_key> <minus> <z> <v>                          : "↯" U21AF # DOWNWARDS ZIGZAG ARROW
 
 <Multi_key> <l> <minus> <less>                       : "⟵" U27F5 # LONG LEFTWARDS ARROW
 <Multi_key> <l> <minus> <greater>                    : "⟶" U27F6 # LONG RIGHTWARDS ARROW
@@ -665,8 +666,8 @@ include "%L"
 <Multi_key> <t> <o>                                  : "⟶" U27F6 # LONG RIGHTWARDS ARROW
 <Multi_key> <m> <a> <p> <t> <o>                      : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
 <Multi_key> <c> <i> <m> <m>                          : "⤔" U2914 # RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE
-<Multi_key> <s> <u> <r> <j>                          : "↠" U21A0 # RIGHTWARDS TWO HEADED ARROW
-<Multi_key> <i> <n> <j>                              : "↣" U21A3 # RIGHTWARDS ARROW WITH TAIL
+<Multi_key> <e> <p> <i>                              : "↠" U21A0 # RIGHTWARDS TWO HEADED ARROW
+<Multi_key> <m> <o> <n> <o>                          : "↣" U21A3 # RIGHTWARDS ARROW WITH TAIL
 <Multi_key> <r> <a> <t>                              : "⤍" U290D # RIGHTWARDS DOUBLE DASH ARROW
 <Multi_key> <asciitilde> <Right>                     : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
 
@@ -848,12 +849,12 @@ include "%L"
 <Multi_key> <h> <U>                                  : "Θ" U398 # GREEK CAPITAL LETTER THETA
 <Multi_key> <h> <V>                                  : "Ω" U3A9 # GREEK CAPITAL LETTER OMEGA
 
-<Multi_Key> <h> <dagger> <e>                         : "ϵ" U3F5 # GREEK LUNATE EPSILON SYMBOL
+<Multi_key> <h> <dagger> <e>                         : "ϵ" U3F5 # GREEK LUNATE EPSILON SYMBOL
 <Multi_key> <h> <dagger> <u>                         : "ϑ" U3D1 # GREEK THETA SYMBOL
 <Multi_key> <h> <dagger> <f>                         : "ϕ" U3D5 # GREEK PHI SYMBOL
-<Multi_Key> <h> <dagger> <k>                         : "ϰ" U3F0 # GREEK KAPPA SYMBOL
-<Multi_Key> <h> <dagger> <r>                         : "ϱ" U3F1 # GREEK RHO SYMBOL
-<Multi_Key> <h> <dagger> <p>                         : "ϖ" U3D6 # GREEK PI SYMBOL
+<Multi_key> <h> <dagger> <k>                         : "ϰ" U3F0 # GREEK KAPPA SYMBOL
+<Multi_key> <h> <dagger> <r>                         : "ϱ" U3F1 # GREEK RHO SYMBOL
+<Multi_key> <h> <dagger> <p>                         : "ϖ" U3D6 # GREEK PI SYMBOL
 
 
 ##############################
@@ -940,7 +941,7 @@ include "%L"
 <Multi_key> <space> <6> <M>                          : " " U2006 # SIX-PER-EM SPACE
 <Multi_key> <space> <comma>                          : " " U2008 # PUNCTUATION SPACE
 <Multi_key> <space> <plus>                           : " " U205F # MEDIUM MATHEMATICAL SPACE
-
+<Multi_key> <space> <0>                              : "​" U200B # ZERO WIDTH SPACE
 
 <Multi_key> <e> <y> <e> <s>                          : "👀" U1F440 # EYES
 <Multi_key> <M> <a> <r> <s>                          : "♂" U2642 # MALE SIGN
@@ -1027,58 +1028,58 @@ include "%L"
 # MATHEMATICAL BOLD ITALIC #
 ############################
 
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_EF>                                                                                       : "𝑨" U1D468 # MATHEMATICAL BOLD ITALIC CAPITAL A
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_I>                                                                                        : "𝑩" U1D469 # MATHEMATICAL BOLD ITALIC CAPITAL B
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ES>                                                                                       : "𝑪" U1D46A # MATHEMATICAL BOLD ITALIC CAPITAL C
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_VE>                                                                                       : "𝑫" U1D46B # MATHEMATICAL BOLD ITALIC CAPITAL D
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_U>                                                                                        : "𝑬" U1D46C # MATHEMATICAL BOLD ITALIC CAPITAL E
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_A>                                                                                        : "𝑭" U1D46D # MATHEMATICAL BOLD ITALIC CAPITAL F
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_PE>                                                                                       : "𝑮" U1D46E # MATHEMATICAL BOLD ITALIC CAPITAL G
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ER>                                                                                       : "𝑯" U1D46F # MATHEMATICAL BOLD ITALIC CAPITAL H
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_SHA>                                                                                      : "𝑰" U1D470 # MATHEMATICAL BOLD ITALIC CAPITAL I
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_O>                                                                                        : "𝑱" U1D471 # MATHEMATICAL BOLD ITALIC CAPITAL J
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_EL>                                                                                       : "𝑲" U1D472 # MATHEMATICAL BOLD ITALIC CAPITAL K
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_DE>                                                                                       : "𝑳" U1D473 # MATHEMATICAL BOLD ITALIC CAPITAL L
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_SOFTSIGN>                                                                                 : "𝑴" U1D474 # MATHEMATICAL BOLD ITALIC CAPITAL M
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_TE>                                                                                       : "𝑵" U1D475 # MATHEMATICAL BOLD ITALIC CAPITAL N
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_SHCHA>                                                                                    : "𝑶" U1D476 # MATHEMATICAL BOLD ITALIC CAPITAL O
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ZE>                                                                                       : "𝑷" U1D477 # MATHEMATICAL BOLD ITALIC CAPITAL P
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_SHORTI>                                                                                   : "𝑸" U1D478 # MATHEMATICAL BOLD ITALIC CAPITAL Q
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_KA>                                                                                       : "𝑹" U1D479 # MATHEMATICAL BOLD ITALIC CAPITAL R
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_YERU>                                                                                     : "𝑺" U1D47A # MATHEMATICAL BOLD ITALIC CAPITAL S
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_IE>                                                                                       : "𝑻" U1D47B # MATHEMATICAL BOLD ITALIC CAPITAL T
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_GHE>                                                                                      : "𝑼" U1D47C # MATHEMATICAL BOLD ITALIC CAPITAL U
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_EM>                                                                                       : "𝑽" U1D47D # MATHEMATICAL BOLD ITALIC CAPITAL V
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_TSE>                                                                                      : "𝑾" U1D47E # MATHEMATICAL BOLD ITALIC CAPITAL W
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_CHE>                                                                                      : "𝑿" U1D47F # MATHEMATICAL BOLD ITALIC CAPITAL X
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_EN>                                                                                       : "𝒀" U1D480 # MATHEMATICAL BOLD ITALIC CAPITAL Y
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_YA>                                                                                       : "𝒁" U1D481 # MATHEMATICAL BOLD ITALIC CAPITAL Z
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ef>                                                                                       : "𝒂" U1D482 # MATHEMATICAL BOLD ITALIC SMALL A
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_i>                                                                                        : "𝒃" U1D483 # MATHEMATICAL BOLD ITALIC SMALL B
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_es>                                                                                       : "𝒄" U1D484 # MATHEMATICAL BOLD ITALIC SMALL C
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ve>                                                                                       : "𝒅" U1D485 # MATHEMATICAL BOLD ITALIC SMALL D
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_u>                                                                                        : "𝒆" U1D486 # MATHEMATICAL BOLD ITALIC SMALL E
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_a>                                                                                        : "𝒇" U1D487 # MATHEMATICAL BOLD ITALIC SMALL F
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_pe>                                                                                       : "𝒈" U1D488 # MATHEMATICAL BOLD ITALIC SMALL G
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_er>                                                                                       : "𝒉" U1D489 # MATHEMATICAL BOLD ITALIC SMALL H
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_sha>                                                                                      : "𝒊" U1D48A # MATHEMATICAL BOLD ITALIC SMALL I
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_o>                                                                                        : "𝒋" U1D48B # MATHEMATICAL BOLD ITALIC SMALL J
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_el>                                                                                       : "𝒌" U1D48C # MATHEMATICAL BOLD ITALIC SMALL K
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_de>                                                                                       : "𝒍" U1D48D # MATHEMATICAL BOLD ITALIC SMALL L
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_softsign>                                                                                 : "𝒎" U1D48E # MATHEMATICAL BOLD ITALIC SMALL M
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_te>                                                                                       : "𝒏" U1D48F # MATHEMATICAL BOLD ITALIC SMALL N
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_shcha>                                                                                    : "𝒐" U1D490 # MATHEMATICAL BOLD ITALIC SMALL O
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ze>                                                                                       : "𝒑" U1D491 # MATHEMATICAL BOLD ITALIC SMALL P
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_shorti>                                                                                   : "𝒒" U1D492 # MATHEMATICAL BOLD ITALIC SMALL Q
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ka>                                                                                       : "𝒓" U1D493 # MATHEMATICAL BOLD ITALIC SMALL R
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_yeru>                                                                                     : "𝒔" U1D494 # MATHEMATICAL BOLD ITALIC SMALL S
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ie>                                                                                       : "𝒕" U1D495 # MATHEMATICAL BOLD ITALIC SMALL T
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ghe>                                                                                      : "𝒖" U1D496 # MATHEMATICAL BOLD ITALIC SMALL U
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_em>                                                                                       : "𝒗" U1D497 # MATHEMATICAL BOLD ITALIC SMALL V
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_tse>                                                                                      : "𝒘" U1D498 # MATHEMATICAL BOLD ITALIC SMALL W
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_che>                                                                                      : "𝒙" U1D499 # MATHEMATICAL BOLD ITALIC SMALL X
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_en>                                                                                       : "𝒚" U1D49A # MATHEMATICAL BOLD ITALIC SMALL Y
-<Multi_key> <Cyrillic_sha> <U27F9> <Cyrillic_ya>                                                                                       : "𝒛" U1D49B # MATHEMATICAL BOLD ITALIC SMALL Z
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_EF>                                                                                      : "𝑨" U1D468 # MATHEMATICAL BOLD ITALIC CAPITAL A
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_I>                                                                                       : "𝑩" U1D469 # MATHEMATICAL BOLD ITALIC CAPITAL B
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ES>                                                                                      : "𝑪" U1D46A # MATHEMATICAL BOLD ITALIC CAPITAL C
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_VE>                                                                                      : "𝑫" U1D46B # MATHEMATICAL BOLD ITALIC CAPITAL D
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_U>                                                                                       : "𝑬" U1D46C # MATHEMATICAL BOLD ITALIC CAPITAL E
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_A>                                                                                       : "𝑭" U1D46D # MATHEMATICAL BOLD ITALIC CAPITAL F
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_PE>                                                                                      : "𝑮" U1D46E # MATHEMATICAL BOLD ITALIC CAPITAL G
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ER>                                                                                      : "𝑯" U1D46F # MATHEMATICAL BOLD ITALIC CAPITAL H
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_SHA>                                                                                     : "𝑰" U1D470 # MATHEMATICAL BOLD ITALIC CAPITAL I
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_O>                                                                                       : "𝑱" U1D471 # MATHEMATICAL BOLD ITALIC CAPITAL J
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_EL>                                                                                      : "𝑲" U1D472 # MATHEMATICAL BOLD ITALIC CAPITAL K
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_DE>                                                                                      : "𝑳" U1D473 # MATHEMATICAL BOLD ITALIC CAPITAL L
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_SOFTSIGN>                                                                                : "𝑴" U1D474 # MATHEMATICAL BOLD ITALIC CAPITAL M
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_TE>                                                                                      : "𝑵" U1D475 # MATHEMATICAL BOLD ITALIC CAPITAL N
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_SHCHA>                                                                                   : "𝑶" U1D476 # MATHEMATICAL BOLD ITALIC CAPITAL O
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ZE>                                                                                      : "𝑷" U1D477 # MATHEMATICAL BOLD ITALIC CAPITAL P
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_SHORTI>                                                                                  : "𝑸" U1D478 # MATHEMATICAL BOLD ITALIC CAPITAL Q
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_KA>                                                                                      : "𝑹" U1D479 # MATHEMATICAL BOLD ITALIC CAPITAL R
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_YERU>                                                                                    : "𝑺" U1D47A # MATHEMATICAL BOLD ITALIC CAPITAL S
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_IE>                                                                                      : "𝑻" U1D47B # MATHEMATICAL BOLD ITALIC CAPITAL T
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_GHE>                                                                                     : "𝑼" U1D47C # MATHEMATICAL BOLD ITALIC CAPITAL U
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_EM>                                                                                      : "𝑽" U1D47D # MATHEMATICAL BOLD ITALIC CAPITAL V
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_TSE>                                                                                     : "𝑾" U1D47E # MATHEMATICAL BOLD ITALIC CAPITAL W
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_CHE>                                                                                     : "𝑿" U1D47F # MATHEMATICAL BOLD ITALIC CAPITAL X
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_EN>                                                                                      : "𝒀" U1D480 # MATHEMATICAL BOLD ITALIC CAPITAL Y
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_YA>                                                                                      : "𝒁" U1D481 # MATHEMATICAL BOLD ITALIC CAPITAL Z
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ef>                                                                                      : "𝒂" U1D482 # MATHEMATICAL BOLD ITALIC SMALL A
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_i>                                                                                       : "𝒃" U1D483 # MATHEMATICAL BOLD ITALIC SMALL B
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_es>                                                                                      : "𝒄" U1D484 # MATHEMATICAL BOLD ITALIC SMALL C
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ve>                                                                                      : "𝒅" U1D485 # MATHEMATICAL BOLD ITALIC SMALL D
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_u>                                                                                       : "𝒆" U1D486 # MATHEMATICAL BOLD ITALIC SMALL E
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_a>                                                                                       : "𝒇" U1D487 # MATHEMATICAL BOLD ITALIC SMALL F
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_pe>                                                                                      : "𝒈" U1D488 # MATHEMATICAL BOLD ITALIC SMALL G
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_er>                                                                                      : "𝒉" U1D489 # MATHEMATICAL BOLD ITALIC SMALL H
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_sha>                                                                                     : "𝒊" U1D48A # MATHEMATICAL BOLD ITALIC SMALL I
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_o>                                                                                       : "𝒋" U1D48B # MATHEMATICAL BOLD ITALIC SMALL J
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_el>                                                                                      : "𝒌" U1D48C # MATHEMATICAL BOLD ITALIC SMALL K
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_de>                                                                                      : "𝒍" U1D48D # MATHEMATICAL BOLD ITALIC SMALL L
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_softsign>                                                                                : "𝒎" U1D48E # MATHEMATICAL BOLD ITALIC SMALL M
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_te>                                                                                      : "𝒏" U1D48F # MATHEMATICAL BOLD ITALIC SMALL N
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_shcha>                                                                                   : "𝒐" U1D490 # MATHEMATICAL BOLD ITALIC SMALL O
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ze>                                                                                      : "𝒑" U1D491 # MATHEMATICAL BOLD ITALIC SMALL P
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_shorti>                                                                                  : "𝒒" U1D492 # MATHEMATICAL BOLD ITALIC SMALL Q
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ka>                                                                                      : "𝒓" U1D493 # MATHEMATICAL BOLD ITALIC SMALL R
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_yeru>                                                                                    : "𝒔" U1D494 # MATHEMATICAL BOLD ITALIC SMALL S
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ie>                                                                                      : "𝒕" U1D495 # MATHEMATICAL BOLD ITALIC SMALL T
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ghe>                                                                                     : "𝒖" U1D496 # MATHEMATICAL BOLD ITALIC SMALL U
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_em>                                                                                      : "𝒗" U1D497 # MATHEMATICAL BOLD ITALIC SMALL V
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_tse>                                                                                     : "𝒘" U1D498 # MATHEMATICAL BOLD ITALIC SMALL W
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_che>                                                                                     : "𝒙" U1D499 # MATHEMATICAL BOLD ITALIC SMALL X
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_en>                                                                                      : "𝒚" U1D49A # MATHEMATICAL BOLD ITALIC SMALL Y
+<Multi_key> <Cyrillic_sha> <dollar> <Cyrillic_ya>                                                                                      : "𝒛" U1D49B # MATHEMATICAL BOLD ITALIC SMALL Z
 
 #######################
 # MATHEMATICAL SCRIPT #
@@ -1302,61 +1303,61 @@ include "%L"
 <Multi_key> <Cyrillic_i> <Cyrillic_che>                                                                                                : "𝕩" U1D569 # MATHEMATICAL DOUBLE-STRUCK SMALL X
 <Multi_key> <Cyrillic_i> <Cyrillic_en>                                                                                                 : "𝕪" U1D56A # MATHEMATICAL DOUBLE-STRUCK SMALL Y
 <Multi_key> <Cyrillic_i> <Cyrillic_ya>                                                                                                 : "𝕫" U1D56B # MATHEMATICAL DOUBLE-STRUCK SMALL Z
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_EF>                                                                                         : "𝕬" U1D56C # MATHEMATICAL BOLD FRAKTUR CAPITAL A
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_I>                                                                                          : "𝕭" U1D56D # MATHEMATICAL BOLD FRAKTUR CAPITAL B
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ES>                                                                                         : "𝕮" U1D56E # MATHEMATICAL BOLD FRAKTUR CAPITAL C
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_VE>                                                                                         : "𝕯" U1D56F # MATHEMATICAL BOLD FRAKTUR CAPITAL D
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_U>                                                                                          : "𝕰" U1D570 # MATHEMATICAL BOLD FRAKTUR CAPITAL E
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_A>                                                                                          : "𝕱" U1D571 # MATHEMATICAL BOLD FRAKTUR CAPITAL F
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_PE>                                                                                         : "𝕲" U1D572 # MATHEMATICAL BOLD FRAKTUR CAPITAL G
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ER>                                                                                         : "𝕳" U1D573 # MATHEMATICAL BOLD FRAKTUR CAPITAL H
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_SHA>                                                                                        : "𝕴" U1D574 # MATHEMATICAL BOLD FRAKTUR CAPITAL I
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_O>                                                                                          : "𝕵" U1D575 # MATHEMATICAL BOLD FRAKTUR CAPITAL J
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_EL>                                                                                         : "𝕶" U1D576 # MATHEMATICAL BOLD FRAKTUR CAPITAL K
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_DE>                                                                                         : "𝕷" U1D577 # MATHEMATICAL BOLD FRAKTUR CAPITAL L
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_SOFTSIGN>                                                                                   : "𝕸" U1D578 # MATHEMATICAL BOLD FRAKTUR CAPITAL M
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_TE>                                                                                         : "𝕹" U1D579 # MATHEMATICAL BOLD FRAKTUR CAPITAL N
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_SHCHA>                                                                                      : "𝕺" U1D57A # MATHEMATICAL BOLD FRAKTUR CAPITAL O
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ZE>                                                                                         : "𝕻" U1D57B # MATHEMATICAL BOLD FRAKTUR CAPITAL P
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_SHORTI>                                                                                     : "𝕼" U1D57C # MATHEMATICAL BOLD FRAKTUR CAPITAL Q
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_KA>                                                                                         : "𝕽" U1D57D # MATHEMATICAL BOLD FRAKTUR CAPITAL R
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_YERU>                                                                                       : "𝕾" U1D57E # MATHEMATICAL BOLD FRAKTUR CAPITAL S
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_IE>                                                                                         : "𝕿" U1D57F # MATHEMATICAL BOLD FRAKTUR CAPITAL T
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_GHE>                                                                                        : "𝖀" U1D580 # MATHEMATICAL BOLD FRAKTUR CAPITAL U
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_EM>                                                                                         : "𝖁" U1D581 # MATHEMATICAL BOLD FRAKTUR CAPITAL V
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_TSE>                                                                                        : "𝖂" U1D582 # MATHEMATICAL BOLD FRAKTUR CAPITAL W
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_CHE>                                                                                        : "𝖃" U1D583 # MATHEMATICAL BOLD FRAKTUR CAPITAL X
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_EN>                                                                                         : "𝖄" U1D584 # MATHEMATICAL BOLD FRAKTUR CAPITAL Y
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_YA>                                                                                         : "𝖅" U1D585 # MATHEMATICAL BOLD FRAKTUR CAPITAL Z
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ef>                                                                                         : "𝖆" U1D586 # MATHEMATICAL BOLD FRAKTUR SMALL A
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_i>                                                                                          : "𝖇" U1D587 # MATHEMATICAL BOLD FRAKTUR SMALL B
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_es>                                                                                         : "𝖈" U1D588 # MATHEMATICAL BOLD FRAKTUR SMALL C
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ve>                                                                                         : "𝖉" U1D589 # MATHEMATICAL BOLD FRAKTUR SMALL D
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_u>                                                                                          : "𝖊" U1D58A # MATHEMATICAL BOLD FRAKTUR SMALL E
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_a>                                                                                          : "𝖋" U1D58B # MATHEMATICAL BOLD FRAKTUR SMALL F
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_pe>                                                                                         : "𝖌" U1D58C # MATHEMATICAL BOLD FRAKTUR SMALL G
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_er>                                                                                         : "𝖍" U1D58D # MATHEMATICAL BOLD FRAKTUR SMALL H
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_sha>                                                                                        : "𝖎" U1D58E # MATHEMATICAL BOLD FRAKTUR SMALL I
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_o>                                                                                          : "𝖏" U1D58F # MATHEMATICAL BOLD FRAKTUR SMALL J
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_el>                                                                                         : "𝖐" U1D590 # MATHEMATICAL BOLD FRAKTUR SMALL K
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_de>                                                                                         : "𝖑" U1D591 # MATHEMATICAL BOLD FRAKTUR SMALL L
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_softsign>                                                                                   : "𝖒" U1D592 # MATHEMATICAL BOLD FRAKTUR SMALL M
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_te>                                                                                         : "𝖓" U1D593 # MATHEMATICAL BOLD FRAKTUR SMALL N
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_shcha>                                                                                      : "𝖔" U1D594 # MATHEMATICAL BOLD FRAKTUR SMALL O
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ze>                                                                                         : "𝖕" U1D595 # MATHEMATICAL BOLD FRAKTUR SMALL P
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_shorti>                                                                                     : "𝖖" U1D596 # MATHEMATICAL BOLD FRAKTUR SMALL Q
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ka>                                                                                         : "𝖗" U1D597 # MATHEMATICAL BOLD FRAKTUR SMALL R
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_yeru>                                                                                       : "𝖘" U1D598 # MATHEMATICAL BOLD FRAKTUR SMALL S
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ie>                                                                                         : "𝖙" U1D599 # MATHEMATICAL BOLD FRAKTUR SMALL T
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ghe>                                                                                        : "𝖚" U1D59A # MATHEMATICAL BOLD FRAKTUR SMALL U
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_em>                                                                                         : "𝖛" U1D59B # MATHEMATICAL BOLD FRAKTUR SMALL V
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_tse>                                                                                        : "𝖜" U1D59C # MATHEMATICAL BOLD FRAKTUR SMALL W
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_che>                                                                                        : "𝖝" U1D59D # MATHEMATICAL BOLD FRAKTUR SMALL X
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_en>                                                                                         : "𝖞" U1D59E # MATHEMATICAL BOLD FRAKTUR SMALL Y
-<Multi_key> <Cyrillic_a> <U27F9> <Cyrillic_ya>                                                                                         : "𝖟" U1D59F # MATHEMATICAL BOLD FRAKTUR SMALL Z
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_EF>                                                                                        : "𝕬" U1D56C # MATHEMATICAL BOLD FRAKTUR CAPITAL A
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_I>                                                                                         : "𝕭" U1D56D # MATHEMATICAL BOLD FRAKTUR CAPITAL B
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ES>                                                                                        : "𝕮" U1D56E # MATHEMATICAL BOLD FRAKTUR CAPITAL C
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_VE>                                                                                        : "𝕯" U1D56F # MATHEMATICAL BOLD FRAKTUR CAPITAL D
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_U>                                                                                         : "𝕰" U1D570 # MATHEMATICAL BOLD FRAKTUR CAPITAL E
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_A>                                                                                         : "𝕱" U1D571 # MATHEMATICAL BOLD FRAKTUR CAPITAL F
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_PE>                                                                                        : "𝕲" U1D572 # MATHEMATICAL BOLD FRAKTUR CAPITAL G
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ER>                                                                                        : "𝕳" U1D573 # MATHEMATICAL BOLD FRAKTUR CAPITAL H
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_SHA>                                                                                       : "𝕴" U1D574 # MATHEMATICAL BOLD FRAKTUR CAPITAL I
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_O>                                                                                         : "𝕵" U1D575 # MATHEMATICAL BOLD FRAKTUR CAPITAL J
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_EL>                                                                                        : "𝕶" U1D576 # MATHEMATICAL BOLD FRAKTUR CAPITAL K
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_DE>                                                                                        : "𝕷" U1D577 # MATHEMATICAL BOLD FRAKTUR CAPITAL L
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_SOFTSIGN>                                                                                  : "𝕸" U1D578 # MATHEMATICAL BOLD FRAKTUR CAPITAL M
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_TE>                                                                                        : "𝕹" U1D579 # MATHEMATICAL BOLD FRAKTUR CAPITAL N
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_SHCHA>                                                                                     : "𝕺" U1D57A # MATHEMATICAL BOLD FRAKTUR CAPITAL O
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ZE>                                                                                        : "𝕻" U1D57B # MATHEMATICAL BOLD FRAKTUR CAPITAL P
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_SHORTI>                                                                                    : "𝕼" U1D57C # MATHEMATICAL BOLD FRAKTUR CAPITAL Q
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_KA>                                                                                        : "𝕽" U1D57D # MATHEMATICAL BOLD FRAKTUR CAPITAL R
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_YERU>                                                                                      : "𝕾" U1D57E # MATHEMATICAL BOLD FRAKTUR CAPITAL S
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_IE>                                                                                        : "𝕿" U1D57F # MATHEMATICAL BOLD FRAKTUR CAPITAL T
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_GHE>                                                                                       : "𝖀" U1D580 # MATHEMATICAL BOLD FRAKTUR CAPITAL U
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_EM>                                                                                        : "𝖁" U1D581 # MATHEMATICAL BOLD FRAKTUR CAPITAL V
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_TSE>                                                                                       : "𝖂" U1D582 # MATHEMATICAL BOLD FRAKTUR CAPITAL W
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_CHE>                                                                                       : "𝖃" U1D583 # MATHEMATICAL BOLD FRAKTUR CAPITAL X
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_EN>                                                                                        : "𝖄" U1D584 # MATHEMATICAL BOLD FRAKTUR CAPITAL Y
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_YA>                                                                                        : "𝖅" U1D585 # MATHEMATICAL BOLD FRAKTUR CAPITAL Z
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ef>                                                                                        : "𝖆" U1D586 # MATHEMATICAL BOLD FRAKTUR SMALL A
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_i>                                                                                         : "𝖇" U1D587 # MATHEMATICAL BOLD FRAKTUR SMALL B
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_es>                                                                                        : "𝖈" U1D588 # MATHEMATICAL BOLD FRAKTUR SMALL C
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ve>                                                                                        : "𝖉" U1D589 # MATHEMATICAL BOLD FRAKTUR SMALL D
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_u>                                                                                         : "𝖊" U1D58A # MATHEMATICAL BOLD FRAKTUR SMALL E
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_a>                                                                                         : "𝖋" U1D58B # MATHEMATICAL BOLD FRAKTUR SMALL F
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_pe>                                                                                        : "𝖌" U1D58C # MATHEMATICAL BOLD FRAKTUR SMALL G
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_er>                                                                                        : "𝖍" U1D58D # MATHEMATICAL BOLD FRAKTUR SMALL H
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_sha>                                                                                       : "𝖎" U1D58E # MATHEMATICAL BOLD FRAKTUR SMALL I
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_o>                                                                                         : "𝖏" U1D58F # MATHEMATICAL BOLD FRAKTUR SMALL J
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_el>                                                                                        : "𝖐" U1D590 # MATHEMATICAL BOLD FRAKTUR SMALL K
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_de>                                                                                        : "𝖑" U1D591 # MATHEMATICAL BOLD FRAKTUR SMALL L
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_softsign>                                                                                  : "𝖒" U1D592 # MATHEMATICAL BOLD FRAKTUR SMALL M
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_te>                                                                                        : "𝖓" U1D593 # MATHEMATICAL BOLD FRAKTUR SMALL N
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_shcha>                                                                                     : "𝖔" U1D594 # MATHEMATICAL BOLD FRAKTUR SMALL O
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ze>                                                                                        : "𝖕" U1D595 # MATHEMATICAL BOLD FRAKTUR SMALL P
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_shorti>                                                                                    : "𝖖" U1D596 # MATHEMATICAL BOLD FRAKTUR SMALL Q
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ka>                                                                                        : "𝖗" U1D597 # MATHEMATICAL BOLD FRAKTUR SMALL R
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_yeru>                                                                                      : "𝖘" U1D598 # MATHEMATICAL BOLD FRAKTUR SMALL S
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ie>                                                                                        : "𝖙" U1D599 # MATHEMATICAL BOLD FRAKTUR SMALL T
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ghe>                                                                                       : "𝖚" U1D59A # MATHEMATICAL BOLD FRAKTUR SMALL U
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_em>                                                                                        : "𝖛" U1D59B # MATHEMATICAL BOLD FRAKTUR SMALL V
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_tse>                                                                                       : "𝖜" U1D59C # MATHEMATICAL BOLD FRAKTUR SMALL W
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_che>                                                                                       : "𝖝" U1D59D # MATHEMATICAL BOLD FRAKTUR SMALL X
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_en>                                                                                        : "𝖞" U1D59E # MATHEMATICAL BOLD FRAKTUR SMALL Y
+<Multi_key> <Cyrillic_a> <dollar> <Cyrillic_ya>                                                                                        : "𝖟" U1D59F # MATHEMATICAL BOLD FRAKTUR SMALL Z
 <Multi_key> <Cyrillic_sha> <space> <Cyrillic_sha>                                                                                      : "𝚤" U1D6A4 # MATHEMATICAL ITALIC SMALL DOTLESS I
 <Multi_key> <Cyrillic_sha> <space> <Cyrillic_o>                                                                                        : "𝚥" U1D6A5 # MATHEMATICAL ITALIC SMALL DOTLESS J
-<Multi_key> <Cyrillic_yeru> <U27F9> <Cyrillic_de>                                                                                      : "ℓ" U2113 # SCRIPT SMALL L
+<Multi_key> <Cyrillic_ya> <dollar> <Cyrillic_de>                                                                                       : "ℓ" U2113 # SCRIPT SMALL L
 
 <Multi_key> <Cyrillic_i> <0>                                                                                                           : "𝟘" U1D7D8 # MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO
 <Multi_key> <Cyrillic_i> <1>                                                                                                           : "𝟙" U1D7D9 # MATHEMATICAL DOUBLE-STRUCK DIGIT ONE
@@ -1373,22 +1374,22 @@ include "%L"
 # MATH OPERATORS #
 ##################
 
-<Multi_key> <Cyrillic_a> <Cyrillic_shcha> <Cyrillic_ka> <Cyrillic_ef> <Cyrillic_de> <Cyrillic_de>                                      : "∀" U2200 # FOR ALL
-<Multi_key> <Cyrillic_u> <Cyrillic_che> <Cyrillic_sha> <Cyrillic_yeru> <Cyrillic_ie>                                                   : "∃" U2203 # THERE EXISTS
-<Multi_key> <period> <Cyrillic_u> <Cyrillic_che> <Cyrillic_sha> <Cyrillic_yeru> <Cyrillic_ie>                                          : "∄" U2204 # THERE DOES NOT EXIST
-<Multi_key> <U27F9> <Cyrillic_ze> <Cyrillic_ve>                                                                                        : "∂" U2202 # PARTIAL DIFFERENTIAL
+<Multi_key> <Cyrillic_A> <Cyrillic_shcha> <Cyrillic_ka> <Cyrillic_ef> <Cyrillic_de> <Cyrillic_de>                                      : "∀" U2200 # FOR ALL
+<Multi_key> <Cyrillic_U> <Cyrillic_che> <Cyrillic_sha> <Cyrillic_yeru> <Cyrillic_ie>                                                   : "∃" U2203 # THERE EXISTS
+<Multi_key> <period> <Cyrillic_U> <Cyrillic_che> <Cyrillic_sha> <Cyrillic_yeru> <Cyrillic_ie>                                          : "∄" U2204 # THERE DOES NOT EXIST
+<Multi_key> <dollar> <Cyrillic_ze> <Cyrillic_ve>                                                                                       : "∂" U2202 # PARTIAL DIFFERENTIAL
 <Multi_key> <Cyrillic_ze> <Cyrillic_ve>                                                                                                : "𝜕" U1D715 # MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL
 <Multi_key> <Cyrillic_u> <Cyrillic_softsign> <Cyrillic_ze> <Cyrillic_ie> <Cyrillic_en>                                                 : "∅" U2205 # EMPTY SET
 <Multi_key> <Cyrillic_es> <minus>                                                                                                      : "∊" U220A # SMALL ELEMENT OF
-<Multi_key> <С> <minus>                                                                                                                : "∈" U2208 # ELEMENT OF
-<Multi_key> <Cyrillic_es> <Cyrillic_shcha> <Cyrillic_te> <Cyrillic_ie> <Cyrillic_ef> <Cyrillic_sha> <Cyrillic_te> <Cyrillic_yeru>      : "∍" U220D # SMALL CONTAINS AS MEMBER
+<Multi_key> <Cyrillic_ES> <minus>                                                                                                      : "∈" U2208 # ELEMENT OF
+<Multi_key> <minus> <Cyrillic_es>                                                                                                      : "∍" U220D # SMALL CONTAINS AS MEMBER
 <Multi_key> <period> <Cyrillic_sha> <Cyrillic_te>                                                                                      : "∉" U2209 # NOT AN ELEMENT OF
 <Multi_key> <Cyrillic_shorti> <Cyrillic_u> <Cyrillic_ve>                                                                               : "∎" U220E # END OF PROOF
-<Multi_key> <Cyrillic_sha> <Cyrillic_te> <Cyrillic_ie>                                                                                 : "∫" U222B # INTEGRAL
+<Multi_key> <Cyrillic_SHA> <Cyrillic_te> <Cyrillic_ie>                                                                                 : "∫" U222B # INTEGRAL
 <Multi_key> <Cyrillic_es> <Cyrillic_sha> <Cyrillic_te> <Cyrillic_ie>                                                                   : "∮" U222E # CONTOUR INTEGRAL
 <Multi_key> <Cyrillic_ZE> <Cyrillic_ka> <Cyrillic_shcha> <Cyrillic_ve>                                                                 : "∏" U220F # N-ARY PRODUCT
-<Multi_key> <Cyrillic_ES> <Cyrillic_shcha> <Cyrillic_ze> <Cyrillic_ka> <Cyrillic_shcha> <Cyrillic_ve>                                  : "∐" U2210 # N-ARY COPRODUCT
-<Multi_key> <Cyrillic_es> <Cyrillic_shcha> <Cyrillic_ze> <Cyrillic_ka> <Cyrillic_shcha> <Cyrillic_ve>                                  : "⨿" U2A3F # AMALGAMATION OR COPRODUCT
+<Multi_key> <Cyrillic_ES> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_softsign>                               : "∐" U2210 # N-ARY COPRODUCT
+<Multi_key> <Cyrillic_es> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_softsign>                               : "⨿" U2A3F # AMALGAMATION OR COPRODUCT
 <Multi_key> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_softsign>                                                                         : "∑" U2211 # N-ARY SUMMATION
 <Multi_key> <minus> <plus>                                                                                                             : "∓" U2213 # MINUS-OR-PLUS SIGN
 <Multi_key> <Cyrillic_shcha> <Cyrillic_em> <Cyrillic_u> <Cyrillic_ka>                                                                  : "∕" U2215 # DIVISION SLASH
@@ -1396,7 +1397,7 @@ include "%L"
 <Multi_key> <Cyrillic_es> <Cyrillic_sha> <Cyrillic_ka> <Cyrillic_es>                                                                   : "∘" U2218 # RING OPERATOR
 <Multi_key> <Cyrillic_ES> <Cyrillic_ve> <Cyrillic_shcha> <Cyrillic_ie>                                                                 : "•" U2022 # BULLET
 <Multi_key> <Cyrillic_es> <Cyrillic_ve> <Cyrillic_shcha> <Cyrillic_ie>                                                                 : "·" UB7 # MIDDLE DOT
-<Multi_key> <Cyrillic_sha> <Cyrillic_te> <Cyrillic_a>                                                                                  : "∞" U221E # INFINITY
+<Multi_key> <Cyrillic_SHA> <Cyrillic_te> <Cyrillic_a>                                                                                  : "∞" U221E # INFINITY
 <Multi_key> <Cyrillic_yeru> <Cyrillic_shorti> <Cyrillic_ka> <Cyrillic_ie>                                                              : "√" U221A # SQUARE ROOT
 <Multi_key> <Cyrillic_ie> <Cyrillic_sha> <Cyrillic_softsign> <Cyrillic_u> <Cyrillic_yeru>                                              : "×" UD7 # MULTIPLICATION SIGN
 <Multi_key> <Cyrillic_IE> <Cyrillic_sha> <Cyrillic_softsign> <Cyrillic_u> <Cyrillic_yeru>                                              : "⨉" U2A09 # N-ARY TIMES OPERATOR
@@ -1411,15 +1412,15 @@ include "%L"
 <Multi_key> <Cyrillic_yeru> <Cyrillic_shorti> <Cyrillic_es> <Cyrillic_ghe> <Cyrillic_ze>                                               : "⊔" U2294 # SQUARE CUP
 <Multi_key> <Cyrillic_ES> <Cyrillic_ghe> <Cyrillic_ze>                                                                                 : "⋃" U22C3 # N-ARY UNION
 <Multi_key> <Cyrillic_YERU> <Cyrillic_shorti> <Cyrillic_es> <Cyrillic_ghe> <Cyrillic_ze>                                               : "⨆" U2A06 # N-ARY SQUARE UNION OPERATOR
-<Multi_key> <Cyrillic_i> <Cyrillic_ka> <Cyrillic_ef>                                                                                   : "⟨" U27E8 # MATHEMATICAL LEFT ANGLE BRACKET
-<Multi_key> <Cyrillic_el> <Cyrillic_u> <Cyrillic_ie>                                                                                   : "⟩" U27E9 # MATHEMATICAL RIGHT ANGLE BRACKET
+<Multi_key> <dollar> <parenright>                                                                                                      : "⟨" U27E8 # MATHEMATICAL LEFT ANGLE BRACKET
+<Multi_key> <dollar> <parenright>                                                                                                      : "⟩" U27E9 # MATHEMATICAL RIGHT ANGLE BRACKET
 
 
 
 
-<Multi_key> <Cyrillic_i> <Cyrillic_u> <Cyrillic_es> <Cyrillic_ef> <Cyrillic_ghe> <Cyrillic_yeru> <Cyrillic_u>                          : "∵" U2235 # BECAUSE
+# <Multi_key> <b> <e> <c> <a> <u> <s> <e>     : "∵" U2235 # BECAUSE \because
 <Multi_key> <Cyrillic_ie> <Cyrillic_er> <Cyrillic_u> <Cyrillic_te>                                                                     : "∴" U2234 # THEREFORE
-<Multi_key> <U27F9> <Cyrillic_te> <Cyrillic_ef> <Cyrillic_i> <Cyrillic_de> <Cyrillic_ef>                                               : "∇" U2207 # NABLA
+<Multi_key> <dollar> <Cyrillic_te> <Cyrillic_ef> <Cyrillic_i> <Cyrillic_de> <Cyrillic_ef>                                              : "∇" U2207 # NABLA
 <Multi_key> <Cyrillic_te> <Cyrillic_ef> <Cyrillic_i> <Cyrillic_de> <Cyrillic_ef>                                                       : "𝛻" U1D6FB # MATHEMATICAL ITALIC NABLA
 
 
@@ -1448,9 +1449,10 @@ include "%L"
 <Multi_key> <period> <Cyrillic_sha> <equal>                                                                                            : "≇" U2247 # NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
 <Multi_key> <Cyrillic_yeru> <equal>                                                                                                    : "≡" U2261 # IDENTICAL TO
 <Multi_key> <period> <Cyrillic_yeru> <equal>                                                                                           : "≢" U2262 # NOT IDENTICAL TO
+<Multi_key> <Cyrillic_IO> <Cyrillic_IO>                                                                                                : "≈" U2248 # ALMOST EQUAL TO
 <Multi_key> <Cyrillic_ef> <Cyrillic_ze> <Cyrillic_ze> <Cyrillic_ka> <Cyrillic_shcha> <Cyrillic_che>                                    : "≈" U2248 # ALMOST EQUAL TO
 <Multi_key> <period> <Cyrillic_ef> <Cyrillic_ze> <Cyrillic_ze> <Cyrillic_ka> <Cyrillic_shcha> <Cyrillic_che>                           : "≉" U2249 # NOT ALMOST EQUAL TO
-<Multi_key> <period> <tilde> <tilde>                                                                                                   : "≉" U2249 # NOT ALMOST EQUAL TO
+<Multi_key> <period> <Cyrillic_IO> <Cyrillic_IO>                                                                                       : "≉" U2249 # NOT ALMOST EQUAL TO
 
 
 # COMPARISONS
@@ -1496,7 +1498,7 @@ include "%L"
 <Multi_key> <Cyrillic_de> <Cyrillic_ie> <Cyrillic_sha> <Cyrillic_softsign> <Cyrillic_u> <Cyrillic_yeru>                                : "⋉" U22C9 # LEFT NORMAL FACTOR SEMIDIRECT PRODUCT
 <Multi_key> <Cyrillic_ka> <Cyrillic_ie> <Cyrillic_sha> <Cyrillic_softsign> <Cyrillic_u> <Cyrillic_yeru>                                : "⋊" U22CA # RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT
 <Multi_key> <Cyrillic_SHCHA> <colon> <Cyrillic_che>                                                                                    : "⨶" U2A36 # CIRCLED MULTIPLICATION SIGN WITH CIRCUMFLEX ACCENT
-<Multi_key> <U27F9> <question>                                                                                                         : "⅋" U214B # TURNED AMPERSAND
+<Multi_key> <dollar> <question>                                                                                                        : "⅋" U214B # TURNED AMPERSAND
 # LOGIC
 
 <Multi_key> <Cyrillic_ze> <Cyrillic_ka> <Cyrillic_shcha> <Cyrillic_em> <Cyrillic_u> <Cyrillic_yeru>                                    : "⊢" U22A2 # RIGHT TACK
@@ -1516,7 +1518,7 @@ include "%L"
 #######################
 
 <Multi_key> <Cyrillic_ef> <Cyrillic_yeru> <Cyrillic_ie>                                                                                : "∗" U2217 # ASTERISK OPERATOR
-<Multi_Key> <Cyrillic_EF> <Cyrillic_yeru> <Cyrillic_ie>                                                                                : "＊" UFF0A # FULLWIDTH ASTERISK
+<Multi_key> <Cyrillic_EF> <Cyrillic_yeru> <Cyrillic_ie>                                                                                : "＊" UFF0A # FULLWIDTH ASTERISK
 <Multi_key> <Cyrillic_ef> <Cyrillic_en> <Cyrillic_u>                                                                                   : "✵" U2735 # EIGHT POINTED PINWHEEL STAR
 # <Multi_key> <X> <X>                     : "■" U25A0 # BLACK SQUARE
 <Multi_key> <Cyrillic_YA> <Cyrillic_CHE>                                                                                               : "█" U2588 # FULL BLOCK
@@ -1601,7 +1603,7 @@ include "%L"
 # <Multi_key> <Up> <period>       : "⇡" U21E1  # UPWARDS DASHED ARROW
 # <Multi_key> <Right> <period>      : "⇢" U21E2  # RIGHTWARDS DASHED ARROW
 # <Multi_key> <Down> <period>       : "⇣" U21E3  # DOWNWARDS DASHED ARROW
-<Multi_key> <Cyrillic_ya> <Cyrillic_ya> <Cyrillic_em>                                                                                  : "↯" U21AF # DOWNWARDS ZIGZAG ARROW
+<Multi_key> <minus> <Cyrillic_ya> <Cyrillic_em>                                                                                        : "↯" U21AF # DOWNWARDS ZIGZAG ARROW
 
 <Multi_key> <Cyrillic_de> <minus> <Cyrillic_BE>                                                                                        : "⟵" U27F5 # LONG LEFTWARDS ARROW
 <Multi_key> <Cyrillic_de> <minus> <Cyrillic_YU>                                                                                        : "⟶" U27F6 # LONG RIGHTWARDS ARROW
@@ -1617,8 +1619,8 @@ include "%L"
 <Multi_key> <Cyrillic_ie> <Cyrillic_shcha>                                                                                             : "⟶" U27F6 # LONG RIGHTWARDS ARROW
 <Multi_key> <Cyrillic_softsign> <Cyrillic_ef> <Cyrillic_ze> <Cyrillic_ie> <Cyrillic_shcha>                                             : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
 <Multi_key> <Cyrillic_es> <Cyrillic_sha> <Cyrillic_softsign> <Cyrillic_softsign>                                                       : "⤔" U2914 # RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE
-<Multi_key> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_ka> <Cyrillic_o>                                                                  : "↠" U21A0 # RIGHTWARDS TWO HEADED ARROW
-<Multi_key> <Cyrillic_sha> <Cyrillic_te> <Cyrillic_o>                                                                                  : "↣" U21A3 # RIGHTWARDS ARROW WITH TAIL
+<Multi_key> <Cyrillic_u> <Cyrillic_ze> <Cyrillic_sha>                                                                                  : "↠" U21A0 # RIGHTWARDS TWO HEADED ARROW
+<Multi_key> <Cyrillic_softsign> <Cyrillic_shcha> <Cyrillic_te> <Cyrillic_shcha>                                                        : "↣" U21A3 # RIGHTWARDS ARROW WITH TAIL
 <Multi_key> <Cyrillic_ka> <Cyrillic_ef> <Cyrillic_ie>                                                                                  : "⤍" U290D # RIGHTWARDS DOUBLE DASH ARROW
 <Multi_key> <Cyrillic_IO> <Right>                                                                                                      : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
 
@@ -1711,11 +1713,11 @@ include "%L"
 <Multi_key> <underscore> <equal>                                                                                                       : "₌" U208C # SUBSCRIPT EQUALS SIGN
 <Multi_key> <underscore> <parenleft>                                                                                                   : "₍" U208D # SUBSCRIPT LEFT PARENTHESIS
 <Multi_key> <underscore> <parenright>                                                                                                  : "₎" U208E # SUBSCRIPT RIGHT PARENTHESIS
-<Multi_key> <underscore> <U27F9> <Cyrillic_i>                                                                                          : "ᵦ" U1D66 # GREEK SUBSCRIPT SMALL LETTER BETA
-<Multi_key> <underscore> <U27F9> <Cyrillic_pe>                                                                                         : "ᵧ" U1D67 # GREEK SUBSCRIPT SMALL LETTER GAMMA
-<Multi_key> <underscore> <U27F9> <Cyrillic_ka>                                                                                         : "ᵨ" U1D68 # GREEK SUBSCRIPT SMALL LETTER RHO
-<Multi_key> <underscore> <U27F9> <Cyrillic_a>                                                                                          : "ᵩ" U1D69 # GREEK SUBSCRIPT SMALL LETTER PHI
-<Multi_key> <underscore> <U27F9> <Cyrillic_che>                                                                                        : "ᵪ" U1D6A # GREEK SUBSCRIPT SMALL LETTER CHI
+<Multi_key> <underscore> <dollar> <Cyrillic_i>                                                                                         : "ᵦ" U1D66 # GREEK SUBSCRIPT SMALL LETTER BETA
+<Multi_key> <underscore> <dollar> <Cyrillic_pe>                                                                                        : "ᵧ" U1D67 # GREEK SUBSCRIPT SMALL LETTER GAMMA
+<Multi_key> <underscore> <dollar> <Cyrillic_ka>                                                                                        : "ᵨ" U1D68 # GREEK SUBSCRIPT SMALL LETTER RHO
+<Multi_key> <underscore> <dollar> <Cyrillic_a>                                                                                         : "ᵩ" U1D69 # GREEK SUBSCRIPT SMALL LETTER PHI
+<Multi_key> <underscore> <dollar> <Cyrillic_che>                                                                                       : "ᵪ" U1D6A # GREEK SUBSCRIPT SMALL LETTER CHI
 
 
 ##################
@@ -1800,12 +1802,12 @@ include "%L"
 <Multi_key> <Cyrillic_er> <Cyrillic_GHE>                                                                                               : "Θ" U398 # GREEK CAPITAL LETTER THETA
 <Multi_key> <Cyrillic_er> <Cyrillic_EM>                                                                                                : "Ω" U3A9 # GREEK CAPITAL LETTER OMEGA
 
-<Multi_Key> <Cyrillic_er> <U27F9> <Cyrillic_u>                                                                                         : "ϵ" U3F5 # GREEK LUNATE EPSILON SYMBOL
-<Multi_key> <Cyrillic_er> <U27F9> <Cyrillic_ghe>                                                                                       : "ϑ" U3D1 # GREEK THETA SYMBOL
-<Multi_key> <Cyrillic_er> <U27F9> <Cyrillic_a>                                                                                         : "ϕ" U3D5 # GREEK PHI SYMBOL
-<Multi_Key> <Cyrillic_er> <U27F9> <Cyrillic_el>                                                                                        : "ϰ" U3F0 # GREEK KAPPA SYMBOL
-<Multi_Key> <Cyrillic_er> <U27F9> <Cyrillic_ka>                                                                                        : "ϱ" U3F1 # GREEK RHO SYMBOL
-<Multi_Key> <Cyrillic_er> <U27F9> <Cyrillic_ze>                                                                                        : "ϖ" U3D6 # GREEK PI SYMBOL
+<Multi_key> <Cyrillic_er> <dollar> <Cyrillic_u>                                                                                        : "ϵ" U3F5 # GREEK LUNATE EPSILON SYMBOL
+<Multi_key> <Cyrillic_er> <dollar> <Cyrillic_ghe>                                                                                      : "ϑ" U3D1 # GREEK THETA SYMBOL
+<Multi_key> <Cyrillic_er> <dollar> <Cyrillic_a>                                                                                        : "ϕ" U3D5 # GREEK PHI SYMBOL
+<Multi_key> <Cyrillic_er> <dollar> <Cyrillic_el>                                                                                       : "ϰ" U3F0 # GREEK KAPPA SYMBOL
+<Multi_key> <Cyrillic_er> <dollar> <Cyrillic_ka>                                                                                       : "ϱ" U3F1 # GREEK RHO SYMBOL
+<Multi_key> <Cyrillic_er> <dollar> <Cyrillic_ze>                                                                                       : "ϖ" U3D6 # GREEK PI SYMBOL
 
 
 ##############################
@@ -1864,12 +1866,12 @@ include "%L"
 <Multi_key> <Cyrillic_pe> <Cyrillic_EN>                                                                                                : "𝛶" U1D6F6 # MATHEMATICAL ITALIC CAPITAL UPSILON
 <Multi_key> <Cyrillic_pe> <Cyrillic_YA>                                                                                                : "𝛧" U1D6E7 # MATHEMATICAL ITALIC CAPITAL ZETA
 
-<Multi_key> <Cyrillic_pe> <U27F9> <Cyrillic_u>                                                                                         : "𝜖" U1D716 # MATHEMATICAL ITALIC EPSILON SYMBOL
-<Multi_key> <Cyrillic_pe> <U27F9> <Cyrillic_el>                                                                                        : "𝜘" U1D718 # MATHEMATICAL ITALIC KAPPA SYMBOL
-<Multi_key> <Cyrillic_pe> <U27F9> <Cyrillic_ghe>                                                                                       : "𝜗" U1D717 # MATHEMATICAL ITALIC THETA SYMBOL
-<Multi_key> <Cyrillic_pe> <U27F9> <Cyrillic_a>                                                                                         : "𝜙" U1D719 # MATHEMATICAL ITALIC PHI SYMBOL
-<Multi_key> <Cyrillic_pe> <U27F9> <Cyrillic_ze>                                                                                        : "𝜛" U1D71B # MATHEMATICAL ITALIC PI SYMBOL
-<Multi_key> <Cyrillic_pe> <U27F9> <Cyrillic_ka>                                                                                        : "𝜚" U1D71A # MATHEMATICAL ITALIC RHO SYMBOL
+<Multi_key> <Cyrillic_pe> <dollar> <Cyrillic_u>                                                                                        : "𝜖" U1D716 # MATHEMATICAL ITALIC EPSILON SYMBOL
+<Multi_key> <Cyrillic_pe> <dollar> <Cyrillic_el>                                                                                       : "𝜘" U1D718 # MATHEMATICAL ITALIC KAPPA SYMBOL
+<Multi_key> <Cyrillic_pe> <dollar> <Cyrillic_ghe>                                                                                      : "𝜗" U1D717 # MATHEMATICAL ITALIC THETA SYMBOL
+<Multi_key> <Cyrillic_pe> <dollar> <Cyrillic_a>                                                                                        : "𝜙" U1D719 # MATHEMATICAL ITALIC PHI SYMBOL
+<Multi_key> <Cyrillic_pe> <dollar> <Cyrillic_ze>                                                                                       : "𝜛" U1D71B # MATHEMATICAL ITALIC PI SYMBOL
+<Multi_key> <Cyrillic_pe> <dollar> <Cyrillic_ka>                                                                                       : "𝜚" U1D71A # MATHEMATICAL ITALIC RHO SYMBOL
 
 ######################
 # MISCELLANIOUS #
@@ -1892,7 +1894,7 @@ include "%L"
 <Multi_key> <space> <6> <Cyrillic_SOFTSIGN>                                                                                            : " " U2006 # SIX-PER-EM SPACE
 <Multi_key> <space> <Cyrillic_be>                                                                                                      : " " U2008 # PUNCTUATION SPACE
 <Multi_key> <space> <plus>                                                                                                             : " " U205F # MEDIUM MATHEMATICAL SPACE
-
+<Multi_key> <space> <0>                                                                                                                : "​" U200B # ZERO WIDTH SPACE
 
 <Multi_key> <Cyrillic_u> <Cyrillic_en> <Cyrillic_u> <Cyrillic_yeru>                                                                    : "👀" U1F440 # EYES
 <Multi_key> <Cyrillic_SOFTSIGN> <Cyrillic_ef> <Cyrillic_ka> <Cyrillic_yeru>                                                            : "♂" U2642 # MALE SIGN
