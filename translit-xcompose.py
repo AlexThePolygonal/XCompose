@@ -46,7 +46,13 @@ def change_compose_line(line, f):
     def merge_symbols(a):
         return "<" + "> <".join(a) + ">"
     
-    return merge_symbols(list(map(f, symbol_list))), " : \"" + payload + "\" " + code +" # " + descr
+    is_unchanged = True
+    for s in symbol_list:
+        if s != f(s):
+            is_unchanged = False
+            break
+    
+    return merge_symbols(list(map(f, symbol_list))), " : \"" + payload + "\" " + code +" # " + descr, is_unchanged
 
         
 
@@ -56,11 +62,12 @@ text = ""
 with open("XCompose_original", 'r') as f:
     text = f.read()
 
-def remake_text(f):
+def remake_text(f, keep_unchanged=True):
     text_pairs = []
     for line in text.splitlines():
-        a, b = change_compose_line(line, f)
-        text_pairs.append((a,b))
+        a, b, is_unchanged = change_compose_line(line, f)
+        if keep_unchanged or not is_unchanged:
+            text_pairs.append((a,b))
     maxlen = 0
     for a, b in text_pairs:
         if b != "":
@@ -80,4 +87,4 @@ def transform_to_rus(x):
 print("include \"%L\"")
 print()
 print(remake_text(lambda x:x))
-print(remake_text(transform_to_rus))
+print(remake_text(transform_to_rus, keep_unchanged=False))
