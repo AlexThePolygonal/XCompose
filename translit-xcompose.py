@@ -20,7 +20,7 @@ def line_is_trivial(line):
 
 def change_compose_line(line, f):
     if line_is_trivial(line):
-        return line, "", True
+        return line, "", False
     line = ''.join(line.split(" "))
     code, payload = line.split(":")
     
