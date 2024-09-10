@@ -419,7 +419,7 @@
 # MATH OPERATORS #
 ##################
 
-<Multi_key> <F> <o> <r> <a> <l> <l>         : "∀" U2200 # FOR ALL U+2200, \forall
+<Multi_key> <F> <o> <r> <a> <l> <l>         : "∀" U2200 # FOR ALL U+2200, \forall 
 <Multi_key> <E> <x> <i> <s> <t>             : "∃" U2203 # THERE EXISTS U+2203, \exists
 <Multi_key> <slash> <E> <x> <i> <s> <t>     : "∄" U2204 # THERE DOES NOT EXIST
 <Multi_key> <dagger> <p> <d>                         : "∂" U2202 # Partial Differential U+2202, \partial
@@ -457,7 +457,7 @@
 <Multi_key> <s> <q> <c> <u> <p>             : "⊔" U2294 # SQUARE CUP \sqcup
 <Multi_key> <C> <u> <p>                     : "⋃" U22C3 # N-ARY UNION \bigcup
 <Multi_key> <S> <q> <c> <u> <p>             : "⨆" U2A06 # N-ARY SQUARE UNION OPERATOR \bigsqcup
-<Multi_key> <dagger> <parenright>                   : "⟨" U27E8 # MATHEMATICAL LEFT ANGLE BRACKET
+<Multi_key> <dagger> <parenleft>                   : "⟨" U27E8 # MATHEMATICAL LEFT ANGLE BRACKET
 <Multi_key> <dagger> <parenright>                   : "⟩" U27E9 # MATHEMATICAL RIGHT ANGLE BRACKET
 
 
@@ -942,6 +942,7 @@
 <Multi_key> <space> <0>      : "​" U200B 
 
 <Multi_key> <e> <y> <e> <s>             : "👀" 
+<Multi_key> <s> <h> <r> <u> <g>         : "¯\_(ツ)_/¯"
 <Multi_key> <M> <a> <r> <s>             : "♂" U2642 # MALE SIGN
 <Multi_key> <V> <e> <n> <u> <s>         : "♀" U2640 # FEMALE SIGN  
 <Multi_key> <G> <a> <y>                 :   "⚣"     U26A3   # DOUBLED MALE SIGN
