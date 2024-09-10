@@ -954,6 +954,11 @@ include "%L"
 <Multi_key> <X> <b> <o> <n> <e> <s>                  : "☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <3> <asterisk>                           : "⁂" U2042 # ASTERISM
 <Multi_key> <6> <asterisk>                           : "✡" U2721 # STAR OF DAVID
+
+########################################
+#      RUSSIAN TRANSLIT VERSION        #
+########################################
+
 <Multi_key> <Cyrillic_sha> <Cyrillic_EF>                                                                                               : "𝐴" U1D434 # MATHEMATICAL ITALIC CAPITAL A
 <Multi_key> <Cyrillic_sha> <Cyrillic_I>                                                                                                : "𝐵" U1D435 # MATHEMATICAL ITALIC CAPITAL B
 <Multi_key> <Cyrillic_sha> <Cyrillic_ES>                                                                                               : "𝐶" U1D436 # MATHEMATICAL ITALIC CAPITAL C

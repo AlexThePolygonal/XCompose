@@ -85,4 +85,9 @@ def transform_to_rus(x):
 print("include \"%L\"")
 print()
 print(remake_text(lambda x:x))
+print("""
+########################################
+#      RUSSIAN TRANSLIT VERSION        #
+########################################
+""")
 print(remake_text(transform_to_rus, keep_unchanged=False))
