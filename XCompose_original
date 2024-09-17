@@ -400,9 +400,6 @@
 <Multi_key> <f> <dagger>  <x>  : "𝖝" # MATHEMATICAL BOLD FRAKTUR SMALL X U+1d59d
 <Multi_key> <f> <dagger>  <y>  : "𝖞" # MATHEMATICAL BOLD FRAKTUR SMALL Y U+1d59e
 <Multi_key> <f> <dagger>  <z>  : "𝖟" # MATHEMATICAL BOLD FRAKTUR SMALL Z U+1d59f
-<Multi_key> <i> <space> <i>  : "𝚤" # MATHEMATICAL ITALIC SMALL DOTLESS I U+1d6a4
-<Multi_key> <i> <space>  <j>  : "𝚥" # MATHEMATICAL ITALIC SMALL DOTLESS J U+1d6a5
-<Multi_key> <z> <dagger> <l>  : "ℓ"
 
 <Multi_key> <b>  <0>  : "𝟘" # MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO U+1d7d8
 <Multi_key> <b>  <1>  : "𝟙" # MATHEMATICAL DOUBLE-STRUCK DIGIT ONE U+1d7d9
@@ -429,7 +426,9 @@
 <Multi_key> <C> <minus>                         : "∈" U2208 # ELEMENT OF
 <Multi_key> <minus> <c>                : "∍" U220D # SMALL CONTAINS AS MEMBER
 <Multi_key> <slash> <i> <n>                 : "∉" U2209 # NOT AN ELEMENT OF
-<Multi_key> <q> <e> <d>                     : "∎" U220E # End of Proof U+220E, \qed
+<Multi_key> <slash> <c> <minus>                 : "∉" U2209 # NOT AN ELEMENT OF
+<Multi_key> <slash> <C> <minus>                 : "∉" U2209 # NOT AN ELEMENT OF
+<Multi_key> <Q> <E> <D>                     : "∎" U220E # End of Proof U+220E, \qed
 <Multi_key> <I> <n> <t>                     : "∫" U222B # INTEGRAL, \int
 <Multi_key> <c> <i> <n> <t>                 : "∮" U222E # CONTOUR INTEGRAL
 <Multi_key> <P> <r> <o> <d>                 : "∏" U220F      # N-Ary Product U+220F, \prod 
@@ -456,11 +455,23 @@
 <Multi_key> <c> <u> <p>                     : "∪" U222A # UNION \cup
 <Multi_key> <s> <q> <c> <u> <p>             : "⊔" U2294 # SQUARE CUP \sqcup
 <Multi_key> <C> <u> <p>                     : "⋃" U22C3 # N-ARY UNION \bigcup
-<Multi_key> <S> <q> <c> <u> <p>             : "⨆" U2A06 # N-ARY SQUARE UNION OPERATOR \bigsqcup
-<Multi_key> <dagger> <parenleft>                   : "⟨" U27E8 # MATHEMATICAL LEFT ANGLE BRACKET
-<Multi_key> <dagger> <parenright>                   : "⟩" U27E9 # MATHEMATICAL RIGHT ANGLE BRACKET
+<Multi_key> <S> <q> <c> <u> <p>             : "⨆" U2A06 # N-ARY SQUARE UNION OPERATOR \bigsqcup  
 
+# BRACKETS
 
+<Multi_key> <less> <parenleft>                  : "⟨" U27E8 # MATHEMATICAL LEFT ANGLE BRACKET
+<Multi_key> <parenright> <greater>              : "⟩" U27E9 # MATHEMATICAL RIGHT ANGLE BRACKET
+<Multi_key> <dagger> <less> <parenleft>         : "〈"
+<Multi_key> <dagger> <parenright> <greater>     : "〉"
+<Multi_key> <bracketleft> <bracketleft>         : "⟦"
+<Multi_key> <bracketright> <bracketright>       : "⟧"
+<Multi_key> <parenleft> <parenleft>             : "⸨"
+<Multi_key> <parenright> <parenright>           : "⸩"
+
+<Multi_key> <l> <c> <e> <i> <l> : "⌈"
+<Multi_key> <r> <c> <e> <i> <l> : "⌉"
+<Multi_key> <l> <f> <l> <o> <o> <r> : "⌊"
+<Multi_key> <r> <f> <l> <o> <o> <r> : "⌋"
 
 
 # <Multi_key> <b> <e> <c> <a> <u> <s> <e>     : "∵" U2235 # BECAUSE \because
@@ -476,8 +487,8 @@
 <Multi_key> <A> <n> <d>                 : "⋀"  U22C0           # N-ARY LOGICAL AND
 <Multi_key> <o> <r>                     : "∨"  U2228           # LOGICAL OR
 <Multi_key> <O> <r>                     : "⋁"  U22C1           # LOGICAL OR
-<Multi_key> <t> <o> <p>                 : "⊤"  U22A4           # DOWN TACK
-<Multi_key> <b> <o> <t>                 : "⊥"  U22A4           # UP TACK
+<Multi_key> <t> <r> <u> <e>             : "⊤"  U22A4           # DOWN TACK
+<Multi_key> <f> <a> <l> <s> <e>         : "⊥"  U22A4           # UP TACK
 <Multi_key> <n> <e> <g>                 : "¬" U00AC            # NEGATION
 
 
@@ -509,18 +520,18 @@
 <Multi_key> <g> <g>                             : "≫" U226B        # MUCH GREATER-THAN
 <Multi_key> <p> <r> <e> <q>                     : "≺"  U227A           # PRECEDES
 <Multi_key> <s> <u> <c> <c>                     : "≻"  U227B           # SUCCEEDS
-<Multi_key> <p> <r> <e> <q> <equal>             : "≼"  U227C           # PRECEDES OR EQUAL TO
-<Multi_key> <s> <u> <c> <c> <equal>             : "≽"  U227D           # SUCCEEDS OR EQUAL TO
+<Multi_key> <equal> <p> <r> <e> <q>             : "≼"  U227C           # PRECEDES OR EQUAL TO
+<Multi_key> <equal> <s> <u> <c> <c>            : "≽"  U227D           # SUCCEEDS OR EQUAL TO
 <Multi_key> <s> <u> <b> <s>                     : "⊂"  U2282           # SUBSET OF
 <Multi_key> <s> <u> <p> <s>                     : "⊃"  U2283           # SUPERSET OF
 <Multi_key> <slash> <s> <u> <b> <s>             : "⊄"  U2284           # NOT A SUBSET OF
 <Multi_key> <slash> <s> <u> <p> <s>             : "⊅"  U2285           # NOT A SUPERSET OF
-<Multi_key> <s> <u> <b> <s> <equal>             : "⊆"  U2286           # SUBSET OF
-<Multi_key> <s> <u> <p> <s> <equal>             : "⊇"  U2287           # SUPERSET OF
-<Multi_key> <slash> <s> <u> <b> <s> <equal>     : "⊈"  U2288           # NOT A SUBSET OF
-<Multi_key> <slash> <s> <u> <p> <s> <equal>     : "⊉"  U2289           # NOT A SUPERSET OF
-<Multi_key> <s> <u> <b> <s> <slash> <equal>     : "⊊"  U228A           # NOT A SUBSET OF
-<Multi_key> <s> <u> <p> <s> <slash> <equal>     : "⊋"  U228B           # NOT A SUPERSET OF
+<Multi_key> <equal> <s> <u> <b> <s>             : "⊆"  U2286           # SUBSET OF
+<Multi_key> <equal> <s> <u> <p> <s>             : "⊇"  U2287           # SUPERSET OF
+<Multi_key> <equal> <slash> <s> <u> <b> <s>     : "⊈"  U2288           # NOT A SUBSET OF
+<Multi_key> <equal> <slash> <s> <u> <p> <s>     : "⊉"  U2289           # NOT A SUPERSET OF
+<Multi_key> <slash> <equal> <s> <u> <b> <s>     : "⊊"  U228A           # NOT A SUBSET OF
+<Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊋"  U228B           # NOT A SUPERSET OF
 <Multi_key> <f> <i> <n> <s> <u> <b> <s>         : "⋐"  U22D0           # DOUBLE SUBSET
 
 
@@ -547,14 +558,12 @@
 # LOGIC
 
 <Multi_key> <p> <r> <o> <v> <e> <s>             : "⊢" U22A2            # RIGHT TACK
-<Multi_key> <h> <o> <l> <d> <s>                 : "⊨" U22A9            # TRUE
-<Multi_key> <f> <o> <r> <c> <e> <s>             : "⊩" U22AA            # FORCES
-<Multi_key> <slash> <p> <r> <o> <v> <e> <s>     : "⊬" U22AC            # DOES NOT PROVE
-<Multi_key> <slash> <h> <o> <l> <d> <s>         : "⊭" U22AD            # NOT TRUE
-<Multi_key> <slash> <f> <o> <r> <c> <e> <s>     : "⊮" U22AE            # DOES NOT FORCE
+# <Multi_key> <h> <o> <l> <d> <s>                 : "⊨" U22A9            # TRUE
+# <Multi_key> <f> <o> <r> <c> <e> <s>             : "⊩" U22AA            # FORCES
+# <Multi_key> <slash> <p> <r> <o> <v> <e> <s>     : "⊬" U22AC            # DOES NOT PROVE
+# <Multi_key> <slash> <h> <o> <l> <d> <s>         : "⊭" U22AD            # NOT TRUE
+# <Multi_key> <slash> <f> <o> <r> <c> <e> <s>     : "⊮" U22AE            # DOES NOT FORCE
 <Multi_key> <m> <m> <a> <p>                     : "⊸" U22B8            # MULTIMAP
-
-
 
 
 
@@ -572,6 +581,9 @@
 <Multi_key> <d> <d> <a> <g>             : "‡" U2021  # DOUBLE DAGGER
 <Multi_key> <less> <less>               : "«" 
 <Multi_key> <greater> <greater>         : "»"
+<Multi_key> <underscore> <apostrophe>   : "‚"
+<Multi_key> <underscore> <quotedbl>     : "„"
+
 
 <Multi_key> <period> <period>  : "…" U2026  # HORIZONTAL ELLIPSIS
 <Multi_key> <v> <period> <period> : "⋮" U22EE  # VERTICAL ELLIPSIS
@@ -852,7 +864,7 @@
 <Multi_key> <h> <dagger> <f> : "ϕ" U03D5     # GREEK PHI SYMBOL
 <Multi_key> <h> <dagger> <k> : "ϰ"
 <Multi_key> <h> <dagger> <r> : "ϱ"
-<Multi_key> <h> <dagger> <p> : "ϖ"
+# <Multi_key> <h> <dagger> <p> : "ϖ"
 
 
 ##############################
@@ -915,7 +927,7 @@
 <Multi_key> <g> <dagger> <k> : "𝜘"
 <Multi_key> <g> <dagger> <u> : "𝜗"
 <Multi_key> <g> <dagger> <f> : "𝜙"
-<Multi_key> <g> <dagger> <p> : "𝜛"
+# <Multi_key> <g> <dagger> <p> : "𝜛"
 <Multi_key> <g> <dagger> <r> : "𝜚" 
 
 ######################
@@ -923,8 +935,22 @@
 ######################
 
 <Multi_key> <w>  <p>  : "℘" # Weierstrass Elliptic Function p U+2118
+<Multi_key> <y> <o>  : "よ"
 <Multi_key> <b> <e> <t> : "ℶ" # Bet U+2136
 <Multi_key> <a> <l> <e> <f> : "ℵ" # Alef symbol U+2135
+<Multi_key> <space> <i>       : "ı"
+<Multi_key> <space> <j>       : "ȷ"
+<Multi_key> <i> <space> <i>   : "𝚤" # MATHEMATICAL ITALIC SMALL DOTLESS I U+1d6a4
+<Multi_key> <i> <space>  <j>  : "𝚥" # MATHEMATICAL ITALIC SMALL DOTLESS J U+1d6a5
+<Multi_key> <dagger> <l>  : "ℓ"
+<Multi_key> <h> <dagger> <G> : "ℾ"
+<Multi_key> <h> <dagger> <g> : "ℽ"
+<Multi_key> <h> <dagger> <P> : "ℿ"
+<Multi_key> <h> <dagger> <p> : "ℼ"
+<Multi_key> <h> <dagger> <S> : "⅀"
+
+
+
 <Multi_key> <l> <o> <z> <e> <n> <g> <e> : "⋄" U22C4 # DIAMOND OPERATOR
 <Multi_key> <b> <o> <w> <t> <i> <e>     : "⋈" U22C5 # BOWTIE
 <Multi_key> <e> <b> <o> <x>             : "⃝" U20DE # COMBINING ENCLOSING SQUARE
@@ -941,8 +967,9 @@
 <Multi_key> <space> <plus>   : " " U205F    # MEDIUM MATHEMATICAL SPACE
 <Multi_key> <space> <0>      : "​" U200B 
 
+<Multi_key> <colon> <colon>      : "∷"    U2237    # PROPORTION
 <Multi_key> <e> <y> <e> <s>             : "👀" 
-<Multi_key> <s> <h> <r> <u> <g>         : "¯\_(ツ)_/¯"
+<Multi_key> <s> <h> <r> <u> <g>         : "¯\\_(ツ)_/¯"
 <Multi_key> <M> <a> <r> <s>             : "♂" U2642 # MALE SIGN
 <Multi_key> <V> <e> <n> <u> <s>         : "♀" U2640 # FEMALE SIGN  
 <Multi_key> <G> <a> <y>                 :   "⚣"     U26A3   # DOUBLED MALE SIGN
