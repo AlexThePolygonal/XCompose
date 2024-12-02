@@ -511,6 +511,7 @@
 <Multi_key> <a> <p> <p> <r> <o> <x>     : "≈" U2248            # ALMOST EQUAL TO
 <Multi_key> <slash> <a> <p> <p> <r> <o> <x> : "≉" U2249       # NOT ALMOST EQUAL TO
 <Multi_key> <slash> <asciitilde> <asciitilde> : "≉" U2249       # NOT ALMOST EQUAL TO
+<Multi_key> <D> <equal>                  : "≜"
 
 
 # COMPARISONS
