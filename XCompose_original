@@ -416,8 +416,10 @@
 # MATH OPERATORS #
 ##################
 
-<Multi_key> <F> <o> <r> <a> <l> <l>         : "∀" U2200 # FOR ALL U+2200, \forall 
-<Multi_key> <E> <x> <i> <s> <t>             : "∃" U2203 # THERE EXISTS U+2203, \exists
+# <Multi_key> <F> <o> <r> <a> <l> <l>         : "∀" U2200 # FOR ALL U+2200, \forall 
+# <Multi_key> <E> <x> <i> <s> <t>             : "∃" U2203 # THERE EXISTS U+2203, \exists
+<Multi_key> <F> <o>                       : "∀" U2200 # FOR ALL U+2200, \forall 
+<Multi_key> <E> <x>                       : "∃" U2203 # THERE EXISTS U+2203, \exists
 <Multi_key> <slash> <E> <x> <i> <s> <t>     : "∄" U2204 # THERE DOES NOT EXIST
 <Multi_key> <dagger> <p> <d>                         : "∂" U2202 # Partial Differential U+2202, \partial
 <Multi_key> <p> <d>                         : "𝜕"
