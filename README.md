@@ -7,11 +7,11 @@ TLDR: XCompose for maths
 3. The config is `XCompose`, all other files are intermediate files which I used for processing at some point. They are still kept in case reprocessing is necessary.
 4. Config rules:
    - `<i>` means mathematical italic
-   - `<i> <dagger>` is italic bold
+   - `<i> <asterisk>` is italic bold
    - `<z>` is script (cause collisions)
    - `<k>` is calligraphic (kalligraphic, geddit?? because collisions)
    - `<f>` is fraktur
-   - `<f> <dagger>` is bold fraktur
+   - `<f> <asterisk>` is bold fraktur
    - `<m>` is small caps (`<s>` and `<c>` are already taken ...)
    - `<g>` is greek
    - `r` is roman numerals
@@ -23,5 +23,5 @@ TLDR: XCompose for maths
   TLDR: read the file, it's not that large
 1. Fun facts: 
     - There are two types of fraktur, double-struck and script letters. Compare 𝔹, ℂ, ℍ, ℕ, ℚ and 𝔸, 𝔼, 𝕌, 𝕎, They look slighly different and come from different unicode blocks. Why? Because we live in a society.
-    - How do I type `<dagger` or `<†>`? Well I modded my /usr/share/X11/xkb/symbols. Enjoy.
+    <!-- - How do I type `<dagger` or `<†>`? Well I modded my /usr/share/X11/xkb/symbols. Enjoy. -->
   

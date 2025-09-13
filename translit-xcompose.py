@@ -57,7 +57,7 @@ def change_compose_line(line, f):
         
 text = "" 
 
-with open("XCompose_original", 'r') as f:
+with open("XCompose-draft", 'r') as f:
     text = f.read()
 
 def remake_text(f, keep_unchanged=True):
