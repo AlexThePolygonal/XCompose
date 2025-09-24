@@ -522,6 +522,7 @@ include "%L"
 # COMPARISONS
 # <Multi_key> <s> <i> <m>                       : "∼"
 <Multi_key> <s> <i> <m>                              : "∾" U223E # INVERTED LAZY S
+<Multi_key> <S> <i> <m>                              : "～" UFF5E # FULLWIDTH TILDE
 <Multi_key> <less> <equal>                           : "≤" U2264 # LESS-THAN OR EQUAL TO
 # <Multi_key> <l> <equal>                      : "≤"  U2264           # LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal>                        : "≥" U2265 # GREATER-THAN OR EQUAL TO
@@ -1556,6 +1557,7 @@ include "%L"
 # COMPARISONS
 # <Multi_key> <s> <i> <m>                       : "∼"
 <Multi_key> <Cyrillic_yeru> <Cyrillic_sha> <Cyrillic_softsign>                                                                         : "∾" U223E # INVERTED LAZY S
+<Multi_key> <Cyrillic_YERU> <Cyrillic_sha> <Cyrillic_softsign>                                                                         : "～" UFF5E # FULLWIDTH TILDE
 <Multi_key> <Cyrillic_BE> <equal>                                                                                                      : "≤" U2264 # LESS-THAN OR EQUAL TO
 # <Multi_key> <l> <equal>                      : "≤"  U2264           # LESS-THAN OR EQUAL TO
 <Multi_key> <Cyrillic_YU> <equal>                                                                                                      : "≥" U2265 # GREATER-THAN OR EQUAL TO

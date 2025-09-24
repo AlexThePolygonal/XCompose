@@ -520,6 +520,7 @@
 # COMPARISONS
 # <Multi_key> <s> <i> <m>                       : "∼"
 <Multi_key> <s> <i> <m>                         : "∾" 
+<Multi_key> <S> <i> <m>                         : "～"
 <Multi_key> <less> <equal>                      : "≤"  U2264           # LESS-THAN OR EQUAL TO
 # <Multi_key> <l> <equal>                      : "≤"  U2264           # LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal>                   : "≥"  U2265           # GREATER-THAN OR EQUAL TO
