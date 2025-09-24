@@ -693,9 +693,9 @@ include "%L"
 <Multi_key> <a> <c> <t> <s>                          : "↷" U21B7 # CLOCKWISE TOP SEMICIRCLE ARROW
 
 # Mathematical shortcuts
-<Multi_key> <p> <o> <l> <y> <s>                      : "[x_1,x_2,\\ldots,x_n]"  # 
-<Multi_key> <asterisk> <p> <o> <l> <y> <s>           : "[𝑥₁,𝑥₂,…,𝑥ₙ]"  # 
-<Multi_key> <p> <d> <e> <r>                          : "\\frac{\\partialf}{\\partialx}"  # 
+<Multi_key> <p> <o> <l> <y> <s>                      : "[x_1, x_2, \\ldots, x_n]"  # 
+<Multi_key> <asterisk> <p> <o> <l> <y> <s>           : "[𝑥₁, 𝑥₂, …, 𝑥ₙ]"  # 
+<Multi_key> <p> <d> <e> <r>                          : "\\frac{\\partial f}{\\partial x}"  # 
 
 
 #############################
@@ -1719,9 +1719,9 @@ include "%L"
 <Multi_key> <Cyrillic_ef> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_yeru>                                                                  : "↷" U21B7 # CLOCKWISE TOP SEMICIRCLE ARROW
 
 # Mathematical shortcuts
-<Multi_key> <Cyrillic_ze> <Cyrillic_shcha> <Cyrillic_de> <Cyrillic_en> <Cyrillic_yeru>                                                 : "[x_1,x_2,\\ldots,x_n]"  # 
-<Multi_key> <asterisk> <Cyrillic_ze> <Cyrillic_shcha> <Cyrillic_de> <Cyrillic_en> <Cyrillic_yeru>                                      : "[𝑥₁,𝑥₂,…,𝑥ₙ]"  # 
-<Multi_key> <Cyrillic_ze> <Cyrillic_ve> <Cyrillic_u> <Cyrillic_ka>                                                                     : "\\frac{\\partialf}{\\partialx}"  # 
+<Multi_key> <Cyrillic_ze> <Cyrillic_shcha> <Cyrillic_de> <Cyrillic_en> <Cyrillic_yeru>                                                 : "[x_1, x_2, \\ldots, x_n]"  # 
+<Multi_key> <asterisk> <Cyrillic_ze> <Cyrillic_shcha> <Cyrillic_de> <Cyrillic_en> <Cyrillic_yeru>                                      : "[𝑥₁, 𝑥₂, …, 𝑥ₙ]"  # 
+<Multi_key> <Cyrillic_ze> <Cyrillic_ve> <Cyrillic_u> <Cyrillic_ka>                                                                     : "\\frac{\\partial f}{\\partial x}"  # 
 
 
 #############################

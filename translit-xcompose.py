@@ -21,7 +21,12 @@ def line_is_trivial(line):
 def change_compose_line(line, f):
     if line_is_trivial(line):
         return line, "", False
-    line = ''.join(line.split(" "))
+    key_parts = line.split("\"")
+    assert len(key_parts) >= 3
+    for i in range(len(key_parts)):
+        if i != 1:
+            key_parts[i] = ''.join(key_parts[i].split(" "))
+    line = "\"".join(key_parts)
     code, payload = line.split(":")
     
     def get_next_code(c):
