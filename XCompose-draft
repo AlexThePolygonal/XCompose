@@ -580,7 +580,7 @@
 
 <Multi_key> <a> <s> <t>                 : "∗" U2217 # Asterisk Operator U+2217, \ast
 <Multi_key> <A> <s> <t>                 : "＊"
-<Multi_key> <a> <y> <e>                 : "✵" U2735 # EIGHT POINTED PINWHEEL STAR
+<Multi_key> <A> <Y> <E>                 : "✵" U2735 # EIGHT POINTED PINWHEEL STAR
 # <Multi_key> <X> <X>                     : "■" U25A0 # BLACK SQUARE
 <Multi_key> <Z> <X>                       : "█" U2588 # FULL BLOCK
 <Multi_key> <s> <e> <c>                 : "§"   U00A7   # SECTION SIGN
@@ -678,7 +678,7 @@
 <Multi_key> <l> <bar> <minus> <less>  : "⟻" U27FB # LONG LEFTWARDS ARROW FROM BAR
 <Multi_key> <l> <bar> <minus> <greater> : "⟼" U27FC # LONG RIGHTWARDS ARROW FROM BAR
 
-# MATHEATICAL ARROWS WHICH I USE
+# MATHEMATICAL ARROWS WHICH I USE
 
 <Multi_key> <t> <o> : "⟶" U27F6 # LONG RIGHTWARDS ARROW
 <Multi_key> <m> <a> <p> <t> <o> : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
@@ -686,7 +686,8 @@
 <Multi_key> <e> <p> <i> : "↠" U21A0
 <Multi_key> <m> <o> <n> <o>     : "↣" U21A3
 <Multi_key> <r> <a> <t>     : "⤍" U290D 
-<Multi_key> <asciitilde> <Right>  : "⥲" U2972    
+<Multi_key> <asciitilde> <Right>  : "⥲" U2972
+<Multi_key> <m> <a> <p> <asciitilde>  : "⥲" U2972
 <Multi_key> <a> <c> <t> <s> : "↷"
 
 # Mathematical shortcuts
