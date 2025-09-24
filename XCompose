@@ -520,7 +520,8 @@ include "%L"
 
 
 # COMPARISONS
-
+# <Multi_key> <s> <i> <m>                       : "∼"
+<Multi_key> <s> <i> <m>                              : "∾" U223E # INVERTED LAZY S
 <Multi_key> <less> <equal>                           : "≤" U2264 # LESS-THAN OR EQUAL TO
 # <Multi_key> <l> <equal>                      : "≤"  U2264           # LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal>                        : "≥" U2265 # GREATER-THAN OR EQUAL TO
@@ -581,7 +582,7 @@ include "%L"
 
 <Multi_key> <a> <s> <t>                              : "∗" U2217 # ASTERISK OPERATOR
 <Multi_key> <A> <s> <t>                              : "＊" UFF0A # FULLWIDTH ASTERISK
-<Multi_key> <a> <y> <e>                              : "✵" U2735 # EIGHT POINTED PINWHEEL STAR
+<Multi_key> <A> <Y> <E>                              : "✵" U2735 # EIGHT POINTED PINWHEEL STAR
 # <Multi_key> <X> <X>                     : "■" U25A0 # BLACK SQUARE
 <Multi_key> <Z> <X>                                  : "█" U2588 # FULL BLOCK
 <Multi_key> <s> <e> <c>                              : "§" UA7 # SECTION SIGN
@@ -679,7 +680,7 @@ include "%L"
 <Multi_key> <l> <bar> <minus> <less>                 : "⟻" U27FB # LONG LEFTWARDS ARROW FROM BAR
 <Multi_key> <l> <bar> <minus> <greater>              : "⟼" U27FC # LONG RIGHTWARDS ARROW FROM BAR
 
-# MATHEATICAL ARROWS WHICH I USE
+# MATHEMATICAL ARROWS WHICH I USE
 
 <Multi_key> <t> <o>                                  : "⟶" U27F6 # LONG RIGHTWARDS ARROW
 <Multi_key> <m> <a> <p> <t> <o>                      : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
@@ -688,6 +689,7 @@ include "%L"
 <Multi_key> <m> <o> <n> <o>                          : "↣" U21A3 # RIGHTWARDS ARROW WITH TAIL
 <Multi_key> <r> <a> <t>                              : "⤍" U290D # RIGHTWARDS DOUBLE DASH ARROW
 <Multi_key> <asciitilde> <Right>                     : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
+<Multi_key> <m> <a> <p> <asciitilde>                 : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
 <Multi_key> <a> <c> <t> <s>                          : "↷" U21B7 # CLOCKWISE TOP SEMICIRCLE ARROW
 
 # Mathematical shortcuts
@@ -1552,7 +1554,8 @@ include "%L"
 
 
 # COMPARISONS
-
+# <Multi_key> <s> <i> <m>                       : "∼"
+<Multi_key> <Cyrillic_yeru> <Cyrillic_sha> <Cyrillic_softsign>                                                                         : "∾" U223E # INVERTED LAZY S
 <Multi_key> <Cyrillic_BE> <equal>                                                                                                      : "≤" U2264 # LESS-THAN OR EQUAL TO
 # <Multi_key> <l> <equal>                      : "≤"  U2264           # LESS-THAN OR EQUAL TO
 <Multi_key> <Cyrillic_YU> <equal>                                                                                                      : "≥" U2265 # GREATER-THAN OR EQUAL TO
@@ -1613,7 +1616,7 @@ include "%L"
 
 <Multi_key> <Cyrillic_ef> <Cyrillic_yeru> <Cyrillic_ie>                                                                                : "∗" U2217 # ASTERISK OPERATOR
 <Multi_key> <Cyrillic_EF> <Cyrillic_yeru> <Cyrillic_ie>                                                                                : "＊" UFF0A # FULLWIDTH ASTERISK
-<Multi_key> <Cyrillic_ef> <Cyrillic_en> <Cyrillic_u>                                                                                   : "✵" U2735 # EIGHT POINTED PINWHEEL STAR
+<Multi_key> <Cyrillic_EF> <Cyrillic_EN> <Cyrillic_U>                                                                                   : "✵" U2735 # EIGHT POINTED PINWHEEL STAR
 # <Multi_key> <X> <X>                     : "■" U25A0 # BLACK SQUARE
 <Multi_key> <Cyrillic_YA> <Cyrillic_CHE>                                                                                               : "█" U2588 # FULL BLOCK
 <Multi_key> <Cyrillic_yeru> <Cyrillic_u> <Cyrillic_es>                                                                                 : "§" UA7 # SECTION SIGN
@@ -1703,7 +1706,7 @@ include "%L"
 <Multi_key> <Cyrillic_de> <slash> <minus> <Cyrillic_BE>                                                                                : "⟻" U27FB # LONG LEFTWARDS ARROW FROM BAR
 <Multi_key> <Cyrillic_de> <slash> <minus> <Cyrillic_YU>                                                                                : "⟼" U27FC # LONG RIGHTWARDS ARROW FROM BAR
 
-# MATHEATICAL ARROWS WHICH I USE
+# MATHEMATICAL ARROWS WHICH I USE
 
 <Multi_key> <Cyrillic_ie> <Cyrillic_shcha>                                                                                             : "⟶" U27F6 # LONG RIGHTWARDS ARROW
 <Multi_key> <Cyrillic_softsign> <Cyrillic_ef> <Cyrillic_ze> <Cyrillic_ie> <Cyrillic_shcha>                                             : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
@@ -1712,6 +1715,7 @@ include "%L"
 <Multi_key> <Cyrillic_softsign> <Cyrillic_shcha> <Cyrillic_te> <Cyrillic_shcha>                                                        : "↣" U21A3 # RIGHTWARDS ARROW WITH TAIL
 <Multi_key> <Cyrillic_ka> <Cyrillic_ef> <Cyrillic_ie>                                                                                  : "⤍" U290D # RIGHTWARDS DOUBLE DASH ARROW
 <Multi_key> <Cyrillic_IO> <Right>                                                                                                      : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
+<Multi_key> <Cyrillic_softsign> <Cyrillic_ef> <Cyrillic_ze> <Cyrillic_IO>                                                              : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
 <Multi_key> <Cyrillic_ef> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_yeru>                                                                  : "↷" U21B7 # CLOCKWISE TOP SEMICIRCLE ARROW
 
 # Mathematical shortcuts
