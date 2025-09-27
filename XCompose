@@ -443,7 +443,8 @@ include "%L"
 <Multi_key> <c> <a> <t> <s> <u> <m>                  : "⨿" U2A3F # AMALGAMATION OR COPRODUCT
 <Multi_key> <s> <u> <m>                              : "∑" U2211 # N-ARY SUMMATION
 <Multi_key> <minus> <plus>                           : "∓" U2213 # MINUS-OR-PLUS SIGN
-<Multi_key> <o> <v> <e> <r>                          : "∕" U2215 # DIVISION SLASH
+# <Multi_key> <o> <v> <e> <r>                 : "∕" U2215 # Division Slash U+2215
+<Multi_key> <o> <v> <e> <r>                          : "⁄" U2044 # FRACTION SLASH
 <Multi_key> <s> <e> <t> <m> <i> <n> <u> <s>          : "∖" U2216 # SET MINUS
 <Multi_key> <c> <i> <r> <c>                          : "∘" U2218 # RING OPERATOR
 <Multi_key> <C> <d> <o> <t>                          : "•" U2022 # BULLET
@@ -463,6 +464,7 @@ include "%L"
 <Multi_key> <s> <q> <c> <u> <p>                      : "⊔" U2294 # SQUARE CUP
 <Multi_key> <C> <u> <p>                              : "⋃" U22C3 # N-ARY UNION
 <Multi_key> <S> <q> <c> <u> <p>                      : "⨆" U2A06 # N-ARY SQUARE UNION OPERATOR
+<Multi_key> <f> <u> <n>                              : "ƒ" U192 # LATIN SMALL LETTER F WITH HOOK
 
 # BRACKETS
 
@@ -500,8 +502,8 @@ include "%L"
 
 
 # EQUALITIES
-
-# <Multi_key> <slash> <equal>          : "≠"  U2260           # NOT EQUAL TO
+<Multi_key> <n> <e> <q>                              : "≠" U2260 # NOT EQUAL TO
+<Multi_key> <slash> <equal>                          : "≠" U2260 # NOT EQUAL TO
 <Multi_key> <colon> <equal>                          : "≔" U2254 # COLON EQUALS
 <Multi_key> <equal> <colon>                          : "≕" U2255 # EQUALS COLON
 <Multi_key> <d> <e> <f> <equal>                      : "≝" U225D # EQUAL TO BY DEFINITION
@@ -510,8 +512,8 @@ include "%L"
 <Multi_key> <slash> <h> <equal>                      : "≄" U2244 # NOT ASYMPTOTICALLY EQUAL TO
 <Multi_key> <i> <equal>                              : "≅" U2245 # APPROXIMATELY EQUAL TO
 <Multi_key> <slash> <i> <equal>                      : "≇" U2247 # NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
-<Multi_key> <s> <equal>                              : "≡" U2261 # IDENTICAL TO
-<Multi_key> <slash> <s> <equal>                      : "≢" U2262 # NOT IDENTICAL TO
+<Multi_key> <I> <equal>                              : "≡" U2261 # IDENTICAL TO
+<Multi_key> <slash> <I> <equal>                      : "≢" U2262 # NOT IDENTICAL TO
 <Multi_key> <asciitilde> <asciitilde>                : "≈" U2248 # ALMOST EQUAL TO
 <Multi_key> <a> <p> <p> <r> <o> <x>                  : "≈" U2248 # ALMOST EQUAL TO
 <Multi_key> <slash> <a> <p> <p> <r> <o> <x>          : "≉" U2249 # NOT ALMOST EQUAL TO
@@ -536,12 +538,12 @@ include "%L"
 <Multi_key> <s> <u> <p> <s>                          : "⊃" U2283 # SUPERSET OF
 <Multi_key> <slash> <s> <u> <b> <s>                  : "⊄" U2284 # NOT A SUBSET OF
 <Multi_key> <slash> <s> <u> <p> <s>                  : "⊅" U2285 # NOT A SUPERSET OF
-<Multi_key> <equal> <s> <u> <b> <s>                  : "⊆" U2286 # SUBSET OF OR EQUAL TO
-<Multi_key> <equal> <s> <u> <p> <s>                  : "⊇" U2287 # SUPERSET OF OR EQUAL TO
-<Multi_key> <equal> <slash> <s> <u> <b> <s>          : "⊈" U2288 # NEITHER A SUBSET OF NOR EQUAL TO
-<Multi_key> <equal> <slash> <s> <u> <p> <s>          : "⊉" U2289 # NEITHER A SUPERSET OF NOR EQUAL TO
-<Multi_key> <slash> <equal> <s> <u> <b> <s>          : "⊊" U228A # SUBSET OF WITH NOT EQUAL TO
-<Multi_key> <slash> <equal> <s> <u> <p> <s>          : "⊋" U228B # SUPERSET OF WITH NOT EQUAL TO
+# <Multi_key> <equal> <s> <u> <b> <s>             : "⊆"  U2286           # SUBSET OF
+# <Multi_key> <equal> <s> <u> <p> <s>             : "⊇"  U2287           # SUPERSET OF
+# <Multi_key> <slash> <equal> <s> <u> <b> <s>     : "⊈"  U2288           # NOT A SUBSET OF
+# <Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊉"  U2289           # NOT A SUPERSET OF
+# <Multi_key> <slash> <equal> <s> <u> <b> <s>     : "⊊"  U228A           # NOT A SUBSET OF
+# <Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊋"  U228B           # NOT A SUPERSET OF
 <Multi_key> <f> <i> <n> <s> <u> <b> <s>              : "⋐" U22D0 # DOUBLE SUBSET
 
 
@@ -692,6 +694,7 @@ include "%L"
 <Multi_key> <asciitilde> <Right>                     : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
 <Multi_key> <m> <a> <p> <asciitilde>                 : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
 <Multi_key> <a> <c> <t> <s>                          : "↷" U21B7 # CLOCKWISE TOP SEMICIRCLE ARROW
+<Multi_key> <I> <f> <f>                              : "⟺" U27FA # LONG LEFT RIGHT DOUBLE ARROW
 
 # Mathematical shortcuts
 <Multi_key> <p> <o> <l> <y> <s>                      : "[x_1, x_2, \\ldots, x_n]"  # 
@@ -703,15 +706,15 @@ include "%L"
 # SUBSCRIPTS & SUPERSCRIPTS #
 #############################
 
-<Multi_key> <asciicircum> <minus> <Right>            : "⃗" U20D7 # COMBINING RIGHT ARROW ABOVE
-<Multi_key> <asciicircum> <minus> <Left>             : "⃖" U20D6 # COMBINING LEFT ARROW ABOVE
+<Multi_key> <asciicircum> <greater>                  : "⃗" U20D7 # COMBINING RIGHT ARROW ABOVE
+<Multi_key> <asciicircum> <less>                     : "⃖" U20D6 # COMBINING LEFT ARROW ABOVE
 <Multi_key> <asciicircum> <underscore>               : "̅" U305 # COMBINING OVERLINE
 <Multi_key> <asciicircum> <asciicircum>              : "̂" U302 # COMBINING CIRCUMFLEX ACCENT
 <Multi_key> <asciicircum> <asciitilde>               : "̃" U303 # COMBINING TILDE
 <Multi_key> <asciicircum> <period>                   : "̇" U307 # COMBINING DOT ABOVE
 <Multi_key> <asciicircum> <period> <period>          : "̈" U308 # COMBINING DIAERESIS
 <Multi_key> <asciicircum> <period> <period> <period> : "⃛" U20DB # COMBINING THREE DOTS ABOVE
-<Multi_key> <asciicircum> <i> <n> <f>                : "᪲" U1AB2 # COMBINING INFINITY
+<Multi_key> <asciicircum> <I> <n> <f>                : "᪲" U1AB2 # COMBINING INFINITY
 <Multi_key> <asciicircum> <asterisk>                 : "⃰" U20F0 # COMBINING ASTERISK ABOVE
 
 <Multi_key> <asciicircum> <0>                        : "⁰" U2070 # SUPERSCRIPT ZERO
@@ -823,6 +826,48 @@ include "%L"
 <Multi_key> <r> <x>                                  : "ⅹ" U2179 # SMALL ROMAN NUMERAL TEN
 <Multi_key> <r> <x> <i>                              : "ⅺ" U217A # SMALL ROMAN NUMERAL ELEVEN
 <Multi_key> <r> <x> <i> <i>                          : "ⅻ" U217B # SMALL ROMAN NUMERAL TWELVE
+
+#############
+# FRACTIONS #
+#############
+
+# Basic fractions
+<Multi_key> <1> <4>                                  : "¼" UBC # VULGAR FRACTION ONE QUARTER
+<Multi_key> <1> <2>                                  : "½" UBD # VULGAR FRACTION ONE HALF
+<Multi_key> <3> <4>                                  : "¾" UBE # VULGAR FRACTION THREE QUARTERS
+
+# Third-based fractions
+<Multi_key> <1> <3>                                  : "⅓" U2153 # VULGAR FRACTION ONE THIRD
+<Multi_key> <2> <3>                                  : "⅔" U2154 # VULGAR FRACTION TWO THIRDS
+<Multi_key> <0> <3>                                  : "↉" U2189 # VULGAR FRACTION ZERO THIRDS
+
+# Fifth-based fractions
+<Multi_key> <1> <5>                                  : "⅕" U2155 # VULGAR FRACTION ONE FIFTH
+<Multi_key> <2> <5>                                  : "⅖" U2156 # VULGAR FRACTION TWO FIFTHS
+<Multi_key> <3> <5>                                  : "⅗" U2157 # VULGAR FRACTION THREE FIFTHS
+<Multi_key> <4> <5>                                  : "⅘" U2158 # VULGAR FRACTION FOUR FIFTHS
+
+# Sixth-based fractions
+<Multi_key> <1> <6>                                  : "⅙" U2159 # VULGAR FRACTION ONE SIXTH
+<Multi_key> <5> <6>                                  : "⅚" U215A # VULGAR FRACTION FIVE SIXTHS
+
+# Seventh-based fractions
+<Multi_key> <1> <7>                                  : "⅐" U2150 # VULGAR FRACTION ONE SEVENTH
+
+# Eighth-based fractions
+<Multi_key> <1> <8>                                  : "⅛" U215B # VULGAR FRACTION ONE EIGHTH
+<Multi_key> <3> <8>                                  : "⅜" U215C # VULGAR FRACTION THREE EIGHTHS
+<Multi_key> <5> <8>                                  : "⅝" U215D # VULGAR FRACTION FIVE EIGHTHS
+<Multi_key> <7> <8>                                  : "⅞" U215E # VULGAR FRACTION SEVEN EIGHTHS
+
+# Ninth-based fractions
+<Multi_key> <1> <9>                                  : "⅑" U2151 # VULGAR FRACTION ONE NINTH
+
+# Tenth-based fractions
+<Multi_key> <1> <1> <0>                              : "⅒" U2152 # VULGAR FRACTION ONE TENTH
+
+# Special fraction numerator one
+<Multi_key> <1> <slash>                              : "⅟" U215F # FRACTION NUMERATOR ONE
 
 #################
 # GREEK LETTERS #
@@ -949,7 +994,7 @@ include "%L"
 <Multi_key> <g> <asterisk> <r>                       : "𝜚" U1D71A # MATHEMATICAL ITALIC RHO SYMBOL
 
 ######################
-# MISCELLANIOUS #
+# MISCELLANEOUS #
 ######################
 
 <Multi_key> <w> <p>                                  : "℘" U2118 # SCRIPT CAPITAL P
@@ -1480,7 +1525,8 @@ include "%L"
 <Multi_key> <Cyrillic_ES> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_softsign>                               : "∐" U2210 # N-ARY COPRODUCT
 <Multi_key> <Cyrillic_es> <Cyrillic_ef> <Cyrillic_ie> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_softsign>                               : "⨿" U2A3F # AMALGAMATION OR COPRODUCT
 <Multi_key> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_softsign>                                                                         : "∑" U2211 # N-ARY SUMMATION
-<Multi_key> <Cyrillic_shcha> <Cyrillic_em> <Cyrillic_u> <Cyrillic_ka>                                                                  : "∕" U2215 # DIVISION SLASH
+# <Multi_key> <o> <v> <e> <r>                 : "∕" U2215 # Division Slash U+2215
+<Multi_key> <Cyrillic_shcha> <Cyrillic_em> <Cyrillic_u> <Cyrillic_ka>                                                                  : "⁄" U2044 # FRACTION SLASH
 <Multi_key> <Cyrillic_yeru> <Cyrillic_u> <Cyrillic_ie> <Cyrillic_softsign> <Cyrillic_sha> <Cyrillic_te> <Cyrillic_ghe> <Cyrillic_yeru> : "∖" U2216 # SET MINUS
 <Multi_key> <Cyrillic_es> <Cyrillic_sha> <Cyrillic_ka> <Cyrillic_es>                                                                   : "∘" U2218 # RING OPERATOR
 <Multi_key> <Cyrillic_ES> <Cyrillic_ve> <Cyrillic_shcha> <Cyrillic_ie>                                                                 : "•" U2022 # BULLET
@@ -1500,6 +1546,7 @@ include "%L"
 <Multi_key> <Cyrillic_yeru> <Cyrillic_shorti> <Cyrillic_es> <Cyrillic_ghe> <Cyrillic_ze>                                               : "⊔" U2294 # SQUARE CUP
 <Multi_key> <Cyrillic_ES> <Cyrillic_ghe> <Cyrillic_ze>                                                                                 : "⋃" U22C3 # N-ARY UNION
 <Multi_key> <Cyrillic_YERU> <Cyrillic_shorti> <Cyrillic_es> <Cyrillic_ghe> <Cyrillic_ze>                                               : "⨆" U2A06 # N-ARY SQUARE UNION OPERATOR
+<Multi_key> <Cyrillic_a> <Cyrillic_ghe> <Cyrillic_te>                                                                                  : "ƒ" U192 # LATIN SMALL LETTER F WITH HOOK
 
 # BRACKETS
 
@@ -1535,8 +1582,8 @@ include "%L"
 
 
 # EQUALITIES
-
-# <Multi_key> <slash> <equal>          : "≠"  U2260           # NOT EQUAL TO
+<Multi_key> <Cyrillic_te> <Cyrillic_u> <Cyrillic_shorti>                                                                               : "≠" U2260 # NOT EQUAL TO
+<Multi_key> <period> <equal>                                                                                                           : "≠" U2260 # NOT EQUAL TO
 <Multi_key> <Cyrillic_ZHE> <equal>                                                                                                     : "≔" U2254 # COLON EQUALS
 <Multi_key> <equal> <Cyrillic_ZHE>                                                                                                     : "≕" U2255 # EQUALS COLON
 <Multi_key> <Cyrillic_ve> <Cyrillic_u> <Cyrillic_a> <equal>                                                                            : "≝" U225D # EQUAL TO BY DEFINITION
@@ -1545,8 +1592,8 @@ include "%L"
 <Multi_key> <period> <Cyrillic_er> <equal>                                                                                             : "≄" U2244 # NOT ASYMPTOTICALLY EQUAL TO
 <Multi_key> <Cyrillic_sha> <equal>                                                                                                     : "≅" U2245 # APPROXIMATELY EQUAL TO
 <Multi_key> <period> <Cyrillic_sha> <equal>                                                                                            : "≇" U2247 # NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
-<Multi_key> <Cyrillic_yeru> <equal>                                                                                                    : "≡" U2261 # IDENTICAL TO
-<Multi_key> <period> <Cyrillic_yeru> <equal>                                                                                           : "≢" U2262 # NOT IDENTICAL TO
+<Multi_key> <Cyrillic_SHA> <equal>                                                                                                     : "≡" U2261 # IDENTICAL TO
+<Multi_key> <period> <Cyrillic_SHA> <equal>                                                                                            : "≢" U2262 # NOT IDENTICAL TO
 <Multi_key> <Cyrillic_IO> <Cyrillic_IO>                                                                                                : "≈" U2248 # ALMOST EQUAL TO
 <Multi_key> <Cyrillic_ef> <Cyrillic_ze> <Cyrillic_ze> <Cyrillic_ka> <Cyrillic_shcha> <Cyrillic_che>                                    : "≈" U2248 # ALMOST EQUAL TO
 <Multi_key> <period> <Cyrillic_ef> <Cyrillic_ze> <Cyrillic_ze> <Cyrillic_ka> <Cyrillic_shcha> <Cyrillic_che>                           : "≉" U2249 # NOT ALMOST EQUAL TO
@@ -1571,12 +1618,12 @@ include "%L"
 <Multi_key> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_ze> <Cyrillic_yeru>                                                               : "⊃" U2283 # SUPERSET OF
 <Multi_key> <period> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_i> <Cyrillic_yeru>                                                       : "⊄" U2284 # NOT A SUBSET OF
 <Multi_key> <period> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_ze> <Cyrillic_yeru>                                                      : "⊅" U2285 # NOT A SUPERSET OF
-<Multi_key> <equal> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_i> <Cyrillic_yeru>                                                        : "⊆" U2286 # SUBSET OF OR EQUAL TO
-<Multi_key> <equal> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_ze> <Cyrillic_yeru>                                                       : "⊇" U2287 # SUPERSET OF OR EQUAL TO
-<Multi_key> <equal> <period> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_i> <Cyrillic_yeru>                                               : "⊈" U2288 # NEITHER A SUBSET OF NOR EQUAL TO
-<Multi_key> <equal> <period> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_ze> <Cyrillic_yeru>                                              : "⊉" U2289 # NEITHER A SUPERSET OF NOR EQUAL TO
-<Multi_key> <period> <equal> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_i> <Cyrillic_yeru>                                               : "⊊" U228A # SUBSET OF WITH NOT EQUAL TO
-<Multi_key> <period> <equal> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_ze> <Cyrillic_yeru>                                              : "⊋" U228B # SUPERSET OF WITH NOT EQUAL TO
+# <Multi_key> <equal> <s> <u> <b> <s>             : "⊆"  U2286           # SUBSET OF
+# <Multi_key> <equal> <s> <u> <p> <s>             : "⊇"  U2287           # SUPERSET OF
+# <Multi_key> <slash> <equal> <s> <u> <b> <s>     : "⊈"  U2288           # NOT A SUBSET OF
+# <Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊉"  U2289           # NOT A SUPERSET OF
+# <Multi_key> <slash> <equal> <s> <u> <b> <s>     : "⊊"  U228A           # NOT A SUBSET OF
+# <Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊋"  U228B           # NOT A SUPERSET OF
 <Multi_key> <Cyrillic_a> <Cyrillic_sha> <Cyrillic_te> <Cyrillic_yeru> <Cyrillic_ghe> <Cyrillic_i> <Cyrillic_yeru>                      : "⋐" U22D0 # DOUBLE SUBSET
 
 
@@ -1719,6 +1766,7 @@ include "%L"
 <Multi_key> <Cyrillic_IO> <Right>                                                                                                      : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
 <Multi_key> <Cyrillic_softsign> <Cyrillic_ef> <Cyrillic_ze> <Cyrillic_IO>                                                              : "⥲" U2972 # TILDE OPERATOR ABOVE RIGHTWARDS ARROW
 <Multi_key> <Cyrillic_ef> <Cyrillic_es> <Cyrillic_ie> <Cyrillic_yeru>                                                                  : "↷" U21B7 # CLOCKWISE TOP SEMICIRCLE ARROW
+<Multi_key> <Cyrillic_SHA> <Cyrillic_a> <Cyrillic_a>                                                                                   : "⟺" U27FA # LONG LEFT RIGHT DOUBLE ARROW
 
 # Mathematical shortcuts
 <Multi_key> <Cyrillic_ze> <Cyrillic_shcha> <Cyrillic_de> <Cyrillic_en> <Cyrillic_yeru>                                                 : "[x_1, x_2, \\ldots, x_n]"  # 
@@ -1730,15 +1778,15 @@ include "%L"
 # SUBSCRIPTS & SUPERSCRIPTS #
 #############################
 
-<Multi_key> <colon> <minus> <Right>                                                                                                    : "⃗" U20D7 # COMBINING RIGHT ARROW ABOVE
-<Multi_key> <colon> <minus> <Left>                                                                                                     : "⃖" U20D6 # COMBINING LEFT ARROW ABOVE
+<Multi_key> <colon> <Cyrillic_YU>                                                                                                      : "⃗" U20D7 # COMBINING RIGHT ARROW ABOVE
+<Multi_key> <colon> <Cyrillic_BE>                                                                                                      : "⃖" U20D6 # COMBINING LEFT ARROW ABOVE
 <Multi_key> <colon> <underscore>                                                                                                       : "̅" U305 # COMBINING OVERLINE
 <Multi_key> <colon> <colon>                                                                                                            : "̂" U302 # COMBINING CIRCUMFLEX ACCENT
 <Multi_key> <colon> <Cyrillic_IO>                                                                                                      : "̃" U303 # COMBINING TILDE
 <Multi_key> <colon> <Cyrillic_yu>                                                                                                      : "̇" U307 # COMBINING DOT ABOVE
 <Multi_key> <colon> <Cyrillic_yu> <Cyrillic_yu>                                                                                        : "̈" U308 # COMBINING DIAERESIS
 <Multi_key> <colon> <Cyrillic_yu> <Cyrillic_yu> <Cyrillic_yu>                                                                          : "⃛" U20DB # COMBINING THREE DOTS ABOVE
-<Multi_key> <colon> <Cyrillic_sha> <Cyrillic_te> <Cyrillic_a>                                                                          : "᪲" U1AB2 # COMBINING INFINITY
+<Multi_key> <colon> <Cyrillic_SHA> <Cyrillic_te> <Cyrillic_a>                                                                          : "᪲" U1AB2 # COMBINING INFINITY
 <Multi_key> <colon> <asterisk>                                                                                                         : "⃰" U20F0 # COMBINING ASTERISK ABOVE
 
 <Multi_key> <colon> <0>                                                                                                                : "⁰" U2070 # SUPERSCRIPT ZERO
@@ -1834,6 +1882,29 @@ include "%L"
 <Multi_key> <Cyrillic_ka> <Cyrillic_che>                                                                                               : "ⅹ" U2179 # SMALL ROMAN NUMERAL TEN
 <Multi_key> <Cyrillic_ka> <Cyrillic_che> <Cyrillic_sha>                                                                                : "ⅺ" U217A # SMALL ROMAN NUMERAL ELEVEN
 <Multi_key> <Cyrillic_ka> <Cyrillic_che> <Cyrillic_sha> <Cyrillic_sha>                                                                 : "ⅻ" U217B # SMALL ROMAN NUMERAL TWELVE
+
+#############
+# FRACTIONS #
+#############
+
+# Basic fractions
+
+# Third-based fractions
+
+# Fifth-based fractions
+
+# Sixth-based fractions
+
+# Seventh-based fractions
+
+# Eighth-based fractions
+
+# Ninth-based fractions
+
+# Tenth-based fractions
+
+# Special fraction numerator one
+<Multi_key> <1> <period>                                                                                                               : "⅟" U215F # FRACTION NUMERATOR ONE
 
 #################
 # GREEK LETTERS #
@@ -1960,7 +2031,7 @@ include "%L"
 <Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_ka>                                                                                     : "𝜚" U1D71A # MATHEMATICAL ITALIC RHO SYMBOL
 
 ######################
-# MISCELLANIOUS #
+# MISCELLANEOUS #
 ######################
 
 <Multi_key> <Cyrillic_tse> <Cyrillic_ze>                                                                                               : "℘" U2118 # SCRIPT CAPITAL P

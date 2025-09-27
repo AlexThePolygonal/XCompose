@@ -441,7 +441,8 @@
 <Multi_key> <c> <a> <t> <s> <u> <m>         : "⨿" U2A3F # AMALGAMATION OR COPRODUCT
 <Multi_key> <s> <u> <m>                     : "∑" U2211 # N-ary Summation U+2211, \sum
 <Multi_key> <minus> <plus>                  : "∓" U2213 # Minus-or-Plus Sign U+2213,
-<Multi_key> <o> <v> <e> <r>                 : "∕" U2215 # Division Slash U+2215
+# <Multi_key> <o> <v> <e> <r>                 : "∕" U2215 # Division Slash U+2215
+<Multi_key> <o> <v> <e> <r>                 : "⁄"
 <Multi_key> <s> <e> <t> <m> <i> <n> <u> <s> : "∖" U2216 # Set Minus U+2216, \setminus
 <Multi_key> <c> <i> <r> <c>                 : "∘" U2218 # RING OPERATOR \circ
 <Multi_key> <C> <d> <o> <t>                 : "•" U2202 # BULLET \cdot
@@ -461,6 +462,7 @@
 <Multi_key> <s> <q> <c> <u> <p>             : "⊔" U2294 # SQUARE CUP \sqcup
 <Multi_key> <C> <u> <p>                     : "⋃" U22C3 # N-ARY UNION \bigcup
 <Multi_key> <S> <q> <c> <u> <p>             : "⨆" U2A06 # N-ARY SQUARE UNION OPERATOR \bigsqcup  
+<Multi_key> <f> <u> <n>                : "ƒ"   U0192    # function
 
 # BRACKETS
 
@@ -498,8 +500,8 @@
 
 
 # EQUALITIES
-
-# <Multi_key> <slash> <equal>          : "≠"  U2260           # NOT EQUAL TO
+<Multi_key> <n> <e> <q>              : "≠"
+<Multi_key> <slash> <equal>          : "≠"  U2260           # NOT EQUAL TO
 <Multi_key> <colon> <equal>       : "≔"  U2254     # COLON EQUALS
 <Multi_key> <equal> <colon>             : "≕"  U2255           # EQUALS COLON
 <Multi_key> <d> <e> <f> <equal>         : "≝"  U225D           # EQUAL TO BY DEFINITION
@@ -508,8 +510,8 @@
 <Multi_key> <slash> <h> <equal>         : "≄"  U2244           # NOT ASYMPTOTICALLY EQUAL TO
 <Multi_key> <i> <equal>                 : "≅"  U2245           # APPROXIMATELY EQUIVALENT TO, "homeomorphic (isomorphic)"       
 <Multi_key> <slash> <i> <equal>         : "≇"  U2247           # NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO
-<Multi_key> <s> <equal>     : "≡"  U2261           # IDENTICAL TO
-<Multi_key> <slash> <s> <equal> : "≢" U2262       # NOT IDENTICAL TO
+<Multi_key> <I> <equal>     : "≡"  U2261           # IDENTICAL TO
+<Multi_key> <slash> <I> <equal> : "≢" U2262       # NOT IDENTICAL TO
 <Multi_key>  <asciitilde> <asciitilde>   : "≈" U2248            # ALMOST EQUAL TO
 <Multi_key> <a> <p> <p> <r> <o> <x>     : "≈" U2248            # ALMOST EQUAL TO
 <Multi_key> <slash> <a> <p> <p> <r> <o> <x> : "≉" U2249       # NOT ALMOST EQUAL TO
@@ -534,12 +536,12 @@
 <Multi_key> <s> <u> <p> <s>                     : "⊃"  U2283           # SUPERSET OF
 <Multi_key> <slash> <s> <u> <b> <s>             : "⊄"  U2284           # NOT A SUBSET OF
 <Multi_key> <slash> <s> <u> <p> <s>             : "⊅"  U2285           # NOT A SUPERSET OF
-<Multi_key> <equal> <s> <u> <b> <s>             : "⊆"  U2286           # SUBSET OF
-<Multi_key> <equal> <s> <u> <p> <s>             : "⊇"  U2287           # SUPERSET OF
-<Multi_key> <equal> <slash> <s> <u> <b> <s>     : "⊈"  U2288           # NOT A SUBSET OF
-<Multi_key> <equal> <slash> <s> <u> <p> <s>     : "⊉"  U2289           # NOT A SUPERSET OF
-<Multi_key> <slash> <equal> <s> <u> <b> <s>     : "⊊"  U228A           # NOT A SUBSET OF
-<Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊋"  U228B           # NOT A SUPERSET OF
+# <Multi_key> <equal> <s> <u> <b> <s>             : "⊆"  U2286           # SUBSET OF
+# <Multi_key> <equal> <s> <u> <p> <s>             : "⊇"  U2287           # SUPERSET OF
+# <Multi_key> <slash> <equal> <s> <u> <b> <s>     : "⊈"  U2288           # NOT A SUBSET OF
+# <Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊉"  U2289           # NOT A SUPERSET OF
+# <Multi_key> <slash> <equal> <s> <u> <b> <s>     : "⊊"  U228A           # NOT A SUBSET OF
+# <Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊋"  U228B           # NOT A SUPERSET OF
 <Multi_key> <f> <i> <n> <s> <u> <b> <s>         : "⋐"  U22D0           # DOUBLE SUBSET
 
 
@@ -690,6 +692,7 @@
 <Multi_key> <asciitilde> <Right>  : "⥲" U2972
 <Multi_key> <m> <a> <p> <asciitilde>  : "⥲" U2972
 <Multi_key> <a> <c> <t> <s> : "↷"
+<Multi_key> <I> <f> <f> : "⟺"
 
 # Mathematical shortcuts
 <Multi_key> <p> <o> <l> <y> <s> : "[x_1, x_2, \\ldots, x_n]"
@@ -701,15 +704,15 @@
 # SUBSCRIPTS & SUPERSCRIPTS #
 #############################
 
-<Multi_key> <asciicircum> <minus> <Right>            : "⃗" U20D7 # Combining right arrow above U+20D7
-<Multi_key> <asciicircum> <minus> <Left>             : "⃖" U20D6 # Combining left arrow above U+20D6
+<Multi_key> <asciicircum> <greater>            : "⃗" U20D7 # Combining right arrow above U+20D7
+<Multi_key> <asciicircum> <less>             : "⃖" U20D6 # Combining left arrow above U+20D6
 <Multi_key> <asciicircum> <underscore>                    : "̅" U0305 # Combining overline U+305
 <Multi_key> <asciicircum> <asciicircum>              : "̂" U0302 # Combining circumflex accent U+302
 <Multi_key> <asciicircum> <asciitilde>               : "̃" U0303 # Combining tilde U+303
 <Multi_key> <asciicircum> <period>                   : "̇"          # Combining dot above U+307
 <Multi_key> <asciicircum> <period> <period>          : "̈"          # Combining diaeresis U+308
 <Multi_key> <asciicircum> <period> <period> <period> : "⃛"          # Combining three dots above U+20DB
-<Multi_key> <asciicircum> <i> <n> <f>                : "᪲" U1AB2 # COMBINING INFINITY 
+<Multi_key> <asciicircum> <I> <n> <f>                : "᪲" U1AB2 # COMBINING INFINITY 
 <Multi_key> <asciicircum> <asterisk>                 : "⃰" 
 
 <Multi_key> <asciicircum> <0> : "⁰"
@@ -821,6 +824,48 @@
 <Multi_key> <r> <x>             : "ⅹ" U2179 # SMALL ROMAN NUMERAL TEN
 <Multi_key> <r> <x> <i>         : "ⅺ" U217A # SMALL ROMAN NUMERAL ELEVEN
 <Multi_key> <r> <x> <i> <i>     : "ⅻ" U217B # SMALL ROMAN NUMERAL TWELVE
+
+#############
+# FRACTIONS #
+#############
+
+# Basic fractions
+<Multi_key> <1> <4>        : "¼"   U00BC  # Vulgar Fraction One Quarter
+<Multi_key> <1> <2>        : "½"   U00BD  # Vulgar Fraction One Half
+<Multi_key> <3> <4>        : "¾"   U00BE  # Vulgar Fraction Three Quarters
+
+# Third-based fractions
+<Multi_key> <1> <3>        : "⅓"   U2153  # Vulgar Fraction One Third
+<Multi_key> <2> <3>        : "⅔"   U2154  # Vulgar Fraction Two Thirds
+<Multi_key> <0> <3>        : "↉"   U2189  # Vulgar Fraction Zero Thirds
+
+# Fifth-based fractions
+<Multi_key> <1> <5>        : "⅕"   U2155  # Vulgar Fraction One Fifth
+<Multi_key> <2> <5>        : "⅖"   U2156  # Vulgar Fraction Two Fifths
+<Multi_key> <3> <5>        : "⅗"   U2157  # Vulgar Fraction Three Fifths
+<Multi_key> <4> <5>        : "⅘"   U2158  # Vulgar Fraction Four Fifths
+
+# Sixth-based fractions
+<Multi_key> <1> <6>        : "⅙"   U2159  # Vulgar Fraction One Sixth
+<Multi_key> <5> <6>        : "⅚"   U215A  # Vulgar Fraction Five Sixths
+
+# Seventh-based fractions
+<Multi_key> <1> <7>        : "⅐"   U2150  # Vulgar Fraction One Seventh
+
+# Eighth-based fractions
+<Multi_key> <1> <8>        : "⅛"   U215B  # Vulgar Fraction One Eighth
+<Multi_key> <3> <8>        : "⅜"   U215C  # Vulgar Fraction Three Eighths
+<Multi_key> <5> <8>        : "⅝"   U215D  # Vulgar Fraction Five Eighths
+<Multi_key> <7> <8>        : "⅞"   U215E  # Vulgar Fraction Seven Eighths
+
+# Ninth-based fractions
+<Multi_key> <1> <9>        : "⅑"   U2151  # Vulgar Fraction One Ninth
+
+# Tenth-based fractions
+<Multi_key> <1> <1> <0>    : "⅒"   U2152  # Vulgar Fraction One Tenth
+
+# Special fraction numerator one
+<Multi_key> <1> <slash>    : "⅟"   U215F  # Fraction Numerator One
 
 #################
 # GREEK LETTERS #
@@ -947,7 +992,7 @@
 <Multi_key> <g> <asterisk> <r> : "𝜚" 
 
 ######################
-# MISCELLANIOUS #
+# MISCELLANEOUS #
 ######################
 
 <Multi_key> <w>  <p>  : "℘" # Weierstrass Elliptic Function p U+2118
