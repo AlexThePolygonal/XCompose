@@ -597,7 +597,7 @@ include "%L"
 <Multi_key> <underscore> <quotedbl>                  : "„" U201E # DOUBLE LOW-9 QUOTATION MARK
 
 
-<Multi_key> <period> <period>                        : "…" U2026 # HORIZONTAL ELLIPSIS
+# <Multi_key> <period> <period>  : "…" U2026  # HORIZONTAL ELLIPSIS
 <Multi_key> <v> <period> <period>                    : "⋮" U22EE # VERTICAL ELLIPSIS
 <Multi_key> <bar> <period> <period>                  : "⋮" U22EE # VERTICAL ELLIPSIS
 <Multi_key> <c> <period> <period>                    : "⋯" U22EF # MIDLINE HORIZONTAL ELLIPSIS
@@ -699,7 +699,7 @@ include "%L"
 # Mathematical shortcuts
 <Multi_key> <p> <o> <l> <y> <s>                      : "[x_1, x_2, \\ldots, x_n]"  # 
 <Multi_key> <asterisk> <p> <o> <l> <y> <s>           : "[𝑥₁, 𝑥₂, …, 𝑥ₙ]"  # 
-<Multi_key> <p> <d> <e> <r>                          : "\\frac{\\partial f}{\\partial x}"  # 
+# <Multi_key> <p> <d> <e> <r> : "\\frac{\\partial f}{\\partial x}"
 
 
 #############################
@@ -1677,7 +1677,7 @@ include "%L"
 <Multi_key> <underscore> <Cyrillic_E>                                                                                                  : "„" U201E # DOUBLE LOW-9 QUOTATION MARK
 
 
-<Multi_key> <Cyrillic_yu> <Cyrillic_yu>                                                                                                : "…" U2026 # HORIZONTAL ELLIPSIS
+# <Multi_key> <period> <period>  : "…" U2026  # HORIZONTAL ELLIPSIS
 <Multi_key> <Cyrillic_em> <Cyrillic_yu> <Cyrillic_yu>                                                                                  : "⋮" U22EE # VERTICAL ELLIPSIS
 <Multi_key> <slash> <Cyrillic_yu> <Cyrillic_yu>                                                                                        : "⋮" U22EE # VERTICAL ELLIPSIS
 <Multi_key> <Cyrillic_es> <Cyrillic_yu> <Cyrillic_yu>                                                                                  : "⋯" U22EF # MIDLINE HORIZONTAL ELLIPSIS
@@ -1771,7 +1771,7 @@ include "%L"
 # Mathematical shortcuts
 <Multi_key> <Cyrillic_ze> <Cyrillic_shcha> <Cyrillic_de> <Cyrillic_en> <Cyrillic_yeru>                                                 : "[x_1, x_2, \\ldots, x_n]"  # 
 <Multi_key> <asterisk> <Cyrillic_ze> <Cyrillic_shcha> <Cyrillic_de> <Cyrillic_en> <Cyrillic_yeru>                                      : "[𝑥₁, 𝑥₂, …, 𝑥ₙ]"  # 
-<Multi_key> <Cyrillic_ze> <Cyrillic_ve> <Cyrillic_u> <Cyrillic_ka>                                                                     : "\\frac{\\partial f}{\\partial x}"  # 
+# <Multi_key> <p> <d> <e> <r> : "\\frac{\\partial f}{\\partial x}"
 
 
 #############################

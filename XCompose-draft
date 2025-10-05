@@ -595,7 +595,7 @@
 <Multi_key> <underscore> <quotedbl>     : "„"
 
 
-<Multi_key> <period> <period>  : "…" U2026  # HORIZONTAL ELLIPSIS
+# <Multi_key> <period> <period>  : "…" U2026  # HORIZONTAL ELLIPSIS
 <Multi_key> <v> <period> <period> : "⋮" U22EE  # VERTICAL ELLIPSIS
 <Multi_key> <bar> <period> <period> : "⋮" U22EE  # VERTICAL ELLIPSIS
 <Multi_key> <c> <period> <period> : "⋯" U22EF  # MIDLINE HORIZONTAL ELLIPSIS
@@ -697,7 +697,7 @@
 # Mathematical shortcuts
 <Multi_key> <p> <o> <l> <y> <s> : "[x_1, x_2, \\ldots, x_n]"
 <Multi_key> <asterisk> <p> <o> <l> <y> <s> : "[𝑥₁, 𝑥₂, …, 𝑥ₙ]"
-<Multi_key> <p> <d> <e> <r> : "\\frac{\\partial f}{\\partial x}"
+# <Multi_key> <p> <d> <e> <r> : "\\frac{\\partial f}{\\partial x}"
 
 
 #############################
