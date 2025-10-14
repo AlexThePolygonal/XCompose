@@ -1,3 +1,6 @@
 *.temp
 *.tmp
 *.secret
+temp*
+temp/*
+aux/*
