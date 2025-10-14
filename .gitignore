@@ -4,3 +4,10 @@
 temp*
 temp/*
 aux/*
+CLAUDE.md
+plans/*
+logs/*
+logs
+*.log
+*.backup
+*.old
