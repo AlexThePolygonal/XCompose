@@ -11,3 +11,5 @@ logs
 *.log
 *.backup
 *.old
+tmp/
+.plans
