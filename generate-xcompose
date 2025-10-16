@@ -16,10 +16,6 @@ from dataclasses import dataclass, field
 from enum import Enum
 
 
-# ============================================================================
-# CORE DATA STRUCTURES (cur_types.py)
-# ============================================================================
-
 @dataclass
 class XComposeEntry:
     """Single XCompose entry with parsed components."""
@@ -95,9 +91,6 @@ class TranslitError(XComposeError):
     pass
 
 
-# ============================================================================
-# UTILITY FUNCTIONS (utils.py)
-# ============================================================================
 
 def extract_unicode_info(symbol: str) -> Tuple[str, str]:
     """
@@ -269,11 +262,6 @@ def is_header_delimiter(line: str) -> bool:
     """
     stripped = line.strip()
     return len(stripped) > 0 and all(c == '#' for c in stripped)
-
-
-# ============================================================================
-# PARSER (parser.py)
-# ============================================================================
 
 def parse_xcompose(file_content: str) -> List[XComposeBlock]:
     """
@@ -529,10 +517,6 @@ def extract_comment(text: str) -> str:
     return ""
 
 
-# ============================================================================
-# FORMATTER (formatter.py)
-# ============================================================================
-
 def format_blocks(blocks: List[XComposeBlock]) -> str:
     """
     Format multiple blocks with headers.
@@ -628,10 +612,6 @@ def format_key_sequence(keys: KeySequence) -> str:
     return ' '.join(formatted_keys)
 
 
-# ============================================================================
-# TRANSLITERATOR (transliterator.py)
-# ============================================================================
-
 def transliterate_blocks(blocks: List[XComposeBlock],
                         translit_map: TranslitMap) -> List[XComposeBlock]:
     """
@@ -672,10 +652,6 @@ def transliterate_blocks(blocks: List[XComposeBlock],
 
     return result_blocks
 
-
-# ============================================================================
-# COLLISION DETECTION (collision.py)
-# ============================================================================
 
 def get_current_locale() -> str:
     """
@@ -923,11 +899,6 @@ def find_cross_collisions(draft_entries: List[XComposeEntry],
                 ))
 
     return collisions
-
-
-# ============================================================================
-# MAIN ENTRY POINT (generate_xcompose.py)
-# ============================================================================
 
 def report_collisions(collisions: List[Collision], out=sys.stderr) -> None:
     """
