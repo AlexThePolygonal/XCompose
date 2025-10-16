@@ -11,8 +11,8 @@ import locale
 import argparse
 import unicodedata
 from pathlib import Path
-from typing import List, Optional, Dict, Tuple, Any
-from dataclasses import dataclass
+from typing import List, Optional, Dict, Tuple
+from dataclasses import dataclass, field
 from enum import Enum
 
 
@@ -47,6 +47,13 @@ class Collision:
     longer_source_file: str            # File where longer_entry is from
 
 
+@dataclass
+class TrieNode:
+    """Prefix tree node with optional terminal entry."""
+    entry: Optional[XComposeEntry] = None
+    children: Dict[str, 'TrieNode'] = field(default_factory=dict)
+
+
 class CollisionLocation(Enum):
     """Where a collision was detected."""
     INTERNAL = "internal"              # Within same file
@@ -57,7 +64,6 @@ class CollisionLocation(Enum):
 # Type Aliases
 KeySequence = List[str]
 TranslitMap = Dict[str, str]
-TrieNode = Dict[str, 'TrieNode']  # Recursive type for prefix tree
 
 
 # Exceptions
@@ -102,7 +108,6 @@ def extract_unicode_info(symbol: str) -> Tuple[str, str]:
 
     Returns:
         (unicode_point, description) e.g. ("U1D44E", "MATHEMATICAL ITALIC SMALL A")
-        For multi-char strings: ("[U+XXXX U+YYYY]", "MULTI-CHAR")
     """
     if len(symbol) == 0:
         return "", "EMPTY"
@@ -222,12 +227,12 @@ def escape_symbol(symbol: str) -> str:
         return f"U+{cp:04X}[NONCHAR]"
 
 
-    # 11. SURROGATES (UTF-16 artifacts, invalid in UTF-8)
+    # 10. SURROGATES (UTF-16 artifacts, invalid in UTF-8)
     # This shouldn't occur in proper Python strings, but check anyway
     if 0xD800 <= cp <= 0xDFFF:
         return f"U+{cp:04X}[SURROGATE-INVALID]"
 
-    # 10. UNASSIGNED CODE POINTS (valid range but no assigned character)
+    # 11. UNASSIGNED CODE POINTS (valid range but no assigned character)
     # Check by attempting to get name
     try:
         unicodedata.name(symbol)
@@ -735,7 +740,30 @@ def load_system_compose(locale_name: str) -> Optional[List[XComposeEntry]]:
     return None
 
 
-def build_trie(entries: List[XComposeEntry]) -> Dict[str, Any]:
+def find_all_terminal_descendants(node: TrieNode) -> List[XComposeEntry]:
+    """
+    Find all terminal entries in the subtree rooted at node.
+
+    Args:
+        node: Root of subtree to search
+
+    Returns:
+        List of all XComposeEntry objects found in descendants
+    """
+    terminals = []
+
+    for key, child in node.children.items():
+        # Check if child is terminal
+        if child.entry is not None:
+            terminals.append(child.entry)
+
+        # Recursively search descendants
+        terminals.extend(find_all_terminal_descendants(child))
+
+    return terminals
+
+
+def build_trie(entries: List[XComposeEntry]) -> TrieNode:
     """
     Build prefix tree from entries.
 
@@ -743,19 +771,19 @@ def build_trie(entries: List[XComposeEntry]) -> Dict[str, Any]:
         entries: All XCompose entries
 
     Returns:
-        Root node of trie (nested dicts)
+        Root node of trie
     """
-    root: Dict[str, Any] = {}
+    root = TrieNode()
 
     for entry in entries:
         node = root
         for key in entry.keys:
-            if key not in node:
-                node[key] = {}
-            node = node[key]
+            if key not in node.children:
+                node.children[key] = TrieNode()
+            node = node.children[key]
 
         # Mark this as a terminal node
-        node['__entry__'] = entry
+        node.entry = entry
 
     return root
 
@@ -786,7 +814,9 @@ def find_collisions(entries: List[XComposeEntry],
 
 def find_internal_collisions(entries: List[XComposeEntry], source_file: str) -> List[Collision]:
     """
-    Find collisions within a single list of entries.
+    Find collisions within a single list of entries using trie.
+
+    O(n·k) where n = number of entries, k = average key sequence length.
 
     Args:
         entries: List of entries to check
@@ -796,26 +826,43 @@ def find_internal_collisions(entries: List[XComposeEntry], source_file: str) -> 
         List of collisions found
     """
     collisions: List[Collision] = []
+    trie = TrieNode()
 
-    # Compare each pair of entries
-    for i, entry1 in enumerate(entries):
-        for entry2 in entries[i+1:]:
-            if is_prefix(entry1.keys, entry2.keys):
+    for entry in entries:
+        node = trie
+
+        # Traverse the trie following the key sequence
+        for i, key in enumerate(entry.keys):
+            # Check if we hit a terminal node before the end
+            # This means an existing entry is a prefix of current entry
+            if node.entry is not None and i < len(entry.keys):
+                prefix_entry = node.entry
                 collisions.append(Collision(
-                    prefix_seq=entry1.keys,
-                    prefix_entry=entry1,
+                    prefix_seq=prefix_entry.keys,
+                    prefix_entry=prefix_entry,
                     prefix_source_file=source_file,
-                    longer_entry=entry2,
+                    longer_entry=entry,
                     longer_source_file=source_file
                 ))
-            elif is_prefix(entry2.keys, entry1.keys):
-                collisions.append(Collision(
-                    prefix_seq=entry2.keys,
-                    prefix_entry=entry2,
-                    prefix_source_file=source_file,
-                    longer_entry=entry1,
-                    longer_source_file=source_file
-                ))
+
+            if key not in node.children:
+                node.children[key] = TrieNode()
+            node = node.children[key]
+
+        # Check if current entry is a prefix of existing entries
+        # If node has children, we're a prefix
+        descendants = find_all_terminal_descendants(node)
+        for longer_entry in descendants:
+            collisions.append(Collision(
+                prefix_seq=entry.keys,
+                prefix_entry=entry,
+                prefix_source_file=source_file,
+                longer_entry=longer_entry,
+                longer_source_file=source_file
+            ))
+
+        # Mark as terminal
+        node.entry = entry
 
     return collisions
 
@@ -823,7 +870,9 @@ def find_internal_collisions(entries: List[XComposeEntry], source_file: str) -> 
 def find_cross_collisions(draft_entries: List[XComposeEntry],
                          system_entries: List[XComposeEntry]) -> List[Collision]:
     """
-    Find collisions between draft and system entries.
+    Find collisions between draft and system entries using trie.
+
+    O(d·k + s·k) where d = draft entries, s = system entries, k = avg key length.
 
     Args:
         draft_entries: Entries from XCompose-draft
@@ -834,17 +883,19 @@ def find_cross_collisions(draft_entries: List[XComposeEntry],
     """
     collisions: List[Collision] = []
 
+    # Build trie from system entries once
+    system_trie = build_trie(system_entries)
+
+    # For each draft entry, check against system trie
     for draft_entry in draft_entries:
-        for system_entry in system_entries:
-            if is_prefix(draft_entry.keys, system_entry.keys):
-                collisions.append(Collision(
-                    prefix_seq=draft_entry.keys,
-                    prefix_entry=draft_entry,
-                    prefix_source_file="XCompose-draft",
-                    longer_entry=system_entry,
-                    longer_source_file="system Compose"
-                ))
-            elif is_prefix(system_entry.keys, draft_entry.keys):
+        node = system_trie
+
+        # Traverse system trie following draft entry's key sequence
+        for i, key in enumerate(draft_entry.keys):
+            # Check if we hit a system terminal before the end
+            # This means system entry is a prefix of draft entry
+            if node.entry is not None and i < len(draft_entry.keys):
+                system_entry = node.entry
                 collisions.append(Collision(
                     prefix_seq=system_entry.keys,
                     prefix_entry=system_entry,
@@ -853,24 +904,25 @@ def find_cross_collisions(draft_entries: List[XComposeEntry],
                     longer_source_file="XCompose-draft"
                 ))
 
+            # If key doesn't exist in system trie, no collision possible
+            if key not in node.children:
+                break
+
+            node = node.children[key]
+        else:
+            # We traversed the full draft entry sequence
+            # Check if draft entry is a prefix of system entries
+            descendants = find_all_terminal_descendants(node)
+            for system_entry in descendants:
+                collisions.append(Collision(
+                    prefix_seq=draft_entry.keys,
+                    prefix_entry=draft_entry,
+                    prefix_source_file="XCompose-draft",
+                    longer_entry=system_entry,
+                    longer_source_file="system Compose"
+                ))
+
     return collisions
-
-
-def is_prefix(seq1: KeySequence, seq2: KeySequence) -> bool:
-    """
-    Check if seq1 is a proper prefix of seq2.
-
-    Args:
-        seq1: First sequence
-        seq2: Second sequence
-
-    Returns:
-        True if seq1 is a proper prefix of seq2
-    """
-    if len(seq1) >= len(seq2):
-        return False
-
-    return seq2[:len(seq1)] == seq1
 
 
 # ============================================================================

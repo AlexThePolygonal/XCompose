@@ -37,7 +37,14 @@ transliterate_blocks = gx.transliterate_blocks
 get_current_locale = gx.get_current_locale
 load_system_compose = gx.load_system_compose
 find_collisions = gx.find_collisions
-is_prefix = gx.is_prefix
+
+
+# Helper function for tests (removed from main code after trie optimization)
+def is_prefix(seq1, seq2):
+    """Check if seq1 is a proper prefix of seq2."""
+    if len(seq1) >= len(seq2):
+        return False
+    return seq2[:len(seq1)] == seq1
 
 
 def test_utils():
