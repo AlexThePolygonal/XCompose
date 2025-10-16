@@ -2,28 +2,42 @@
 
 import json
 import sys
+import importlib.util
+import importlib.machinery
 from pathlib import Path
 
-# Add parent directory to path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Import from merged generate-xcompose script
+parent_dir = Path(__file__).parent.parent
+script_path = str(parent_dir / "generate-xcompose")
 
-from cur_types import XComposeEntry, XComposeBlock
-from utils import (
-    extract_unicode_info,
-    escape_symbol,
-    is_comment_line,
-    is_empty_line,
-    is_header_delimiter
+spec = importlib.util.spec_from_loader(
+    "generate_xcompose",
+    importlib.machinery.SourceFileLoader("generate_xcompose", script_path)
 )
-from parser import parse_xcompose, parse_line, extract_keys, extract_quoted_string
-from formatter import format_blocks, format_entry, calculate_key_width, format_key_sequence
-from transliterator import transliterate_blocks
-from collision import (
-    get_current_locale,
-    load_system_compose,
-    find_collisions,
-    is_prefix
-)
+gx = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(gx)
+
+# Import all needed symbols from merged script
+XComposeEntry = gx.XComposeEntry
+XComposeBlock = gx.XComposeBlock
+extract_unicode_info = gx.extract_unicode_info
+escape_symbol = gx.escape_symbol
+is_comment_line = gx.is_comment_line
+is_empty_line = gx.is_empty_line
+is_header_delimiter = gx.is_header_delimiter
+parse_xcompose = gx.parse_xcompose
+parse_line = gx.parse_line
+extract_keys = gx.extract_keys
+extract_quoted_string = gx.extract_quoted_string
+format_blocks = gx.format_blocks
+format_entry = gx.format_entry
+calculate_key_width = gx.calculate_key_width
+format_key_sequence = gx.format_key_sequence
+transliterate_blocks = gx.transliterate_blocks
+get_current_locale = gx.get_current_locale
+load_system_compose = gx.load_system_compose
+find_collisions = gx.find_collisions
+is_prefix = gx.is_prefix
 
 
 def test_utils():
