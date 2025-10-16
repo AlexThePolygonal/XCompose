@@ -513,8 +513,8 @@
 <Multi_key> <A> <n> <d>                 : "⋀"  U22C0           # N-ARY LOGICAL AND
 <Multi_key> <o> <r>                     : "∨"  U2228           # LOGICAL OR
 <Multi_key> <O> <r>                     : "⋁"  U22C1           # LOGICAL OR
-<Multi_key> <t> <r> <u> <e>             : "⊤"  U22A4           # DOWN TACK
-<Multi_key> <f> <a> <l> <s> <e>         : "⊥"  U22A4           # UP TACK
+<Multi_key> <T> <o> <p>                 : "⊤"  U22A4           # DOWN TACK
+<Multi_key> <B> <o> <t>                 : "⊥"  U22A4           # UP TACK
 <Multi_key> <n> <e> <g>                 : "¬" U00AC            # NEGATION
 <Multi_key> <p> <r> <o> <v> <e> <s>             : "⊢" U22A2            # RIGHT TACK
 # <Multi_key> <h> <o> <l> <d> <s>                 : "⊨" U22A9            # TRUE
@@ -525,7 +525,7 @@
 <Multi_key> <m> <m> <a> <p>                     : "⊸" U22B8            # MULTIMAP
 <Multi_key> <asterisk> <ampersand>                : "⅋" U214B            # TURNED AMPERSAND
 # <Multi_key> <b> <e> <c> <a> <u> <s> <e>     : "∵" U2235 # BECAUSE \because
-<Multi_key> <t> <h> <e> <n>  : "∴" U2234 # THEREFORE \therefore
+# <Multi_key> <t> <h> <e> <n>  : "∴" U2234 # THEREFORE \therefore
 <Multi_key> <Q> <E> <D>                     : "∎" U220E # End of Proof U+220E, \qed
 
 
@@ -578,7 +578,7 @@
 # <Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊉"  U2289           # NOT A SUPERSET OF
 # <Multi_key> <slash> <equal> <s> <u> <b> <s>     : "⊊"  U228A           # NOT A SUBSET OF
 # <Multi_key> <slash> <equal> <s> <u> <p> <s>     : "⊋"  U228B           # NOT A SUPERSET OF
-<Multi_key> <f> <i> <n> <s> <u> <b> <s>         : "⋐"  U22D0           # DOUBLE SUBSET
+<Multi_key> <2> <s> <u> <b> <s>         : "⋐"  U22D0           # DOUBLE SUBSET
 <Multi_key> <s> <q> <s> <u> <b> <s>             : "⊏" U228F            # SQUARE IMAGE OF
 <Multi_key> <s> <q> <s> <u> <p> <s>             : "⊐" U2290            # SQUARE ORIGINAL OF
 
@@ -590,8 +590,8 @@
 <Multi_key> <c> <i> <r> <c>                 : "∘" U2218 # RING OPERATOR \circ
 <Multi_key> <C> <d> <o> <t>                 : "•" U2202 # BULLET \cdot
 <Multi_key> <c> <d> <o> <t>                 : "·" U00B7 # MIDDLE DOT \cdot
-<Multi_key> <h> <d> <o> <t>                 : "˙"
-<Multi_key> <f> <u> <n>                : "ƒ"   U0192    # function
+<Multi_key> <H> <d> <o> <t>                 : "˙"
+<Multi_key> <F> <F>                         : "ƒ"   U0192    # function
 <Multi_key> <P> <r> <o> <d>                 : "∏" U220F      # N-Ary Product U+220F, \prod 
 <Multi_key> <C> <a> <t> <s> <u> <m>      : "∐" U2210      # N-Ary Product U+2210, \coprod 
 <Multi_key> <c> <a> <t> <s> <u> <m>         : "⨿" U2A3F # AMALGAMATION OR COPRODUCT
@@ -668,32 +668,32 @@
 # SMALL CAPS #
 ##############
 
-<Multi_key> <m> <a>        : "ᴀ"     U1D00 # LATIN LETTER SMALL CAPITAL A
-<Multi_key> <m> <b>        : "ʙ"     U0299 # LATIN LETTER SMALL CAPITAL B
-<Multi_key> <m> <c>        : "ᴄ"     U1D04 # LATIN LETTER SMALL CAPITAL C
-<Multi_key> <m> <d>        : "ᴅ"     U1D05 # LATIN LETTER SMALL CAPITAL D
-<Multi_key> <m> <e>        : "ᴇ"     U1D07 # LATIN LETTER SMALL CAPITAL E
-<Multi_key> <m> <f>        : "ꜰ"  UA730 # LATIN LETTER SMALL CAPITAL F
-<Multi_key> <m> <g>           : "ɢ"     U0262 # LATIN LETTER SMALL CAPITAL G
-<Multi_key> <m> <h>        : "ʜ"     U029C # LATIN LETTER SMALL CAPITAL H
-<Multi_key> <m> <i>        : "ɪ"     U026A # LATIN LETTER SMALL CAPITAL I
-<Multi_key> <m> <j>        : "ᴊ"     U1D0A # LATIN LETTER SMALL CAPITAL J
-<Multi_key> <m> <k>        : "ᴋ"     U1D0B # LATIN LETTER SMALL CAPITAL K
-<Multi_key> <m> <l>        : "ʟ"     U029F # LATIN LETTER SMALL CAPITAL L
-<Multi_key> <m> <m>        : "ᴍ"     U1D0D # LATIN LETTER SMALL CAPITAL M
-<Multi_key> <m> <n>        : "ɴ"     U0274 # LATIN LETTER SMALL CAPITAL N
-<Multi_key> <m> <o>        : "ᴏ"     U1D0F # LATIN LETTER SMALL CAPITAL O
-<Multi_key> <m> <p>        : "ᴘ"     U1D18 # LATIN LETTER SMALL CAPITAL P
-<Multi_key> <m> <q>        : "ꞯ"  UA7AF # LATIN LETTER SMALL CAPITAL Q
-<Multi_key> <m> <r>        : "ʀ"     U0280 # LATIN LETTER SMALL CAPITAL R
-<Multi_key> <m> <s>        : "ꜱ"  UA731 # LATIN LETTER SMALL CAPITAL S
-<Multi_key> <m> <t>        : "ᴛ"     U1D1B # LATIN LETTER SMALL CAPITAL T
-<Multi_key> <m> <u>        : "ᴜ"     U1D1C # LATIN LETTER SMALL CAPITAL U
-<Multi_key> <m> <v>        : "ᴠ"     U1D20 # LATIN LETTER SMALL CAPITAL V
-<Multi_key> <m> <w>        : "ᴡ"     U1D21 # LATIN LETTER SMALL CAPITAL W
-<Multi_key> <m> <x>        : "x"     x      # Letter x, pseudo-small-caps
-<Multi_key> <m> <y>        : "ʏ"     U028F # LATIN LETTER SMALL CAPITAL Y
-<Multi_key> <m> <z>        : "ᴢ"     U1D22 # LATIN LETTER SMALL CAPITAL Z
+<Multi_key> <m> <A>        : "ᴀ"     U1D00 # LATIN LETTER SMALL CAPITAL A
+<Multi_key> <m> <B>        : "ʙ"     U0299 # LATIN LETTER SMALL CAPITAL B
+<Multi_key> <m> <C>        : "ᴄ"     U1D04 # LATIN LETTER SMALL CAPITAL C
+<Multi_key> <m> <D>        : "ᴅ"     U1D05 # LATIN LETTER SMALL CAPITAL D
+<Multi_key> <m> <E>        : "ᴇ"     U1D07 # LATIN LETTER SMALL CAPITAL E
+<Multi_key> <m> <F>        : "ꜰ"  UA730 # LATIN LETTER SMALL CAPITAL F
+<Multi_key> <m> <G>        : "ɢ"     U0262 # LATIN LETTER SMALL CAPITAL G
+<Multi_key> <m> <H>        : "ʜ"     U029C # LATIN LETTER SMALL CAPITAL H
+<Multi_key> <m> <I>        : "ɪ"     U026A # LATIN LETTER SMALL CAPITAL I
+<Multi_key> <m> <J>        : "ᴊ"     U1D0A # LATIN LETTER SMALL CAPITAL J
+<Multi_key> <m> <K>        : "ᴋ"     U1D0B # LATIN LETTER SMALL CAPITAL K
+<Multi_key> <m> <L>        : "ʟ"     U029F # LATIN LETTER SMALL CAPITAL L
+<Multi_key> <m> <M>        : "ᴍ"     U1D0D # LATIN LETTER SMALL CAPITAL M
+<Multi_key> <m> <N>        : "ɴ"     U0274 # LATIN LETTER SMALL CAPITAL N
+<Multi_key> <m> <O>        : "ᴏ"     U1D0F # LATIN LETTER SMALL CAPITAL O
+<Multi_key> <m> <P>        : "ᴘ"     U1D18 # LATIN LETTER SMALL CAPITAL P
+<Multi_key> <m> <Q>        : "ꞯ"  UA7AF # LATIN LETTER SMALL CAPITAL Q
+<Multi_key> <m> <R>        : "ʀ"     U0280 # LATIN LETTER SMALL CAPITAL R
+<Multi_key> <m> <S>        : "ꜱ"  UA731 # LATIN LETTER SMALL CAPITAL S
+<Multi_key> <m> <T>        : "ᴛ"     U1D1B # LATIN LETTER SMALL CAPITAL T
+<Multi_key> <m> <U>        : "ᴜ"     U1D1C # LATIN LETTER SMALL CAPITAL U
+<Multi_key> <m> <V>        : "ᴠ"     U1D20 # LATIN LETTER SMALL CAPITAL V
+<Multi_key> <m> <W>        : "ᴡ"     U1D21 # LATIN LETTER SMALL CAPITAL W
+<Multi_key> <m> <X>        : "x"     x      # Letter x, pseudo-small-caps
+<Multi_key> <m> <Y>        : "ʏ"     U028F # LATIN LETTER SMALL CAPITAL Y
+<Multi_key> <m> <Z>        : "ᴢ"     U1D22 # LATIN LETTER SMALL CAPITAL Z
 
 ###################
 # BASIC ARROWS    #
@@ -780,11 +780,11 @@
 <Multi_key> <asciicircum> <underscore>                    : "̅" U0305 # Combining overline U+305
 <Multi_key> <asciicircum> <asciicircum>              : "̂" U0302 # Combining circumflex accent U+302
 <Multi_key> <asciicircum> <asciitilde>               : "̃" U0303 # Combining tilde U+303
-<Multi_key> <asciicircum> <period>                   : "̇"          # Combining dot above U+307
-<Multi_key> <asciicircum> <period> <period>          : "̈"          # Combining diaeresis U+308
-<Multi_key> <asciicircum> <period> <period> <period> : "⃛"          # Combining three dots above U+20DB
-<Multi_key> <asciicircum> <minus> <period>           : "͘"    # Combining dot to the right
-<Multi_key> <asciicircum> <I> <n> <f>                : "᪲" U1AB2 # COMBINING INFINITY 
+<Multi_key> <asciicircum> <period> <space>                  : "̇"          # Combining dot above U+307
+<Multi_key> <asciicircum> <period> <period> <space>          : "̈"          # Combining diaeresis U+308
+<Multi_key> <asciicircum> <period> <period> <period> <space> : "⃛"          # Combining three dots above U+20DB
+<Multi_key> <asciicircum> <period> <minus>           : "͘"    # Combining dot to the right
+<Multi_key> <asciicircum> <I> <n> <f>                    : "᪲" U1AB2 # COMBINING INFINITY 
 <Multi_key> <asciicircum> <asterisk>                 : "⃰" 
 
 ################
@@ -880,30 +880,30 @@
 # ROMAN NUMERALS #
 ##################
 
-<Multi_key> <r> <I>             : "Ⅰ" U2160 # ROMAN NUMERAL ONE
-<Multi_key> <r> <I> <I>         : "Ⅱ" U2161 # ROMAN NUMERAL TWO
-<Multi_key> <r> <I> <I> <I>     : "Ⅲ" U2162 # ROMAN NUMERAL THREE
-<Multi_key> <r> <I> <V>         : "Ⅳ" U2163 # ROMAN NUMERAL FOUR
-<Multi_key> <r> <V>             : "Ⅴ" U2164 # ROMAN NUMERAL FIVE
-<Multi_key> <r> <V> <I>         : "Ⅵ" U2165 # ROMAN NUMERAL SIX
-<Multi_key> <r> <V> <I> <I>     : "Ⅶ" U2166 # ROMAN NUMERAL SEVEN
-<Multi_key> <r> <V> <I> <I> <I> : "Ⅷ" U2167 # ROMAN NUMERAL EIGHT
-<Multi_key> <r> <I> <X>         : "Ⅸ" U2168 # ROMAN NUMERAL NINE
-<Multi_key> <r> <X>             : "Ⅹ" U2169 # ROMAN NUMERAL TEN
-<Multi_key> <r> <X> <I>         : "Ⅺ" U216A # ROMAN NUMERAL ELEVEN
-<Multi_key> <r> <X> <I> <I>     : "Ⅻ" U216B # ROMAN NUMERAL TWELVE
-<Multi_key> <r> <i>             : "ⅰ" U2170 # SMALL ROMAN NUMERAL ONE
-<Multi_key> <r> <i> <i>         : "ⅱ" U2171 # SMALL ROMAN NUMERAL TWO
-<Multi_key> <r> <i> <i> <i>     : "ⅲ" U2172 # SMALL ROMAN NUMERAL THREE
-<Multi_key> <r> <i> <v>         : "ⅳ" U2173 # SMALL ROMAN NUMERAL FOUR
-<Multi_key> <r> <v>             : "ⅴ" U2174 # SMALL ROMAN NUMERAL FIVE
-<Multi_key> <r> <v> <i>         : "ⅵ" U2175 # SMALL ROMAN NUMERAL SIX
-<Multi_key> <r> <v> <i> <i>     : "ⅶ" U2176 # SMALL ROMAN NUMERAL SEVEN
-<Multi_key> <r> <v> <i> <i> <i> : "ⅷ" U2177 # SMALL ROMAN NUMERAL EIGHT
-<Multi_key> <r> <i> <x>         : "ⅸ" U2178 # SMALL ROMAN NUMERAL NINE
-<Multi_key> <r> <x>             : "ⅹ" U2179 # SMALL ROMAN NUMERAL TEN
-<Multi_key> <r> <x> <i>         : "ⅺ" U217A # SMALL ROMAN NUMERAL ELEVEN
-<Multi_key> <r> <x> <i> <i>     : "ⅻ" U217B # SMALL ROMAN NUMERAL TWELVE
+<Multi_key> <r> <I> <space>            : "Ⅰ" U2160 # ROMAN NUMERAL ONE
+<Multi_key> <r> <I> <I> <space>        : "Ⅱ" U2161 # ROMAN NUMERAL TWO
+<Multi_key> <r> <I> <I> <I> <space>    : "Ⅲ" U2162 # ROMAN NUMERAL THREE
+<Multi_key> <r> <I> <V> <space>         : "Ⅳ" U2163 # ROMAN NUMERAL FOUR
+<Multi_key> <r> <V> <space>            : "Ⅴ" U2164 # ROMAN NUMERAL FIVE
+<Multi_key> <r> <V> <I> <space>        : "Ⅵ" U2165 # ROMAN NUMERAL SIX
+<Multi_key> <r> <V> <I> <I> <space>     : "Ⅶ" U2166 # ROMAN NUMERAL SEVEN
+<Multi_key> <r> <V> <I> <I> <I> <space> : "Ⅷ" U2167 # ROMAN NUMERAL EIGHT
+<Multi_key> <r> <I> <X>  <space>       : "Ⅸ" U2168 # ROMAN NUMERAL NINE
+<Multi_key> <r> <X> <space>            : "Ⅹ" U2169 # ROMAN NUMERAL TEN
+<Multi_key> <r> <X> <I> <space>        : "Ⅺ" U216A # ROMAN NUMERAL ELEVEN
+<Multi_key> <r> <X> <I> <I> <space>     : "Ⅻ" U216B # ROMAN NUMERAL TWELVE
+<Multi_key> <r> <i> <space>             : "ⅰ" U2170 # SMALL ROMAN NUMERAL ONE
+<Multi_key> <r> <i> <i> <space>        : "ⅱ" U2171 # SMALL ROMAN NUMERAL TWO
+<Multi_key> <r> <i> <i> <i> <space>    : "ⅲ" U2172 # SMALL ROMAN NUMERAL THREE
+<Multi_key> <r> <i> <v> <space>        : "ⅳ" U2173 # SMALL ROMAN NUMERAL FOUR
+<Multi_key> <r> <v> <space>            : "ⅴ" U2174 # SMALL ROMAN NUMERAL FIVE
+<Multi_key> <r> <v> <i> <space>        : "ⅵ" U2175 # SMALL ROMAN NUMERAL SIX
+<Multi_key> <r> <v> <i> <i> <space>    : "ⅶ" U2176 # SMALL ROMAN NUMERAL SEVEN
+<Multi_key> <r> <v> <i> <i> <i> <space> : "ⅷ" U2177 # SMALL ROMAN NUMERAL EIGHT
+<Multi_key> <r> <i> <x> <space>         : "ⅸ" U2178 # SMALL ROMAN NUMERAL NINE
+<Multi_key> <r> <x> <space>            : "ⅹ" U2179 # SMALL ROMAN NUMERAL TEN
+<Multi_key> <r> <x> <i> <space>        : "ⅺ" U217A # SMALL ROMAN NUMERAL ELEVEN
+<Multi_key> <r> <x> <i> <i> <space>     : "ⅻ" U217B # SMALL ROMAN NUMERAL TWELVE
 
 #############
 # FRACTIONS #
@@ -1067,17 +1067,16 @@
 
 <Multi_key> <w>  <p>  : "℘" # Weierstrass Elliptic Function p U+2118
 <Multi_key> <y> <o>  : "よ" # Yoneda embedding
-<Multi_key> <b> <e> <t> : "ℶ" # Bet U+2136
-<Multi_key> <a> <l> <e> <f> : "ℵ" # Alef symbol U+2135
+<Multi_key> <asterisk> <b> <e> <t> : "ℶ" # Bet U+2136
+<Multi_key> <asterisk> <a> <l> <e> <f> : "ℵ" # Alef symbol U+2135
 <Multi_key> <space> <i>       : "ı"
 <Multi_key> <space> <j>       : "ȷ"
 <Multi_key> <asterisk> <l>  : "ℓ"
 <Multi_key> <h> <minus>   :   "ℏ" U210F # PLANCK CONSTANT OVER TWO PI
-<Multi_key> <l> <o> <z> <e> <n> <g> <e> : "⋄" U22C4 # DIAMOND OPERATOR
-<Multi_key> <b> <o> <w> <t> <i> <e>     : "⋈" U22C5 # BOWTIE
+<Multi_key> <bar> <x> <bar>       >     : "⋈" U22C5 # BOWTIE
 <Multi_key> <e> <b> <o> <x>             : "⃝" U20DE # COMBINING ENCLOSING SQUARE
 <Multi_key> <e> <c> <i> <r> <c>         : "⃝" U20DD # COMBINING ENCLOSING CIRCLE
-<Multi_key> <b> <a> <n>                 : "⃠" U20E0 # COMBINING ENCLOSING CIRCLE BACKSLASH
+<Multi_key> <B> <a> <n>                 : "⃠" U20E0 # COMBINING ENCLOSING CIRCLE BACKSLASH
 
 ####################
 # KEYBOARD SYMBOLS #

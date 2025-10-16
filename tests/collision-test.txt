@@ -1,0 +1,7 @@
+# Test file with intentional collisions
+
+<Multi_key> <a> <b> : "α" # ALPHA
+<Multi_key> <a> <b> <c> : "β" # BETA - This collides with <a> <b>
+
+<Multi_key> <x> <y> : "χ" # CHI
+<Multi_key> <x> <y> <z> : "ξ" # XI - This collides with <x> <y>

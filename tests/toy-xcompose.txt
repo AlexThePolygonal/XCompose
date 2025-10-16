@@ -1,0 +1,21 @@
+#####################
+# MATHEMATICAL ITALIC
+#####################
+
+<Multi_key> <i> <A> : "𝐴" # MATHEMATICAL ITALIC CAPITAL A U+1d434
+<Multi_key> <i> <B> : "𝐵" # MATHEMATICAL ITALIC CAPITAL B U+1d435
+<Multi_key><i><a>:"𝑎"# MATHEMATICAL ITALIC SMALL A U+1d44e
+<Multi_key> <i>  <b>  : "𝑏" # MATHEMATICAL ITALIC SMALL B U+1d44f
+
+#################
+# GREEK LETTERS
+#################
+
+<Multi_key> <g> <a> : "α" # GREEK SMALL LETTER ALPHA U+03b1
+<Multi_key> <g> <b> : "β" # GREEK SMALL LETTER BETA U+03b2
+<Multi_key> <g> <D> : "Δ" # GREEK CAPITAL LETTER DELTA U+0394
+
+# Test edge cases
+<Multi_key> <test> <quote> : "\"" # QUOTATION MARK
+<Multi_key> <test> <angle> : "<>" # Less-than and greater-than
+<Multi_key> <test> <complex> : "naïve" # Word with accent
