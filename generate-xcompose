@@ -23,6 +23,7 @@ class XComposeEntry:
     symbol: str               # "𝑎"
     unicode_point: str        # "U1D44E"
     description: str          # "MATHEMATICAL ITALIC SMALL A"
+    source_file: str                   # Source file name
     line_number: int          # Source line for error reporting
 
 
@@ -263,16 +264,19 @@ def is_header_delimiter(line: str) -> bool:
     stripped = line.strip()
     return len(stripped) > 0 and all(c == '#' for c in stripped)
 
-def parse_xcompose(file_content: str) -> List[XComposeBlock]:
+def parse_xcompose(file_content: str, source_file: str,
+                   existing_trie: Optional[TrieNode] = None) -> Tuple[List[XComposeBlock], List[Collision]]:
     """
-    Parse an XCompose file into blocks of entries.
+    Parse an XCompose file into blocks of entries, detecting collisions during parsing.
     If the XCompose is not delimited into blocks, return a single block with empty header.
 
     Args:
         file_content: Content of an XCompose file
+        source_file: Path to the file being parsed
+        existing_trie: Optional trie with pre-existing entries to check collisions against
 
     Returns:
-        List of XComposeBlock objects
+        Tuple of (blocks, collisions)
 
     Raises:
         ParseError: On malformed lines
@@ -281,6 +285,10 @@ def parse_xcompose(file_content: str) -> List[XComposeBlock]:
     blocks: List[XComposeBlock] = []
     current_entries: List[XComposeEntry] = []
     current_header = ""
+
+    # Initialize trie and collision list
+    trie = existing_trie if existing_trie is not None else TrieNode()
+    collisions = []
 
     i = 0
     while i < len(lines):
@@ -305,8 +313,11 @@ def parse_xcompose(file_content: str) -> List[XComposeBlock]:
             continue
 
         # Try to parse as XCompose entry
-        entry = parse_line(line, i + 1)  # line_number is 1-indexed
+        entry = parse_line(line, i + 1, source_file)  # line_number is 1-indexed
         if entry is not None:
+            # Check for collisions and add to trie
+            entry_collisions = check_and_add_to_trie(entry, trie)
+            collisions.extend(entry_collisions)
             current_entries.append(entry)
 
         i += 1
@@ -319,7 +330,7 @@ def parse_xcompose(file_content: str) -> List[XComposeBlock]:
     if not blocks:
         blocks.append(XComposeBlock(header="", entries=[]))
 
-    return blocks
+    return blocks, collisions
 
 
 def detect_block_header(lines: List[str], index: int) -> Optional[str]:
@@ -357,7 +368,7 @@ def detect_block_header(lines: List[str], index: int) -> Optional[str]:
     return None
 
 
-def parse_line(line: str, line_number: int) -> Optional[XComposeEntry]:
+def parse_line(line: str, line_number: int, source_file: str) -> Optional[XComposeEntry]:
     """
     Parse single XCompose line.
 
@@ -372,6 +383,7 @@ def parse_line(line: str, line_number: int) -> Optional[XComposeEntry]:
     Args:
         line: Raw line from file
         line_number: Line number for error reporting
+        source_file: Source file path for tracking
 
     Returns:
         XComposeEntry if valid XCompose line
@@ -408,6 +420,7 @@ def parse_line(line: str, line_number: int) -> Optional[XComposeEntry]:
         symbol=symbol,
         unicode_point=unicode_point,
         description=description,
+        source_file=source_file,
         line_number=line_number
     )
 
@@ -556,7 +569,7 @@ def format_block(block: XComposeBlock) -> str:
         lines.append("")
 
     # Calculate alignment width for this block
-    key_width = calculate_key_width(block.entries)
+    key_width = max(len(format_key_sequence(entry.keys)) for entry in block.entries)
 
     # Format each entry
     for entry in block.entries:
@@ -582,21 +595,6 @@ def format_entry(entry: XComposeEntry, key_width: int) -> str:
     return f'{key_seq}{padding} : "{entry.symbol}" {entry.unicode_point} # {entry.description}'
 
 
-def calculate_key_width(entries: List[XComposeEntry]) -> int:
-    """
-    Calculate max key sequence width for alignment.
-
-    Args:
-        entries: List of entries in a block
-
-    Returns:
-        Maximum width of formatted key sequences
-    """
-    if not entries:
-        return 0
-
-    return max(len(format_key_sequence(entry.keys)) for entry in entries)
-
 
 def format_key_sequence(keys: KeySequence) -> str:
     """
@@ -608,8 +606,7 @@ def format_key_sequence(keys: KeySequence) -> str:
     Returns:
         Formatted key sequence string like "<Multi_key> <i> <a>" or "<dead_tilde> <space>"
     """
-    formatted_keys = [f'<{key}>' for key in keys]
-    return ' '.join(formatted_keys)
+    return ' '.join([f'<{key}>' for key in keys])
 
 
 def transliterate_blocks(blocks: List[XComposeBlock],
@@ -640,6 +637,7 @@ def transliterate_blocks(blocks: List[XComposeBlock],
                     symbol=entry.symbol,
                     unicode_point=entry.unicode_point,
                     description=entry.description,
+                    source_file=entry.source_file,
                     line_number=entry.line_number
                 ))
 
@@ -667,12 +665,9 @@ def get_current_locale() -> str:
             return loc
 
     # Try Python's locale module
-    try:
-        loc, _ = locale.getlocale()
-        if loc:
-            return loc
-    except:
-        pass
+    loc, _ = locale.getlocale()
+    if loc:
+        return loc
 
     # Fallback
     raise Exception("Could not determine system locale")
@@ -700,7 +695,7 @@ def load_system_compose(locale_name: str) -> Optional[List[XComposeEntry]]:
             try:
                 with open(path, 'r', encoding='utf-8') as f:
                     content = f.read()
-                blocks = parse_xcompose(content)
+                blocks, _ = parse_xcompose(content, str(path))  # Ignore collisions within system file
                 # Flatten all entries from all blocks
                 entries = []
                 for block in blocks:
@@ -764,141 +759,56 @@ def build_trie(entries: List[XComposeEntry]) -> TrieNode:
     return root
 
 
-def find_collisions(entries: List[XComposeEntry],
-                   system_entries: Optional[List[XComposeEntry]] = None) -> List[Collision]:
+def check_and_add_to_trie(entry: XComposeEntry, trie: TrieNode) -> List[Collision]:
     """
-    Detect all prefix collisions.
+    Check entry for collisions against trie, then add it to the trie.
 
     Args:
-        entries: Entries from XCompose-draft
-        system_entries: Optional system XCompose entries
-
-    Returns:
-        List of detected collisions
-    """
-    collisions: List[Collision] = []
-
-    # Check internal collisions in draft
-    collisions.extend(find_internal_collisions(entries, "XCompose-draft"))
-
-    # Check cross-system collisions if system entries provided
-    if system_entries:
-        collisions.extend(find_cross_collisions(entries, system_entries))
-
-    return collisions
-
-
-def find_internal_collisions(entries: List[XComposeEntry], source_file: str) -> List[Collision]:
-    """
-    Find collisions within a single list of entries using trie.
-
-    O(n·k) where n = number of entries, k = average key sequence length.
-
-    Args:
-        entries: List of entries to check
-        source_file: Name of source file for reporting
+        entry: Entry to check and add
+        trie: Root of the prefix tree
 
     Returns:
         List of collisions found
     """
-    collisions: List[Collision] = []
-    trie = TrieNode()
+    collisions = []
+    node = trie
 
-    for entry in entries:
-        node = trie
-
-        # Traverse the trie following the key sequence
-        for i, key in enumerate(entry.keys):
-            # Check if we hit a terminal node before the end
-            # This means an existing entry is a prefix of current entry
-            if node.entry is not None and i < len(entry.keys):
-                prefix_entry = node.entry
-                collisions.append(Collision(
-                    prefix_seq=prefix_entry.keys,
-                    prefix_entry=prefix_entry,
-                    prefix_source_file=source_file,
-                    longer_entry=entry,
-                    longer_source_file=source_file
-                ))
-
-            if key not in node.children:
-                node.children[key] = TrieNode()
-            node = node.children[key]
-
-        # Check if current entry is a prefix of existing entries
-        # If node has children, we're a prefix
-        descendants = find_all_terminal_descendants(node)
-        for longer_entry in descendants:
+    # Traverse the trie following the entry's key sequence
+    for i, key in enumerate(entry.keys):
+        # Check if we hit a terminal node before the end
+        # This means an existing entry is a prefix of current entry
+        if node.entry is not None and i < len(entry.keys):
+            existing_entry = node.entry
             collisions.append(Collision(
-                prefix_seq=entry.keys,
-                prefix_entry=entry,
-                prefix_source_file=source_file,
-                longer_entry=longer_entry,
-                longer_source_file=source_file
+                prefix_seq=existing_entry.keys,
+                prefix_entry=existing_entry,
+                prefix_source_file=existing_entry.source_file,
+                longer_entry=entry,
+                longer_source_file=entry.source_file
             ))
 
-        # Mark as terminal
-        node.entry = entry
+        # Create path if it doesn't exist
+        if key not in node.children:
+            node.children[key] = TrieNode()
+        node = node.children[key]
+
+    # Check if current entry is a prefix of existing entries
+    descendants = find_all_terminal_descendants(node)
+    for longer_entry in descendants:
+        collisions.append(Collision(
+            prefix_seq=entry.keys,
+            prefix_entry=entry,
+            prefix_source_file=entry.source_file,
+            longer_entry=longer_entry,
+            longer_source_file=longer_entry.source_file
+        ))
+
+    # Mark this as a terminal node
+    node.entry = entry
 
     return collisions
 
 
-def find_cross_collisions(draft_entries: List[XComposeEntry],
-                         system_entries: List[XComposeEntry]) -> List[Collision]:
-    """
-    Find collisions between draft and system entries using trie.
-
-    O(d·k + s·k) where d = draft entries, s = system entries, k = avg key length.
-
-    Args:
-        draft_entries: Entries from XCompose-draft
-        system_entries: Entries from system Compose
-
-    Returns:
-        List of collisions found
-    """
-    collisions: List[Collision] = []
-
-    # Build trie from system entries once
-    system_trie = build_trie(system_entries)
-
-    # For each draft entry, check against system trie
-    for draft_entry in draft_entries:
-        node = system_trie
-
-        # Traverse system trie following draft entry's key sequence
-        for i, key in enumerate(draft_entry.keys):
-            # Check if we hit a system terminal before the end
-            # This means system entry is a prefix of draft entry
-            if node.entry is not None and i < len(draft_entry.keys):
-                system_entry = node.entry
-                collisions.append(Collision(
-                    prefix_seq=system_entry.keys,
-                    prefix_entry=system_entry,
-                    prefix_source_file="system Compose",
-                    longer_entry=draft_entry,
-                    longer_source_file="XCompose-draft"
-                ))
-
-            # If key doesn't exist in system trie, no collision possible
-            if key not in node.children:
-                break
-
-            node = node.children[key]
-        else:
-            # We traversed the full draft entry sequence
-            # Check if draft entry is a prefix of system entries
-            descendants = find_all_terminal_descendants(node)
-            for system_entry in descendants:
-                collisions.append(Collision(
-                    prefix_seq=draft_entry.keys,
-                    prefix_entry=draft_entry,
-                    prefix_source_file="XCompose-draft",
-                    longer_entry=system_entry,
-                    longer_source_file="system Compose"
-                ))
-
-    return collisions
 
 def report_collisions(collisions: List[Collision], out=sys.stderr) -> None:
     """
@@ -985,36 +895,36 @@ def main() -> int:
 
     args = parser.parse_args()
 
-    # Parse XCompose-draft
+    # Load system Compose first for collision detection
+    system_trie = None
+    if not args.no_system_check:
+        locale_name = args.locale if args.locale else get_current_locale()
+        if args.verbose:
+            print(f"Loading system Compose for locale: {locale_name}...", file=sys.stderr)
+        system_entries = load_system_compose(locale_name)
+        if system_entries:
+            if args.verbose:
+                print(f"Loaded {len(system_entries)} system entries", file=sys.stderr)
+            # Build trie from system entries
+            system_trie = build_trie(system_entries)
+
+    # Parse XCompose-draft with collision detection
     if args.verbose:
         print(f"Reading {args.input}...", file=sys.stderr)
 
     with open(args.input, 'r', encoding='utf-8') as f:
         content = f.read()
-    blocks = parse_xcompose(content)
+    blocks, collisions = parse_xcompose(content, str(args.input), system_trie)
 
-    # Flatten entries for collision detection
+    # Flatten entries for reporting
     entries = []
     for block in blocks:
         entries.extend(block.entries)
 
     if args.verbose:
         print(f"Parsed {len(entries)} entries from {len(blocks)} blocks", file=sys.stderr)
-
-    # Load system Compose for collision detection
-    system_entries = None
-    if not args.no_system_check:
-        locale_name = args.locale if args.locale else get_current_locale()
-        if args.verbose:
-            print(f"Loading system Compose for locale: {locale_name}...", file=sys.stderr)
-        system_entries = load_system_compose(locale_name)
-        if system_entries and args.verbose:
-            print(f"Loaded {len(system_entries)} system entries", file=sys.stderr)
-
-    # Detect collisions
-    if args.verbose:
-        print("Checking for collisions...", file=sys.stderr)
-    collisions = find_collisions(entries, system_entries)
+        if collisions:
+            print(f"Found {len(collisions)} collisions", file=sys.stderr)
 
     # Report collisions
     if collisions:
