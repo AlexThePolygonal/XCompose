@@ -849,122 +849,235 @@ include "%L"
 # GREEK LETTERS #
 #################
 
-<Multi_key> <h> <a>            : "α" U3B1 # GREEK SMALL LETTER ALPHA
-<Multi_key> <h> <b>            : "β" U3B2 # GREEK SMALL LETTER BETA
-<Multi_key> <h> <c>            : "ψ" U3C8 # GREEK SMALL LETTER PSI
-<Multi_key> <h> <d>            : "δ" U3B4 # GREEK SMALL LETTER DELTA
-<Multi_key> <h> <e>            : "ε" U3B5 # GREEK SMALL LETTER EPSILON
-<Multi_key> <h> <f>            : "φ" U3C6 # GREEK SMALL LETTER PHI
-<Multi_key> <h> <g>            : "γ" U3B3 # GREEK SMALL LETTER GAMMA
-<Multi_key> <h> <h>            : "η" U3B7 # GREEK SMALL LETTER ETA
-<Multi_key> <h> <i>            : "ι" U3B9 # GREEK SMALL LETTER IOTA
-<Multi_key> <h> <j>            : "ξ" U3BE # GREEK SMALL LETTER XI
-<Multi_key> <h> <k>            : "κ" U3BA # GREEK SMALL LETTER KAPPA
-<Multi_key> <h> <l>            : "λ" U3BB # GREEK SMALL LETTER LAMDA
-<Multi_key> <h> <m>            : "μ" U3BC # GREEK SMALL LETTER MU
-<Multi_key> <h> <n>            : "ν" U3BD # GREEK SMALL LETTER NU
-<Multi_key> <h> <o>            : "ο" U3BF # GREEK SMALL LETTER OMICRON
-<Multi_key> <h> <p>            : "π" U3C0 # GREEK SMALL LETTER PI
-<Multi_key> <h> <question>     : ";" U37E # GREEK QUESTION MARK
-<Multi_key> <h> <r>            : "ρ" U3C1 # GREEK SMALL LETTER RHO
-<Multi_key> <h> <s>            : "σ" U3C3 # GREEK SMALL LETTER SIGMA
-<Multi_key> <h> <t>            : "τ" U3C4 # GREEK SMALL LETTER TAU
-<Multi_key> <h> <u>            : "θ" U3B8 # GREEK SMALL LETTER THETA
-<Multi_key> <h> <w>            : "ω" U3C9 # GREEK SMALL LETTER OMEGA
-<Multi_key> <h> <x>            : "χ" U3C7 # GREEK SMALL LETTER CHI
-<Multi_key> <h> <y>            : "υ" U3C5 # GREEK SMALL LETTER UPSILON
-<Multi_key> <h> <z>            : "ζ" U3B6 # GREEK SMALL LETTER ZETA
-<Multi_key> <h> <A>            : "Α" U391 # GREEK CAPITAL LETTER ALPHA
-<Multi_key> <h> <B>            : "Β" U392 # GREEK CAPITAL LETTER BETA
-<Multi_key> <h> <C>            : "Ψ" U3A8 # GREEK CAPITAL LETTER PSI
-<Multi_key> <h> <D>            : "Δ" U394 # GREEK CAPITAL LETTER DELTA
-<Multi_key> <h> <E>            : "Ε" U395 # GREEK CAPITAL LETTER EPSILON
-<Multi_key> <h> <F>            : "Φ" U3A6 # GREEK CAPITAL LETTER PHI
-<Multi_key> <h> <G>            : "Γ" U393 # GREEK CAPITAL LETTER GAMMA
-<Multi_key> <h> <H>            : "Η" U397 # GREEK CAPITAL LETTER ETA
-<Multi_key> <h> <I>            : "Ι" U399 # GREEK CAPITAL LETTER IOTA
-<Multi_key> <h> <J>            : "Ξ" U39E # GREEK CAPITAL LETTER XI
-<Multi_key> <h> <K>            : "Κ" U39A # GREEK CAPITAL LETTER KAPPA
-<Multi_key> <h> <L>            : "Λ" U39B # GREEK CAPITAL LETTER LAMDA
-<Multi_key> <h> <M>            : "Μ" U39C # GREEK CAPITAL LETTER MU
-<Multi_key> <h> <N>            : "Ν" U39D # GREEK CAPITAL LETTER NU
-<Multi_key> <h> <O>            : "Ο" U39F # GREEK CAPITAL LETTER OMICRON
-<Multi_key> <h> <P>            : "Π" U3A0 # GREEK CAPITAL LETTER PI
-<Multi_key> <h> <R>            : "Ρ" U3A1 # GREEK CAPITAL LETTER RHO
-<Multi_key> <h> <S>            : "Σ" U3A3 # GREEK CAPITAL LETTER SIGMA
-<Multi_key> <h> <T>            : "Τ" U3A4 # GREEK CAPITAL LETTER TAU
-<Multi_key> <h> <U>            : "Θ" U398 # GREEK CAPITAL LETTER THETA
-<Multi_key> <h> <W>            : "Ω" U3A9 # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <h> <asterisk> <e> : "ϵ" U3F5 # GREEK LUNATE EPSILON SYMBOL
-<Multi_key> <h> <asterisk> <u> : "ϑ" U3D1 # GREEK THETA SYMBOL
-<Multi_key> <h> <asterisk> <f> : "ϕ" U3D5 # GREEK PHI SYMBOL
-<Multi_key> <h> <asterisk> <k> : "ϰ" U3F0 # GREEK KAPPA SYMBOL
-<Multi_key> <h> <asterisk> <r> : "ϱ" U3F1 # GREEK RHO SYMBOL
-<Multi_key> <h> <asterisk> <w> : "ϖ" U3D6 # GREEK PI SYMBOL
-<Multi_key> <h> <asterisk> <G> : "ℾ" U213E # DOUBLE-STRUCK CAPITAL GAMMA
-<Multi_key> <h> <asterisk> <g> : "ℽ" U213D # DOUBLE-STRUCK SMALL GAMMA
-<Multi_key> <h> <asterisk> <P> : "ℿ" U213F # DOUBLE-STRUCK CAPITAL PI
-<Multi_key> <h> <asterisk> <p> : "ℼ" U213C # DOUBLE-STRUCK SMALL PI
-<Multi_key> <h> <asterisk> <S> : "⅀" U2140 # DOUBLE-STRUCK N-ARY SUMMATION
+<Multi_key> <h> <a>                   : "α" U3B1 # GREEK SMALL LETTER ALPHA
+<Multi_key> <h> <b>                   : "β" U3B2 # GREEK SMALL LETTER BETA
+<Multi_key> <h> <c>                   : "ψ" U3C8 # GREEK SMALL LETTER PSI
+<Multi_key> <h> <d>                   : "δ" U3B4 # GREEK SMALL LETTER DELTA
+<Multi_key> <h> <e>                   : "ε" U3B5 # GREEK SMALL LETTER EPSILON
+<Multi_key> <h> <f>                   : "φ" U3C6 # GREEK SMALL LETTER PHI
+<Multi_key> <h> <g>                   : "γ" U3B3 # GREEK SMALL LETTER GAMMA
+<Multi_key> <h> <h>                   : "η" U3B7 # GREEK SMALL LETTER ETA
+<Multi_key> <h> <i>                   : "ι" U3B9 # GREEK SMALL LETTER IOTA
+<Multi_key> <h> <j>                   : "ξ" U3BE # GREEK SMALL LETTER XI
+<Multi_key> <h> <k>                   : "κ" U3BA # GREEK SMALL LETTER KAPPA
+<Multi_key> <h> <l>                   : "λ" U3BB # GREEK SMALL LETTER LAMDA
+<Multi_key> <h> <m>                   : "μ" U3BC # GREEK SMALL LETTER MU
+<Multi_key> <h> <n>                   : "ν" U3BD # GREEK SMALL LETTER NU
+<Multi_key> <h> <o>                   : "ο" U3BF # GREEK SMALL LETTER OMICRON
+<Multi_key> <h> <p>                   : "π" U3C0 # GREEK SMALL LETTER PI
+<Multi_key> <h> <question>            : ";" U37E # GREEK QUESTION MARK
+<Multi_key> <h> <r>                   : "ρ" U3C1 # GREEK SMALL LETTER RHO
+<Multi_key> <h> <s>                   : "σ" U3C3 # GREEK SMALL LETTER SIGMA
+<Multi_key> <h> <t>                   : "τ" U3C4 # GREEK SMALL LETTER TAU
+<Multi_key> <h> <u>                   : "θ" U3B8 # GREEK SMALL LETTER THETA
+<Multi_key> <h> <w>                   : "ω" U3C9 # GREEK SMALL LETTER OMEGA
+<Multi_key> <h> <x>                   : "χ" U3C7 # GREEK SMALL LETTER CHI
+<Multi_key> <h> <y>                   : "υ" U3C5 # GREEK SMALL LETTER UPSILON
+<Multi_key> <h> <z>                   : "ζ" U3B6 # GREEK SMALL LETTER ZETA
+<Multi_key> <h> <A>                   : "Α" U391 # GREEK CAPITAL LETTER ALPHA
+<Multi_key> <h> <B>                   : "Β" U392 # GREEK CAPITAL LETTER BETA
+<Multi_key> <h> <C>                   : "Ψ" U3A8 # GREEK CAPITAL LETTER PSI
+<Multi_key> <h> <D>                   : "Δ" U394 # GREEK CAPITAL LETTER DELTA
+<Multi_key> <h> <E>                   : "Ε" U395 # GREEK CAPITAL LETTER EPSILON
+<Multi_key> <h> <F>                   : "Φ" U3A6 # GREEK CAPITAL LETTER PHI
+<Multi_key> <h> <G>                   : "Γ" U393 # GREEK CAPITAL LETTER GAMMA
+<Multi_key> <h> <H>                   : "Η" U397 # GREEK CAPITAL LETTER ETA
+<Multi_key> <h> <I>                   : "Ι" U399 # GREEK CAPITAL LETTER IOTA
+<Multi_key> <h> <J>                   : "Ξ" U39E # GREEK CAPITAL LETTER XI
+<Multi_key> <h> <K>                   : "Κ" U39A # GREEK CAPITAL LETTER KAPPA
+<Multi_key> <h> <L>                   : "Λ" U39B # GREEK CAPITAL LETTER LAMDA
+<Multi_key> <h> <M>                   : "Μ" U39C # GREEK CAPITAL LETTER MU
+<Multi_key> <h> <N>                   : "Ν" U39D # GREEK CAPITAL LETTER NU
+<Multi_key> <h> <O>                   : "Ο" U39F # GREEK CAPITAL LETTER OMICRON
+<Multi_key> <h> <P>                   : "Π" U3A0 # GREEK CAPITAL LETTER PI
+<Multi_key> <h> <R>                   : "Ρ" U3A1 # GREEK CAPITAL LETTER RHO
+<Multi_key> <h> <S>                   : "Σ" U3A3 # GREEK CAPITAL LETTER SIGMA
+<Multi_key> <h> <T>                   : "Τ" U3A4 # GREEK CAPITAL LETTER TAU
+<Multi_key> <h> <U>                   : "Θ" U398 # GREEK CAPITAL LETTER THETA
+<Multi_key> <h> <W>                   : "Ω" U3A9 # GREEK CAPITAL LETTER OMEGA
+<Multi_key> <h> <X>                   : "Χ" U3A7 # GREEK CAPITAL LETTER CHI
+<Multi_key> <h> <Y>                   : "Υ" U3A5 # GREEK CAPITAL LETTER UPSILON
+<Multi_key> <h> <Z>                   : "Ζ" U396 # GREEK CAPITAL LETTER ZETA
+<Multi_key> <h> <asterisk> <e>        : "ϵ" U3F5 # GREEK LUNATE EPSILON SYMBOL
+<Multi_key> <h> <asterisk> <u>        : "ϑ" U3D1 # GREEK THETA SYMBOL
+<Multi_key> <h> <asterisk> <f>        : "ϕ" U3D5 # GREEK PHI SYMBOL
+<Multi_key> <h> <asterisk> <k>        : "ϰ" U3F0 # GREEK KAPPA SYMBOL
+<Multi_key> <h> <asterisk> <r>        : "ϱ" U3F1 # GREEK RHO SYMBOL
+<Multi_key> <h> <asterisk> <w>        : "ϖ" U3D6 # GREEK PI SYMBOL
+<Multi_key> <h> <asterisk> <G>        : "ℾ" U213E # DOUBLE-STRUCK CAPITAL GAMMA
+<Multi_key> <h> <asterisk> <g>        : "ℽ" U213D # DOUBLE-STRUCK SMALL GAMMA
+<Multi_key> <h> <asterisk> <P>        : "ℿ" U213F # DOUBLE-STRUCK CAPITAL PI
+<Multi_key> <h> <asterisk> <p>        : "ℼ" U213C # DOUBLE-STRUCK SMALL PI
+<Multi_key> <h> <asterisk> <S>        : "⅀" U2140 # DOUBLE-STRUCK N-ARY SUMMATION
+<Multi_key> <h> <plus> <a>            : "𝛂" U1D6C2 # MATHEMATICAL BOLD SMALL ALPHA
+<Multi_key> <h> <plus> <b>            : "𝛃" U1D6C3 # MATHEMATICAL BOLD SMALL BETA
+<Multi_key> <h> <plus> <c>            : "𝛙" U1D6D9 # MATHEMATICAL BOLD SMALL PSI
+<Multi_key> <h> <plus> <d>            : "𝛅" U1D6C5 # MATHEMATICAL BOLD SMALL DELTA
+<Multi_key> <h> <plus> <e>            : "𝛆" U1D6C6 # MATHEMATICAL BOLD SMALL EPSILON
+<Multi_key> <h> <plus> <f>            : "𝛗" U1D6D7 # MATHEMATICAL BOLD SMALL PHI
+<Multi_key> <h> <plus> <g>            : "𝛄" U1D6C4 # MATHEMATICAL BOLD SMALL GAMMA
+<Multi_key> <h> <plus> <h>            : "𝛈" U1D6C8 # MATHEMATICAL BOLD SMALL ETA
+<Multi_key> <h> <plus> <i>            : "𝛊" U1D6CA # MATHEMATICAL BOLD SMALL IOTA
+<Multi_key> <h> <plus> <j>            : "𝛏" U1D6CF # MATHEMATICAL BOLD SMALL XI
+<Multi_key> <h> <plus> <k>            : "𝛋" U1D6CB # MATHEMATICAL BOLD SMALL KAPPA
+<Multi_key> <h> <plus> <l>            : "𝛌" U1D6CC # MATHEMATICAL BOLD SMALL LAMDA
+<Multi_key> <h> <plus> <m>            : "𝛍" U1D6CD # MATHEMATICAL BOLD SMALL MU
+<Multi_key> <h> <plus> <n>            : "𝛎" U1D6CE # MATHEMATICAL BOLD SMALL NU
+<Multi_key> <h> <plus> <o>            : "𝛐" U1D6D0 # MATHEMATICAL BOLD SMALL OMICRON
+<Multi_key> <h> <plus> <p>            : "𝛑" U1D6D1 # MATHEMATICAL BOLD SMALL PI
+<Multi_key> <h> <plus> <question>     : ";" U37E # GREEK QUESTION MARK
+<Multi_key> <h> <plus> <r>            : "𝛒" U1D6D2 # MATHEMATICAL BOLD SMALL RHO
+<Multi_key> <h> <plus> <s>            : "𝛔" U1D6D4 # MATHEMATICAL BOLD SMALL SIGMA
+<Multi_key> <h> <plus> <t>            : "𝛕" U1D6D5 # MATHEMATICAL BOLD SMALL TAU
+<Multi_key> <h> <plus> <u>            : "𝛉" U1D6C9 # MATHEMATICAL BOLD SMALL THETA
+<Multi_key> <h> <plus> <w>            : "𝛚" U1D6DA # MATHEMATICAL BOLD SMALL OMEGA
+<Multi_key> <h> <plus> <x>            : "𝛘" U1D6D8 # MATHEMATICAL BOLD SMALL CHI
+<Multi_key> <h> <plus> <y>            : "𝛖" U1D6D6 # MATHEMATICAL BOLD SMALL UPSILON
+<Multi_key> <h> <plus> <z>            : "𝛇" U1D6C7 # MATHEMATICAL BOLD SMALL ZETA
+<Multi_key> <h> <plus> <A>            : "𝚨" U1D6A8 # MATHEMATICAL BOLD CAPITAL ALPHA
+<Multi_key> <h> <plus> <B>            : "𝚩" U1D6A9 # MATHEMATICAL BOLD CAPITAL BETA
+<Multi_key> <h> <plus> <C>            : "𝚿" U1D6BF # MATHEMATICAL BOLD CAPITAL PSI
+<Multi_key> <h> <plus> <D>            : "𝚫" U1D6AB # MATHEMATICAL BOLD CAPITAL DELTA
+<Multi_key> <h> <plus> <E>            : "𝚬" U1D6AC # MATHEMATICAL BOLD CAPITAL EPSILON
+<Multi_key> <h> <plus> <F>            : "𝚽" U1D6BD # MATHEMATICAL BOLD CAPITAL PHI
+<Multi_key> <h> <plus> <G>            : "𝚪" U1D6AA # MATHEMATICAL BOLD CAPITAL GAMMA
+<Multi_key> <h> <plus> <H>            : "𝚮" U1D6AE # MATHEMATICAL BOLD CAPITAL ETA
+<Multi_key> <h> <plus> <I>            : "𝚰" U1D6B0 # MATHEMATICAL BOLD CAPITAL IOTA
+<Multi_key> <h> <plus> <J>            : "𝚵" U1D6B5 # MATHEMATICAL BOLD CAPITAL XI
+<Multi_key> <h> <plus> <K>            : "𝚱" U1D6B1 # MATHEMATICAL BOLD CAPITAL KAPPA
+<Multi_key> <h> <plus> <L>            : "𝚲" U1D6B2 # MATHEMATICAL BOLD CAPITAL LAMDA
+<Multi_key> <h> <plus> <M>            : "𝚳" U1D6B3 # MATHEMATICAL BOLD CAPITAL MU
+<Multi_key> <h> <plus> <N>            : "𝚴" U1D6B4 # MATHEMATICAL BOLD CAPITAL NU
+<Multi_key> <h> <plus> <O>            : "𝚶" U1D6B6 # MATHEMATICAL BOLD CAPITAL OMICRON
+<Multi_key> <h> <plus> <P>            : "𝚷" U1D6B7 # MATHEMATICAL BOLD CAPITAL PI
+<Multi_key> <h> <plus> <R>            : "𝚸" U1D6B8 # MATHEMATICAL BOLD CAPITAL RHO
+<Multi_key> <h> <plus> <S>            : "𝚺" U1D6BA # MATHEMATICAL BOLD CAPITAL SIGMA
+<Multi_key> <h> <plus> <T>            : "𝚻" U1D6BB # MATHEMATICAL BOLD CAPITAL TAU
+<Multi_key> <h> <plus> <U>            : "𝚹" U1D6B9 # MATHEMATICAL BOLD CAPITAL THETA SYMBOL
+<Multi_key> <h> <plus> <W>            : "𝛀" U1D6C0 # MATHEMATICAL BOLD CAPITAL OMEGA
+<Multi_key> <h> <plus> <X>            : "𝚾" U1D6BE # MATHEMATICAL BOLD CAPITAL CHI
+<Multi_key> <h> <plus> <Y>            : "𝚼" U1D6BC # MATHEMATICAL BOLD CAPITAL UPSILON
+<Multi_key> <h> <plus> <Z>            : "𝚭" U1D6AD # MATHEMATICAL BOLD CAPITAL ZETA
+<Multi_key> <h> <plus> <asterisk> <e> : "𝛜" U1D6DC # MATHEMATICAL BOLD EPSILON SYMBOL
+<Multi_key> <h> <plus> <asterisk> <u> : "𝛝" U1D6DD # MATHEMATICAL BOLD THETA SYMBOL
+<Multi_key> <h> <plus> <asterisk> <f> : "𝛟" U1D6DF # MATHEMATICAL BOLD PHI SYMBOL
+<Multi_key> <h> <plus> <asterisk> <k> : "𝛞" U1D6DE # MATHEMATICAL BOLD KAPPA SYMBOL
+<Multi_key> <h> <plus> <asterisk> <r> : "𝛠" U1D6E0 # MATHEMATICAL BOLD RHO SYMBOL
+<Multi_key> <h> <plus> <asterisk> <w> : "𝛡" U1D6E1 # MATHEMATICAL BOLD PI SYMBOL
 ##############################
 # MATHEMATICAL GREEK LETTERS #
 ##############################
 
-<Multi_key> <g> <a>            : "𝛼" U1D6FC # MATHEMATICAL ITALIC SMALL ALPHA
-<Multi_key> <g> <b>            : "𝛽" U1D6FD # MATHEMATICAL ITALIC SMALL BETA
-<Multi_key> <g> <c>            : "𝜓" U1D713 # MATHEMATICAL ITALIC SMALL PSI
-<Multi_key> <g> <d>            : "𝛿" U1D6FF # MATHEMATICAL ITALIC SMALL DELTA
-<Multi_key> <g> <e>            : "𝜀" U1D700 # MATHEMATICAL ITALIC SMALL EPSILON
-<Multi_key> <g> <f>            : "𝜑" U1D711 # MATHEMATICAL ITALIC SMALL PHI
-<Multi_key> <g> <g>            : "𝛾" U1D6FE # MATHEMATICAL ITALIC SMALL GAMMA
-<Multi_key> <g> <h>            : "𝜂" U1D702 # MATHEMATICAL ITALIC SMALL ETA
-<Multi_key> <g> <i>            : "𝜄" U1D704 # MATHEMATICAL ITALIC SMALL IOTA
-<Multi_key> <g> <j>            : "𝜉" U1D709 # MATHEMATICAL ITALIC SMALL XI
-<Multi_key> <g> <k>            : "𝜅" U1D705 # MATHEMATICAL ITALIC SMALL KAPPA
-<Multi_key> <g> <l>            : "𝜆" U1D706 # MATHEMATICAL ITALIC SMALL LAMDA
-<Multi_key> <g> <m>            : "𝜇" U1D707 # MATHEMATICAL ITALIC SMALL MU
-<Multi_key> <g> <n>            : "𝜈" U1D708 # MATHEMATICAL ITALIC SMALL NU
-<Multi_key> <g> <o>            : "𝜊" U1D70A # MATHEMATICAL ITALIC SMALL OMICRON
-<Multi_key> <g> <p>            : "𝜋" U1D70B # MATHEMATICAL ITALIC SMALL PI
-<Multi_key> <g> <question>     : ";" U37E # GREEK QUESTION MARK
-<Multi_key> <g> <r>            : "𝜌" U1D70C # MATHEMATICAL ITALIC SMALL RHO
-<Multi_key> <g> <s>            : "𝜎" U1D70E # MATHEMATICAL ITALIC SMALL SIGMA
-<Multi_key> <g> <t>            : "𝜏" U1D70F # MATHEMATICAL ITALIC SMALL TAU
-<Multi_key> <g> <u>            : "𝜃" U1D703 # MATHEMATICAL ITALIC SMALL THETA
-<Multi_key> <g> <w>            : "𝜔" U1D714 # MATHEMATICAL ITALIC SMALL OMEGA
-<Multi_key> <g> <x>            : "𝜒" U1D712 # MATHEMATICAL ITALIC SMALL CHI
-<Multi_key> <g> <y>            : "𝜐" U1D710 # MATHEMATICAL ITALIC SMALL UPSILON
-<Multi_key> <g> <z>            : "𝜁" U1D701 # MATHEMATICAL ITALIC SMALL ZETA
-<Multi_key> <g> <A>            : "𝛢" U1D6E2 # MATHEMATICAL ITALIC CAPITAL ALPHA
-<Multi_key> <g> <B>            : "𝛣" U1D6E3 # MATHEMATICAL ITALIC CAPITAL BETA
-<Multi_key> <g> <C>            : "𝛹" U1D6F9 # MATHEMATICAL ITALIC CAPITAL PSI
-<Multi_key> <g> <D>            : "𝛥" U1D6E5 # MATHEMATICAL ITALIC CAPITAL DELTA
-<Multi_key> <g> <E>            : "𝛦" U1D6E6 # MATHEMATICAL ITALIC CAPITAL EPSILON
-<Multi_key> <g> <F>            : "𝛷" U1D6F7 # MATHEMATICAL ITALIC CAPITAL PHI
-<Multi_key> <g> <G>            : "𝛤" U1D6E4 # MATHEMATICAL ITALIC CAPITAL GAMMA
-<Multi_key> <g> <H>            : "𝛨" U1D6E8 # MATHEMATICAL ITALIC CAPITAL ETA
-<Multi_key> <g> <I>            : "𝛪" U1D6EA # MATHEMATICAL ITALIC CAPITAL IOTA
-<Multi_key> <g> <J>            : "𝛯" U1D6EF # MATHEMATICAL ITALIC CAPITAL XI
-<Multi_key> <g> <K>            : "𝛫" U1D6EB # MATHEMATICAL ITALIC CAPITAL KAPPA
-<Multi_key> <g> <L>            : "𝛬" U1D6EC # MATHEMATICAL ITALIC CAPITAL LAMDA
-<Multi_key> <g> <M>            : "𝛭" U1D6ED # MATHEMATICAL ITALIC CAPITAL MU
-<Multi_key> <g> <N>            : "𝛮" U1D6EE # MATHEMATICAL ITALIC CAPITAL NU
-<Multi_key> <g> <O>            : "𝛰" U1D6F0 # MATHEMATICAL ITALIC CAPITAL OMICRON
-<Multi_key> <g> <P>            : "𝛱" U1D6F1 # MATHEMATICAL ITALIC CAPITAL PI
-<Multi_key> <g> <R>            : "𝛲" U1D6F2 # MATHEMATICAL ITALIC CAPITAL RHO
-<Multi_key> <g> <S>            : "𝛴" U1D6F4 # MATHEMATICAL ITALIC CAPITAL SIGMA
-<Multi_key> <g> <T>            : "𝛵" U1D6F5 # MATHEMATICAL ITALIC CAPITAL TAU
-<Multi_key> <g> <U>            : "𝛳" U1D6F3 # MATHEMATICAL ITALIC CAPITAL THETA SYMBOL
-<Multi_key> <g> <W>            : "𝛺" U1D6FA # MATHEMATICAL ITALIC CAPITAL OMEGA
-<Multi_key> <g> <X>            : "𝛸" U1D6F8 # MATHEMATICAL ITALIC CAPITAL CHI
-<Multi_key> <g> <Y>            : "𝛶" U1D6F6 # MATHEMATICAL ITALIC CAPITAL UPSILON
-<Multi_key> <g> <Z>            : "𝛧" U1D6E7 # MATHEMATICAL ITALIC CAPITAL ZETA
-<Multi_key> <g> <asterisk> <e> : "𝜖" U1D716 # MATHEMATICAL ITALIC EPSILON SYMBOL
-<Multi_key> <g> <asterisk> <k> : "𝜘" U1D718 # MATHEMATICAL ITALIC KAPPA SYMBOL
-<Multi_key> <g> <asterisk> <u> : "𝜗" U1D717 # MATHEMATICAL ITALIC THETA SYMBOL
-<Multi_key> <g> <asterisk> <f> : "𝜙" U1D719 # MATHEMATICAL ITALIC PHI SYMBOL
-<Multi_key> <g> <asterisk> <W> : "𝜛" U1D71B # MATHEMATICAL ITALIC PI SYMBOL
-<Multi_key> <g> <asterisk> <r> : "𝜚" U1D71A # MATHEMATICAL ITALIC RHO SYMBOL
+<Multi_key> <g> <a>                   : "𝛼" U1D6FC # MATHEMATICAL ITALIC SMALL ALPHA
+<Multi_key> <g> <b>                   : "𝛽" U1D6FD # MATHEMATICAL ITALIC SMALL BETA
+<Multi_key> <g> <c>                   : "𝜓" U1D713 # MATHEMATICAL ITALIC SMALL PSI
+<Multi_key> <g> <d>                   : "𝛿" U1D6FF # MATHEMATICAL ITALIC SMALL DELTA
+<Multi_key> <g> <e>                   : "𝜀" U1D700 # MATHEMATICAL ITALIC SMALL EPSILON
+<Multi_key> <g> <f>                   : "𝜑" U1D711 # MATHEMATICAL ITALIC SMALL PHI
+<Multi_key> <g> <g>                   : "𝛾" U1D6FE # MATHEMATICAL ITALIC SMALL GAMMA
+<Multi_key> <g> <h>                   : "𝜂" U1D702 # MATHEMATICAL ITALIC SMALL ETA
+<Multi_key> <g> <i>                   : "𝜄" U1D704 # MATHEMATICAL ITALIC SMALL IOTA
+<Multi_key> <g> <j>                   : "𝜉" U1D709 # MATHEMATICAL ITALIC SMALL XI
+<Multi_key> <g> <k>                   : "𝜅" U1D705 # MATHEMATICAL ITALIC SMALL KAPPA
+<Multi_key> <g> <l>                   : "𝜆" U1D706 # MATHEMATICAL ITALIC SMALL LAMDA
+<Multi_key> <g> <m>                   : "𝜇" U1D707 # MATHEMATICAL ITALIC SMALL MU
+<Multi_key> <g> <n>                   : "𝜈" U1D708 # MATHEMATICAL ITALIC SMALL NU
+<Multi_key> <g> <o>                   : "𝜊" U1D70A # MATHEMATICAL ITALIC SMALL OMICRON
+<Multi_key> <g> <p>                   : "𝜋" U1D70B # MATHEMATICAL ITALIC SMALL PI
+<Multi_key> <g> <question>            : ";" U37E # GREEK QUESTION MARK
+<Multi_key> <g> <r>                   : "𝜌" U1D70C # MATHEMATICAL ITALIC SMALL RHO
+<Multi_key> <g> <s>                   : "𝜎" U1D70E # MATHEMATICAL ITALIC SMALL SIGMA
+<Multi_key> <g> <t>                   : "𝜏" U1D70F # MATHEMATICAL ITALIC SMALL TAU
+<Multi_key> <g> <u>                   : "𝜃" U1D703 # MATHEMATICAL ITALIC SMALL THETA
+<Multi_key> <g> <w>                   : "𝜔" U1D714 # MATHEMATICAL ITALIC SMALL OMEGA
+<Multi_key> <g> <x>                   : "𝜒" U1D712 # MATHEMATICAL ITALIC SMALL CHI
+<Multi_key> <g> <y>                   : "𝜐" U1D710 # MATHEMATICAL ITALIC SMALL UPSILON
+<Multi_key> <g> <z>                   : "𝜁" U1D701 # MATHEMATICAL ITALIC SMALL ZETA
+<Multi_key> <g> <A>                   : "𝛢" U1D6E2 # MATHEMATICAL ITALIC CAPITAL ALPHA
+<Multi_key> <g> <B>                   : "𝛣" U1D6E3 # MATHEMATICAL ITALIC CAPITAL BETA
+<Multi_key> <g> <C>                   : "𝛹" U1D6F9 # MATHEMATICAL ITALIC CAPITAL PSI
+<Multi_key> <g> <D>                   : "𝛥" U1D6E5 # MATHEMATICAL ITALIC CAPITAL DELTA
+<Multi_key> <g> <E>                   : "𝛦" U1D6E6 # MATHEMATICAL ITALIC CAPITAL EPSILON
+<Multi_key> <g> <F>                   : "𝛷" U1D6F7 # MATHEMATICAL ITALIC CAPITAL PHI
+<Multi_key> <g> <G>                   : "𝛤" U1D6E4 # MATHEMATICAL ITALIC CAPITAL GAMMA
+<Multi_key> <g> <H>                   : "𝛨" U1D6E8 # MATHEMATICAL ITALIC CAPITAL ETA
+<Multi_key> <g> <I>                   : "𝛪" U1D6EA # MATHEMATICAL ITALIC CAPITAL IOTA
+<Multi_key> <g> <J>                   : "𝛯" U1D6EF # MATHEMATICAL ITALIC CAPITAL XI
+<Multi_key> <g> <K>                   : "𝛫" U1D6EB # MATHEMATICAL ITALIC CAPITAL KAPPA
+<Multi_key> <g> <L>                   : "𝛬" U1D6EC # MATHEMATICAL ITALIC CAPITAL LAMDA
+<Multi_key> <g> <M>                   : "𝛭" U1D6ED # MATHEMATICAL ITALIC CAPITAL MU
+<Multi_key> <g> <N>                   : "𝛮" U1D6EE # MATHEMATICAL ITALIC CAPITAL NU
+<Multi_key> <g> <O>                   : "𝛰" U1D6F0 # MATHEMATICAL ITALIC CAPITAL OMICRON
+<Multi_key> <g> <P>                   : "𝛱" U1D6F1 # MATHEMATICAL ITALIC CAPITAL PI
+<Multi_key> <g> <R>                   : "𝛲" U1D6F2 # MATHEMATICAL ITALIC CAPITAL RHO
+<Multi_key> <g> <S>                   : "𝛴" U1D6F4 # MATHEMATICAL ITALIC CAPITAL SIGMA
+<Multi_key> <g> <T>                   : "𝛵" U1D6F5 # MATHEMATICAL ITALIC CAPITAL TAU
+<Multi_key> <g> <U>                   : "𝛳" U1D6F3 # MATHEMATICAL ITALIC CAPITAL THETA SYMBOL
+<Multi_key> <g> <W>                   : "𝛺" U1D6FA # MATHEMATICAL ITALIC CAPITAL OMEGA
+<Multi_key> <g> <X>                   : "𝛸" U1D6F8 # MATHEMATICAL ITALIC CAPITAL CHI
+<Multi_key> <g> <Y>                   : "𝛶" U1D6F6 # MATHEMATICAL ITALIC CAPITAL UPSILON
+<Multi_key> <g> <Z>                   : "𝛧" U1D6E7 # MATHEMATICAL ITALIC CAPITAL ZETA
+<Multi_key> <g> <asterisk> <e>        : "𝜖" U1D716 # MATHEMATICAL ITALIC EPSILON SYMBOL
+<Multi_key> <g> <asterisk> <k>        : "𝜘" U1D718 # MATHEMATICAL ITALIC KAPPA SYMBOL
+<Multi_key> <g> <asterisk> <u>        : "𝜗" U1D717 # MATHEMATICAL ITALIC THETA SYMBOL
+<Multi_key> <g> <asterisk> <f>        : "𝜙" U1D719 # MATHEMATICAL ITALIC PHI SYMBOL
+<Multi_key> <g> <asterisk> <W>        : "𝜛" U1D71B # MATHEMATICAL ITALIC PI SYMBOL
+<Multi_key> <g> <asterisk> <r>        : "𝜚" U1D71A # MATHEMATICAL ITALIC RHO SYMBOL
+<Multi_key> <g> <plus> <a>            : "𝜶" U1D736 # MATHEMATICAL BOLD ITALIC SMALL ALPHA
+<Multi_key> <g> <plus> <b>            : "𝜷" U1D737 # MATHEMATICAL BOLD ITALIC SMALL BETA
+<Multi_key> <g> <plus> <c>            : "𝝍" U1D74D # MATHEMATICAL BOLD ITALIC SMALL PSI
+<Multi_key> <g> <plus> <d>            : "𝜹" U1D739 # MATHEMATICAL BOLD ITALIC SMALL DELTA
+<Multi_key> <g> <plus> <e>            : "𝜺" U1D73A # MATHEMATICAL BOLD ITALIC SMALL EPSILON
+<Multi_key> <g> <plus> <f>            : "𝝓" U1D753 # MATHEMATICAL BOLD ITALIC PHI SYMBOL
+<Multi_key> <g> <plus> <g>            : "𝜸" U1D738 # MATHEMATICAL BOLD ITALIC SMALL GAMMA
+<Multi_key> <g> <plus> <h>            : "𝜼" U1D73C # MATHEMATICAL BOLD ITALIC SMALL ETA
+<Multi_key> <g> <plus> <i>            : "𝜾" U1D73E # MATHEMATICAL BOLD ITALIC SMALL IOTA
+<Multi_key> <g> <plus> <j>            : "𝝃" U1D743 # MATHEMATICAL BOLD ITALIC SMALL XI
+<Multi_key> <g> <plus> <k>            : "𝝒" U1D752 # MATHEMATICAL BOLD ITALIC KAPPA SYMBOL
+<Multi_key> <g> <plus> <l>            : "𝝀" U1D740 # MATHEMATICAL BOLD ITALIC SMALL LAMDA
+<Multi_key> <g> <plus> <m>            : "𝝁" U1D741 # MATHEMATICAL BOLD ITALIC SMALL MU
+<Multi_key> <g> <plus> <n>            : "𝝂" U1D742 # MATHEMATICAL BOLD ITALIC SMALL NU
+<Multi_key> <g> <plus> <o>            : "𝝄" U1D744 # MATHEMATICAL BOLD ITALIC SMALL OMICRON
+<Multi_key> <g> <plus> <p>            : "𝝅" U1D745 # MATHEMATICAL BOLD ITALIC SMALL PI
+<Multi_key> <g> <plus> <question>     : ";" U37E # GREEK QUESTION MARK
+<Multi_key> <g> <plus> <r>            : "𝝆" U1D746 # MATHEMATICAL BOLD ITALIC SMALL RHO
+<Multi_key> <g> <plus> <s>            : "𝝈" U1D748 # MATHEMATICAL BOLD ITALIC SMALL SIGMA
+<Multi_key> <g> <plus> <t>            : "𝝉" U1D749 # MATHEMATICAL BOLD ITALIC SMALL TAU
+<Multi_key> <g> <plus> <u>            : "𝜽" U1D73D # MATHEMATICAL BOLD ITALIC SMALL THETA
+<Multi_key> <g> <plus> <w>            : "𝝎" U1D74E # MATHEMATICAL BOLD ITALIC SMALL OMEGA
+<Multi_key> <g> <plus> <x>            : "𝝌" U1D74C # MATHEMATICAL BOLD ITALIC SMALL CHI
+<Multi_key> <g> <plus> <y>            : "𝝊" U1D74A # MATHEMATICAL BOLD ITALIC SMALL UPSILON
+<Multi_key> <g> <plus> <z>            : "𝜻" U1D73B # MATHEMATICAL BOLD ITALIC SMALL ZETA
+<Multi_key> <g> <plus> <A>            : "𝜜" U1D71C # MATHEMATICAL BOLD ITALIC CAPITAL ALPHA
+<Multi_key> <g> <plus> <B>            : "𝜝" U1D71D # MATHEMATICAL BOLD ITALIC CAPITAL BETA
+<Multi_key> <g> <plus> <C>            : "𝜳" U1D733 # MATHEMATICAL BOLD ITALIC CAPITAL PSI
+<Multi_key> <g> <plus> <D>            : "𝜟" U1D71F # MATHEMATICAL BOLD ITALIC CAPITAL DELTA
+<Multi_key> <g> <plus> <E>            : "𝜠" U1D720 # MATHEMATICAL BOLD ITALIC CAPITAL EPSILON
+<Multi_key> <g> <plus> <F>            : "𝜱" U1D731 # MATHEMATICAL BOLD ITALIC CAPITAL PHI
+<Multi_key> <g> <plus> <G>            : "𝜞" U1D71E # MATHEMATICAL BOLD ITALIC CAPITAL GAMMA
+<Multi_key> <g> <plus> <H>            : "𝜢" U1D722 # MATHEMATICAL BOLD ITALIC CAPITAL ETA
+<Multi_key> <g> <plus> <I>            : "𝜤" U1D724 # MATHEMATICAL BOLD ITALIC CAPITAL IOTA
+<Multi_key> <g> <plus> <J>            : "𝜩" U1D729 # MATHEMATICAL BOLD ITALIC CAPITAL XI
+<Multi_key> <g> <plus> <K>            : "𝜥" U1D725 # MATHEMATICAL BOLD ITALIC CAPITAL KAPPA
+<Multi_key> <g> <plus> <L>            : "𝜦" U1D726 # MATHEMATICAL BOLD ITALIC CAPITAL LAMDA
+<Multi_key> <g> <plus> <M>            : "𝜧" U1D727 # MATHEMATICAL BOLD ITALIC CAPITAL MU
+<Multi_key> <g> <plus> <N>            : "𝜨" U1D728 # MATHEMATICAL BOLD ITALIC CAPITAL NU
+<Multi_key> <g> <plus> <O>            : "𝜪" U1D72A # MATHEMATICAL BOLD ITALIC CAPITAL OMICRON
+<Multi_key> <g> <plus> <P>            : "𝜫" U1D72B # MATHEMATICAL BOLD ITALIC CAPITAL PI
+<Multi_key> <g> <plus> <R>            : "𝜬" U1D72C # MATHEMATICAL BOLD ITALIC CAPITAL RHO
+<Multi_key> <g> <plus> <S>            : "𝜮" U1D72E # MATHEMATICAL BOLD ITALIC CAPITAL SIGMA
+<Multi_key> <g> <plus> <T>            : "𝜯" U1D72F # MATHEMATICAL BOLD ITALIC CAPITAL TAU
+<Multi_key> <g> <plus> <U>            : "𝜣" U1D723 # MATHEMATICAL BOLD ITALIC CAPITAL THETA
+<Multi_key> <g> <plus> <W>            : "𝜴" U1D734 # MATHEMATICAL BOLD ITALIC CAPITAL OMEGA
+<Multi_key> <g> <plus> <X>            : "𝜲" U1D732 # MATHEMATICAL BOLD ITALIC CAPITAL CHI
+<Multi_key> <g> <plus> <Y>            : "𝜰" U1D730 # MATHEMATICAL BOLD ITALIC CAPITAL UPSILON
+<Multi_key> <g> <plus> <Z>            : "𝜡" U1D721 # MATHEMATICAL BOLD ITALIC CAPITAL ZETA
+<Multi_key> <g> <plus> <asterisk> <e> : "𝝐" U1D750 # MATHEMATICAL BOLD ITALIC EPSILON SYMBOL
+<Multi_key> <g> <plus> <asterisk> <k> : "𝝒" U1D752 # MATHEMATICAL BOLD ITALIC KAPPA SYMBOL
+<Multi_key> <g> <plus> <asterisk> <u> : "𝝑" U1D751 # MATHEMATICAL BOLD ITALIC THETA SYMBOL
+<Multi_key> <g> <plus> <asterisk> <f> : "𝝓" U1D753 # MATHEMATICAL BOLD ITALIC PHI SYMBOL
+<Multi_key> <g> <plus> <asterisk> <W> : "𝝕" U1D755 # MATHEMATICAL BOLD ITALIC PI SYMBOL
+<Multi_key> <g> <plus> <asterisk> <r> : "𝝔" U1D754 # MATHEMATICAL BOLD ITALIC RHO SYMBOL
 #################
 # MISCELLANEOUS #
 #################
@@ -1842,122 +1955,235 @@ include "%L"
 # GREEK LETTERS #
 #################
 
-<Multi_key> <Cyrillic_er> <Cyrillic_ef>              : "α" U3B1 # GREEK SMALL LETTER ALPHA
-<Multi_key> <Cyrillic_er> <Cyrillic_i>               : "β" U3B2 # GREEK SMALL LETTER BETA
-<Multi_key> <Cyrillic_er> <Cyrillic_es>              : "ψ" U3C8 # GREEK SMALL LETTER PSI
-<Multi_key> <Cyrillic_er> <Cyrillic_ve>              : "δ" U3B4 # GREEK SMALL LETTER DELTA
-<Multi_key> <Cyrillic_er> <Cyrillic_u>               : "ε" U3B5 # GREEK SMALL LETTER EPSILON
-<Multi_key> <Cyrillic_er> <Cyrillic_a>               : "φ" U3C6 # GREEK SMALL LETTER PHI
-<Multi_key> <Cyrillic_er> <Cyrillic_pe>              : "γ" U3B3 # GREEK SMALL LETTER GAMMA
-<Multi_key> <Cyrillic_er> <Cyrillic_er>              : "η" U3B7 # GREEK SMALL LETTER ETA
-<Multi_key> <Cyrillic_er> <Cyrillic_sha>             : "ι" U3B9 # GREEK SMALL LETTER IOTA
-<Multi_key> <Cyrillic_er> <Cyrillic_o>               : "ξ" U3BE # GREEK SMALL LETTER XI
-<Multi_key> <Cyrillic_er> <Cyrillic_el>              : "κ" U3BA # GREEK SMALL LETTER KAPPA
-<Multi_key> <Cyrillic_er> <Cyrillic_de>              : "λ" U3BB # GREEK SMALL LETTER LAMDA
-<Multi_key> <Cyrillic_er> <Cyrillic_softsign>        : "μ" U3BC # GREEK SMALL LETTER MU
-<Multi_key> <Cyrillic_er> <Cyrillic_te>              : "ν" U3BD # GREEK SMALL LETTER NU
-<Multi_key> <Cyrillic_er> <Cyrillic_shcha>           : "ο" U3BF # GREEK SMALL LETTER OMICRON
-<Multi_key> <Cyrillic_er> <Cyrillic_ze>              : "π" U3C0 # GREEK SMALL LETTER PI
-<Multi_key> <Cyrillic_er> <comma>                    : ";" U37E # GREEK QUESTION MARK
-<Multi_key> <Cyrillic_er> <Cyrillic_ka>              : "ρ" U3C1 # GREEK SMALL LETTER RHO
-<Multi_key> <Cyrillic_er> <Cyrillic_yeru>            : "σ" U3C3 # GREEK SMALL LETTER SIGMA
-<Multi_key> <Cyrillic_er> <Cyrillic_ie>              : "τ" U3C4 # GREEK SMALL LETTER TAU
-<Multi_key> <Cyrillic_er> <Cyrillic_ghe>             : "θ" U3B8 # GREEK SMALL LETTER THETA
-<Multi_key> <Cyrillic_er> <Cyrillic_tse>             : "ω" U3C9 # GREEK SMALL LETTER OMEGA
-<Multi_key> <Cyrillic_er> <Cyrillic_che>             : "χ" U3C7 # GREEK SMALL LETTER CHI
-<Multi_key> <Cyrillic_er> <Cyrillic_en>              : "υ" U3C5 # GREEK SMALL LETTER UPSILON
-<Multi_key> <Cyrillic_er> <Cyrillic_ya>              : "ζ" U3B6 # GREEK SMALL LETTER ZETA
-<Multi_key> <Cyrillic_er> <Cyrillic_EF>              : "Α" U391 # GREEK CAPITAL LETTER ALPHA
-<Multi_key> <Cyrillic_er> <Cyrillic_I>               : "Β" U392 # GREEK CAPITAL LETTER BETA
-<Multi_key> <Cyrillic_er> <Cyrillic_ES>              : "Ψ" U3A8 # GREEK CAPITAL LETTER PSI
-<Multi_key> <Cyrillic_er> <Cyrillic_VE>              : "Δ" U394 # GREEK CAPITAL LETTER DELTA
-<Multi_key> <Cyrillic_er> <Cyrillic_U>               : "Ε" U395 # GREEK CAPITAL LETTER EPSILON
-<Multi_key> <Cyrillic_er> <Cyrillic_A>               : "Φ" U3A6 # GREEK CAPITAL LETTER PHI
-<Multi_key> <Cyrillic_er> <Cyrillic_PE>              : "Γ" U393 # GREEK CAPITAL LETTER GAMMA
-<Multi_key> <Cyrillic_er> <Cyrillic_ER>              : "Η" U397 # GREEK CAPITAL LETTER ETA
-<Multi_key> <Cyrillic_er> <Cyrillic_SHA>             : "Ι" U399 # GREEK CAPITAL LETTER IOTA
-<Multi_key> <Cyrillic_er> <Cyrillic_O>               : "Ξ" U39E # GREEK CAPITAL LETTER XI
-<Multi_key> <Cyrillic_er> <Cyrillic_EL>              : "Κ" U39A # GREEK CAPITAL LETTER KAPPA
-<Multi_key> <Cyrillic_er> <Cyrillic_DE>              : "Λ" U39B # GREEK CAPITAL LETTER LAMDA
-<Multi_key> <Cyrillic_er> <Cyrillic_SOFTSIGN>        : "Μ" U39C # GREEK CAPITAL LETTER MU
-<Multi_key> <Cyrillic_er> <Cyrillic_TE>              : "Ν" U39D # GREEK CAPITAL LETTER NU
-<Multi_key> <Cyrillic_er> <Cyrillic_SHCHA>           : "Ο" U39F # GREEK CAPITAL LETTER OMICRON
-<Multi_key> <Cyrillic_er> <Cyrillic_ZE>              : "Π" U3A0 # GREEK CAPITAL LETTER PI
-<Multi_key> <Cyrillic_er> <Cyrillic_KA>              : "Ρ" U3A1 # GREEK CAPITAL LETTER RHO
-<Multi_key> <Cyrillic_er> <Cyrillic_YERU>            : "Σ" U3A3 # GREEK CAPITAL LETTER SIGMA
-<Multi_key> <Cyrillic_er> <Cyrillic_IE>              : "Τ" U3A4 # GREEK CAPITAL LETTER TAU
-<Multi_key> <Cyrillic_er> <Cyrillic_GHE>             : "Θ" U398 # GREEK CAPITAL LETTER THETA
-<Multi_key> <Cyrillic_er> <Cyrillic_TSE>             : "Ω" U3A9 # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_u>    : "ϵ" U3F5 # GREEK LUNATE EPSILON SYMBOL
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_ghe>  : "ϑ" U3D1 # GREEK THETA SYMBOL
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_a>    : "ϕ" U3D5 # GREEK PHI SYMBOL
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_el>   : "ϰ" U3F0 # GREEK KAPPA SYMBOL
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_ka>   : "ϱ" U3F1 # GREEK RHO SYMBOL
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_tse>  : "ϖ" U3D6 # GREEK PI SYMBOL
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_PE>   : "ℾ" U213E # DOUBLE-STRUCK CAPITAL GAMMA
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_pe>   : "ℽ" U213D # DOUBLE-STRUCK SMALL GAMMA
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_ZE>   : "ℿ" U213F # DOUBLE-STRUCK CAPITAL PI
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_ze>   : "ℼ" U213C # DOUBLE-STRUCK SMALL PI
-<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_YERU> : "⅀" U2140 # DOUBLE-STRUCK N-ARY SUMMATION
+<Multi_key> <Cyrillic_er> <Cyrillic_ef>                    : "α" U3B1 # GREEK SMALL LETTER ALPHA
+<Multi_key> <Cyrillic_er> <Cyrillic_i>                     : "β" U3B2 # GREEK SMALL LETTER BETA
+<Multi_key> <Cyrillic_er> <Cyrillic_es>                    : "ψ" U3C8 # GREEK SMALL LETTER PSI
+<Multi_key> <Cyrillic_er> <Cyrillic_ve>                    : "δ" U3B4 # GREEK SMALL LETTER DELTA
+<Multi_key> <Cyrillic_er> <Cyrillic_u>                     : "ε" U3B5 # GREEK SMALL LETTER EPSILON
+<Multi_key> <Cyrillic_er> <Cyrillic_a>                     : "φ" U3C6 # GREEK SMALL LETTER PHI
+<Multi_key> <Cyrillic_er> <Cyrillic_pe>                    : "γ" U3B3 # GREEK SMALL LETTER GAMMA
+<Multi_key> <Cyrillic_er> <Cyrillic_er>                    : "η" U3B7 # GREEK SMALL LETTER ETA
+<Multi_key> <Cyrillic_er> <Cyrillic_sha>                   : "ι" U3B9 # GREEK SMALL LETTER IOTA
+<Multi_key> <Cyrillic_er> <Cyrillic_o>                     : "ξ" U3BE # GREEK SMALL LETTER XI
+<Multi_key> <Cyrillic_er> <Cyrillic_el>                    : "κ" U3BA # GREEK SMALL LETTER KAPPA
+<Multi_key> <Cyrillic_er> <Cyrillic_de>                    : "λ" U3BB # GREEK SMALL LETTER LAMDA
+<Multi_key> <Cyrillic_er> <Cyrillic_softsign>              : "μ" U3BC # GREEK SMALL LETTER MU
+<Multi_key> <Cyrillic_er> <Cyrillic_te>                    : "ν" U3BD # GREEK SMALL LETTER NU
+<Multi_key> <Cyrillic_er> <Cyrillic_shcha>                 : "ο" U3BF # GREEK SMALL LETTER OMICRON
+<Multi_key> <Cyrillic_er> <Cyrillic_ze>                    : "π" U3C0 # GREEK SMALL LETTER PI
+<Multi_key> <Cyrillic_er> <comma>                          : ";" U37E # GREEK QUESTION MARK
+<Multi_key> <Cyrillic_er> <Cyrillic_ka>                    : "ρ" U3C1 # GREEK SMALL LETTER RHO
+<Multi_key> <Cyrillic_er> <Cyrillic_yeru>                  : "σ" U3C3 # GREEK SMALL LETTER SIGMA
+<Multi_key> <Cyrillic_er> <Cyrillic_ie>                    : "τ" U3C4 # GREEK SMALL LETTER TAU
+<Multi_key> <Cyrillic_er> <Cyrillic_ghe>                   : "θ" U3B8 # GREEK SMALL LETTER THETA
+<Multi_key> <Cyrillic_er> <Cyrillic_tse>                   : "ω" U3C9 # GREEK SMALL LETTER OMEGA
+<Multi_key> <Cyrillic_er> <Cyrillic_che>                   : "χ" U3C7 # GREEK SMALL LETTER CHI
+<Multi_key> <Cyrillic_er> <Cyrillic_en>                    : "υ" U3C5 # GREEK SMALL LETTER UPSILON
+<Multi_key> <Cyrillic_er> <Cyrillic_ya>                    : "ζ" U3B6 # GREEK SMALL LETTER ZETA
+<Multi_key> <Cyrillic_er> <Cyrillic_EF>                    : "Α" U391 # GREEK CAPITAL LETTER ALPHA
+<Multi_key> <Cyrillic_er> <Cyrillic_I>                     : "Β" U392 # GREEK CAPITAL LETTER BETA
+<Multi_key> <Cyrillic_er> <Cyrillic_ES>                    : "Ψ" U3A8 # GREEK CAPITAL LETTER PSI
+<Multi_key> <Cyrillic_er> <Cyrillic_VE>                    : "Δ" U394 # GREEK CAPITAL LETTER DELTA
+<Multi_key> <Cyrillic_er> <Cyrillic_U>                     : "Ε" U395 # GREEK CAPITAL LETTER EPSILON
+<Multi_key> <Cyrillic_er> <Cyrillic_A>                     : "Φ" U3A6 # GREEK CAPITAL LETTER PHI
+<Multi_key> <Cyrillic_er> <Cyrillic_PE>                    : "Γ" U393 # GREEK CAPITAL LETTER GAMMA
+<Multi_key> <Cyrillic_er> <Cyrillic_ER>                    : "Η" U397 # GREEK CAPITAL LETTER ETA
+<Multi_key> <Cyrillic_er> <Cyrillic_SHA>                   : "Ι" U399 # GREEK CAPITAL LETTER IOTA
+<Multi_key> <Cyrillic_er> <Cyrillic_O>                     : "Ξ" U39E # GREEK CAPITAL LETTER XI
+<Multi_key> <Cyrillic_er> <Cyrillic_EL>                    : "Κ" U39A # GREEK CAPITAL LETTER KAPPA
+<Multi_key> <Cyrillic_er> <Cyrillic_DE>                    : "Λ" U39B # GREEK CAPITAL LETTER LAMDA
+<Multi_key> <Cyrillic_er> <Cyrillic_SOFTSIGN>              : "Μ" U39C # GREEK CAPITAL LETTER MU
+<Multi_key> <Cyrillic_er> <Cyrillic_TE>                    : "Ν" U39D # GREEK CAPITAL LETTER NU
+<Multi_key> <Cyrillic_er> <Cyrillic_SHCHA>                 : "Ο" U39F # GREEK CAPITAL LETTER OMICRON
+<Multi_key> <Cyrillic_er> <Cyrillic_ZE>                    : "Π" U3A0 # GREEK CAPITAL LETTER PI
+<Multi_key> <Cyrillic_er> <Cyrillic_KA>                    : "Ρ" U3A1 # GREEK CAPITAL LETTER RHO
+<Multi_key> <Cyrillic_er> <Cyrillic_YERU>                  : "Σ" U3A3 # GREEK CAPITAL LETTER SIGMA
+<Multi_key> <Cyrillic_er> <Cyrillic_IE>                    : "Τ" U3A4 # GREEK CAPITAL LETTER TAU
+<Multi_key> <Cyrillic_er> <Cyrillic_GHE>                   : "Θ" U398 # GREEK CAPITAL LETTER THETA
+<Multi_key> <Cyrillic_er> <Cyrillic_TSE>                   : "Ω" U3A9 # GREEK CAPITAL LETTER OMEGA
+<Multi_key> <Cyrillic_er> <Cyrillic_CHE>                   : "Χ" U3A7 # GREEK CAPITAL LETTER CHI
+<Multi_key> <Cyrillic_er> <Cyrillic_EN>                    : "Υ" U3A5 # GREEK CAPITAL LETTER UPSILON
+<Multi_key> <Cyrillic_er> <Cyrillic_YA>                    : "Ζ" U396 # GREEK CAPITAL LETTER ZETA
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_u>          : "ϵ" U3F5 # GREEK LUNATE EPSILON SYMBOL
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_ghe>        : "ϑ" U3D1 # GREEK THETA SYMBOL
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_a>          : "ϕ" U3D5 # GREEK PHI SYMBOL
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_el>         : "ϰ" U3F0 # GREEK KAPPA SYMBOL
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_ka>         : "ϱ" U3F1 # GREEK RHO SYMBOL
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_tse>        : "ϖ" U3D6 # GREEK PI SYMBOL
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_PE>         : "ℾ" U213E # DOUBLE-STRUCK CAPITAL GAMMA
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_pe>         : "ℽ" U213D # DOUBLE-STRUCK SMALL GAMMA
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_ZE>         : "ℿ" U213F # DOUBLE-STRUCK CAPITAL PI
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_ze>         : "ℼ" U213C # DOUBLE-STRUCK SMALL PI
+<Multi_key> <Cyrillic_er> <asterisk> <Cyrillic_YERU>       : "⅀" U2140 # DOUBLE-STRUCK N-ARY SUMMATION
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ef>             : "𝛂" U1D6C2 # MATHEMATICAL BOLD SMALL ALPHA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_i>              : "𝛃" U1D6C3 # MATHEMATICAL BOLD SMALL BETA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_es>             : "𝛙" U1D6D9 # MATHEMATICAL BOLD SMALL PSI
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ve>             : "𝛅" U1D6C5 # MATHEMATICAL BOLD SMALL DELTA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_u>              : "𝛆" U1D6C6 # MATHEMATICAL BOLD SMALL EPSILON
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_a>              : "𝛗" U1D6D7 # MATHEMATICAL BOLD SMALL PHI
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_pe>             : "𝛄" U1D6C4 # MATHEMATICAL BOLD SMALL GAMMA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_er>             : "𝛈" U1D6C8 # MATHEMATICAL BOLD SMALL ETA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_sha>            : "𝛊" U1D6CA # MATHEMATICAL BOLD SMALL IOTA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_o>              : "𝛏" U1D6CF # MATHEMATICAL BOLD SMALL XI
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_el>             : "𝛋" U1D6CB # MATHEMATICAL BOLD SMALL KAPPA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_de>             : "𝛌" U1D6CC # MATHEMATICAL BOLD SMALL LAMDA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_softsign>       : "𝛍" U1D6CD # MATHEMATICAL BOLD SMALL MU
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_te>             : "𝛎" U1D6CE # MATHEMATICAL BOLD SMALL NU
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_shcha>          : "𝛐" U1D6D0 # MATHEMATICAL BOLD SMALL OMICRON
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ze>             : "𝛑" U1D6D1 # MATHEMATICAL BOLD SMALL PI
+<Multi_key> <Cyrillic_er> <plus> <comma>                   : ";" U37E # GREEK QUESTION MARK
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ka>             : "𝛒" U1D6D2 # MATHEMATICAL BOLD SMALL RHO
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_yeru>           : "𝛔" U1D6D4 # MATHEMATICAL BOLD SMALL SIGMA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ie>             : "𝛕" U1D6D5 # MATHEMATICAL BOLD SMALL TAU
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ghe>            : "𝛉" U1D6C9 # MATHEMATICAL BOLD SMALL THETA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_tse>            : "𝛚" U1D6DA # MATHEMATICAL BOLD SMALL OMEGA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_che>            : "𝛘" U1D6D8 # MATHEMATICAL BOLD SMALL CHI
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_en>             : "𝛖" U1D6D6 # MATHEMATICAL BOLD SMALL UPSILON
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ya>             : "𝛇" U1D6C7 # MATHEMATICAL BOLD SMALL ZETA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_EF>             : "𝚨" U1D6A8 # MATHEMATICAL BOLD CAPITAL ALPHA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_I>              : "𝚩" U1D6A9 # MATHEMATICAL BOLD CAPITAL BETA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ES>             : "𝚿" U1D6BF # MATHEMATICAL BOLD CAPITAL PSI
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_VE>             : "𝚫" U1D6AB # MATHEMATICAL BOLD CAPITAL DELTA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_U>              : "𝚬" U1D6AC # MATHEMATICAL BOLD CAPITAL EPSILON
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_A>              : "𝚽" U1D6BD # MATHEMATICAL BOLD CAPITAL PHI
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_PE>             : "𝚪" U1D6AA # MATHEMATICAL BOLD CAPITAL GAMMA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ER>             : "𝚮" U1D6AE # MATHEMATICAL BOLD CAPITAL ETA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_SHA>            : "𝚰" U1D6B0 # MATHEMATICAL BOLD CAPITAL IOTA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_O>              : "𝚵" U1D6B5 # MATHEMATICAL BOLD CAPITAL XI
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_EL>             : "𝚱" U1D6B1 # MATHEMATICAL BOLD CAPITAL KAPPA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_DE>             : "𝚲" U1D6B2 # MATHEMATICAL BOLD CAPITAL LAMDA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_SOFTSIGN>       : "𝚳" U1D6B3 # MATHEMATICAL BOLD CAPITAL MU
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_TE>             : "𝚴" U1D6B4 # MATHEMATICAL BOLD CAPITAL NU
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_SHCHA>          : "𝚶" U1D6B6 # MATHEMATICAL BOLD CAPITAL OMICRON
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_ZE>             : "𝚷" U1D6B7 # MATHEMATICAL BOLD CAPITAL PI
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_KA>             : "𝚸" U1D6B8 # MATHEMATICAL BOLD CAPITAL RHO
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_YERU>           : "𝚺" U1D6BA # MATHEMATICAL BOLD CAPITAL SIGMA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_IE>             : "𝚻" U1D6BB # MATHEMATICAL BOLD CAPITAL TAU
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_GHE>            : "𝚹" U1D6B9 # MATHEMATICAL BOLD CAPITAL THETA SYMBOL
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_TSE>            : "𝛀" U1D6C0 # MATHEMATICAL BOLD CAPITAL OMEGA
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_CHE>            : "𝚾" U1D6BE # MATHEMATICAL BOLD CAPITAL CHI
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_EN>             : "𝚼" U1D6BC # MATHEMATICAL BOLD CAPITAL UPSILON
+<Multi_key> <Cyrillic_er> <plus> <Cyrillic_YA>             : "𝚭" U1D6AD # MATHEMATICAL BOLD CAPITAL ZETA
+<Multi_key> <Cyrillic_er> <plus> <asterisk> <Cyrillic_u>   : "𝛜" U1D6DC # MATHEMATICAL BOLD EPSILON SYMBOL
+<Multi_key> <Cyrillic_er> <plus> <asterisk> <Cyrillic_ghe> : "𝛝" U1D6DD # MATHEMATICAL BOLD THETA SYMBOL
+<Multi_key> <Cyrillic_er> <plus> <asterisk> <Cyrillic_a>   : "𝛟" U1D6DF # MATHEMATICAL BOLD PHI SYMBOL
+<Multi_key> <Cyrillic_er> <plus> <asterisk> <Cyrillic_el>  : "𝛞" U1D6DE # MATHEMATICAL BOLD KAPPA SYMBOL
+<Multi_key> <Cyrillic_er> <plus> <asterisk> <Cyrillic_ka>  : "𝛠" U1D6E0 # MATHEMATICAL BOLD RHO SYMBOL
+<Multi_key> <Cyrillic_er> <plus> <asterisk> <Cyrillic_tse> : "𝛡" U1D6E1 # MATHEMATICAL BOLD PI SYMBOL
 ##############################
 # MATHEMATICAL GREEK LETTERS #
 ##############################
 
-<Multi_key> <Cyrillic_pe> <Cyrillic_ef>             : "𝛼" U1D6FC # MATHEMATICAL ITALIC SMALL ALPHA
-<Multi_key> <Cyrillic_pe> <Cyrillic_i>              : "𝛽" U1D6FD # MATHEMATICAL ITALIC SMALL BETA
-<Multi_key> <Cyrillic_pe> <Cyrillic_es>             : "𝜓" U1D713 # MATHEMATICAL ITALIC SMALL PSI
-<Multi_key> <Cyrillic_pe> <Cyrillic_ve>             : "𝛿" U1D6FF # MATHEMATICAL ITALIC SMALL DELTA
-<Multi_key> <Cyrillic_pe> <Cyrillic_u>              : "𝜀" U1D700 # MATHEMATICAL ITALIC SMALL EPSILON
-<Multi_key> <Cyrillic_pe> <Cyrillic_a>              : "𝜑" U1D711 # MATHEMATICAL ITALIC SMALL PHI
-<Multi_key> <Cyrillic_pe> <Cyrillic_pe>             : "𝛾" U1D6FE # MATHEMATICAL ITALIC SMALL GAMMA
-<Multi_key> <Cyrillic_pe> <Cyrillic_er>             : "𝜂" U1D702 # MATHEMATICAL ITALIC SMALL ETA
-<Multi_key> <Cyrillic_pe> <Cyrillic_sha>            : "𝜄" U1D704 # MATHEMATICAL ITALIC SMALL IOTA
-<Multi_key> <Cyrillic_pe> <Cyrillic_o>              : "𝜉" U1D709 # MATHEMATICAL ITALIC SMALL XI
-<Multi_key> <Cyrillic_pe> <Cyrillic_el>             : "𝜅" U1D705 # MATHEMATICAL ITALIC SMALL KAPPA
-<Multi_key> <Cyrillic_pe> <Cyrillic_de>             : "𝜆" U1D706 # MATHEMATICAL ITALIC SMALL LAMDA
-<Multi_key> <Cyrillic_pe> <Cyrillic_softsign>       : "𝜇" U1D707 # MATHEMATICAL ITALIC SMALL MU
-<Multi_key> <Cyrillic_pe> <Cyrillic_te>             : "𝜈" U1D708 # MATHEMATICAL ITALIC SMALL NU
-<Multi_key> <Cyrillic_pe> <Cyrillic_shcha>          : "𝜊" U1D70A # MATHEMATICAL ITALIC SMALL OMICRON
-<Multi_key> <Cyrillic_pe> <Cyrillic_ze>             : "𝜋" U1D70B # MATHEMATICAL ITALIC SMALL PI
-<Multi_key> <Cyrillic_pe> <comma>                   : ";" U37E # GREEK QUESTION MARK
-<Multi_key> <Cyrillic_pe> <Cyrillic_ka>             : "𝜌" U1D70C # MATHEMATICAL ITALIC SMALL RHO
-<Multi_key> <Cyrillic_pe> <Cyrillic_yeru>           : "𝜎" U1D70E # MATHEMATICAL ITALIC SMALL SIGMA
-<Multi_key> <Cyrillic_pe> <Cyrillic_ie>             : "𝜏" U1D70F # MATHEMATICAL ITALIC SMALL TAU
-<Multi_key> <Cyrillic_pe> <Cyrillic_ghe>            : "𝜃" U1D703 # MATHEMATICAL ITALIC SMALL THETA
-<Multi_key> <Cyrillic_pe> <Cyrillic_tse>            : "𝜔" U1D714 # MATHEMATICAL ITALIC SMALL OMEGA
-<Multi_key> <Cyrillic_pe> <Cyrillic_che>            : "𝜒" U1D712 # MATHEMATICAL ITALIC SMALL CHI
-<Multi_key> <Cyrillic_pe> <Cyrillic_en>             : "𝜐" U1D710 # MATHEMATICAL ITALIC SMALL UPSILON
-<Multi_key> <Cyrillic_pe> <Cyrillic_ya>             : "𝜁" U1D701 # MATHEMATICAL ITALIC SMALL ZETA
-<Multi_key> <Cyrillic_pe> <Cyrillic_EF>             : "𝛢" U1D6E2 # MATHEMATICAL ITALIC CAPITAL ALPHA
-<Multi_key> <Cyrillic_pe> <Cyrillic_I>              : "𝛣" U1D6E3 # MATHEMATICAL ITALIC CAPITAL BETA
-<Multi_key> <Cyrillic_pe> <Cyrillic_ES>             : "𝛹" U1D6F9 # MATHEMATICAL ITALIC CAPITAL PSI
-<Multi_key> <Cyrillic_pe> <Cyrillic_VE>             : "𝛥" U1D6E5 # MATHEMATICAL ITALIC CAPITAL DELTA
-<Multi_key> <Cyrillic_pe> <Cyrillic_U>              : "𝛦" U1D6E6 # MATHEMATICAL ITALIC CAPITAL EPSILON
-<Multi_key> <Cyrillic_pe> <Cyrillic_A>              : "𝛷" U1D6F7 # MATHEMATICAL ITALIC CAPITAL PHI
-<Multi_key> <Cyrillic_pe> <Cyrillic_PE>             : "𝛤" U1D6E4 # MATHEMATICAL ITALIC CAPITAL GAMMA
-<Multi_key> <Cyrillic_pe> <Cyrillic_ER>             : "𝛨" U1D6E8 # MATHEMATICAL ITALIC CAPITAL ETA
-<Multi_key> <Cyrillic_pe> <Cyrillic_SHA>            : "𝛪" U1D6EA # MATHEMATICAL ITALIC CAPITAL IOTA
-<Multi_key> <Cyrillic_pe> <Cyrillic_O>              : "𝛯" U1D6EF # MATHEMATICAL ITALIC CAPITAL XI
-<Multi_key> <Cyrillic_pe> <Cyrillic_EL>             : "𝛫" U1D6EB # MATHEMATICAL ITALIC CAPITAL KAPPA
-<Multi_key> <Cyrillic_pe> <Cyrillic_DE>             : "𝛬" U1D6EC # MATHEMATICAL ITALIC CAPITAL LAMDA
-<Multi_key> <Cyrillic_pe> <Cyrillic_SOFTSIGN>       : "𝛭" U1D6ED # MATHEMATICAL ITALIC CAPITAL MU
-<Multi_key> <Cyrillic_pe> <Cyrillic_TE>             : "𝛮" U1D6EE # MATHEMATICAL ITALIC CAPITAL NU
-<Multi_key> <Cyrillic_pe> <Cyrillic_SHCHA>          : "𝛰" U1D6F0 # MATHEMATICAL ITALIC CAPITAL OMICRON
-<Multi_key> <Cyrillic_pe> <Cyrillic_ZE>             : "𝛱" U1D6F1 # MATHEMATICAL ITALIC CAPITAL PI
-<Multi_key> <Cyrillic_pe> <Cyrillic_KA>             : "𝛲" U1D6F2 # MATHEMATICAL ITALIC CAPITAL RHO
-<Multi_key> <Cyrillic_pe> <Cyrillic_YERU>           : "𝛴" U1D6F4 # MATHEMATICAL ITALIC CAPITAL SIGMA
-<Multi_key> <Cyrillic_pe> <Cyrillic_IE>             : "𝛵" U1D6F5 # MATHEMATICAL ITALIC CAPITAL TAU
-<Multi_key> <Cyrillic_pe> <Cyrillic_GHE>            : "𝛳" U1D6F3 # MATHEMATICAL ITALIC CAPITAL THETA SYMBOL
-<Multi_key> <Cyrillic_pe> <Cyrillic_TSE>            : "𝛺" U1D6FA # MATHEMATICAL ITALIC CAPITAL OMEGA
-<Multi_key> <Cyrillic_pe> <Cyrillic_CHE>            : "𝛸" U1D6F8 # MATHEMATICAL ITALIC CAPITAL CHI
-<Multi_key> <Cyrillic_pe> <Cyrillic_EN>             : "𝛶" U1D6F6 # MATHEMATICAL ITALIC CAPITAL UPSILON
-<Multi_key> <Cyrillic_pe> <Cyrillic_YA>             : "𝛧" U1D6E7 # MATHEMATICAL ITALIC CAPITAL ZETA
-<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_u>   : "𝜖" U1D716 # MATHEMATICAL ITALIC EPSILON SYMBOL
-<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_el>  : "𝜘" U1D718 # MATHEMATICAL ITALIC KAPPA SYMBOL
-<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_ghe> : "𝜗" U1D717 # MATHEMATICAL ITALIC THETA SYMBOL
-<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_a>   : "𝜙" U1D719 # MATHEMATICAL ITALIC PHI SYMBOL
-<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_TSE> : "𝜛" U1D71B # MATHEMATICAL ITALIC PI SYMBOL
-<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_ka>  : "𝜚" U1D71A # MATHEMATICAL ITALIC RHO SYMBOL
+<Multi_key> <Cyrillic_pe> <Cyrillic_ef>                    : "𝛼" U1D6FC # MATHEMATICAL ITALIC SMALL ALPHA
+<Multi_key> <Cyrillic_pe> <Cyrillic_i>                     : "𝛽" U1D6FD # MATHEMATICAL ITALIC SMALL BETA
+<Multi_key> <Cyrillic_pe> <Cyrillic_es>                    : "𝜓" U1D713 # MATHEMATICAL ITALIC SMALL PSI
+<Multi_key> <Cyrillic_pe> <Cyrillic_ve>                    : "𝛿" U1D6FF # MATHEMATICAL ITALIC SMALL DELTA
+<Multi_key> <Cyrillic_pe> <Cyrillic_u>                     : "𝜀" U1D700 # MATHEMATICAL ITALIC SMALL EPSILON
+<Multi_key> <Cyrillic_pe> <Cyrillic_a>                     : "𝜑" U1D711 # MATHEMATICAL ITALIC SMALL PHI
+<Multi_key> <Cyrillic_pe> <Cyrillic_pe>                    : "𝛾" U1D6FE # MATHEMATICAL ITALIC SMALL GAMMA
+<Multi_key> <Cyrillic_pe> <Cyrillic_er>                    : "𝜂" U1D702 # MATHEMATICAL ITALIC SMALL ETA
+<Multi_key> <Cyrillic_pe> <Cyrillic_sha>                   : "𝜄" U1D704 # MATHEMATICAL ITALIC SMALL IOTA
+<Multi_key> <Cyrillic_pe> <Cyrillic_o>                     : "𝜉" U1D709 # MATHEMATICAL ITALIC SMALL XI
+<Multi_key> <Cyrillic_pe> <Cyrillic_el>                    : "𝜅" U1D705 # MATHEMATICAL ITALIC SMALL KAPPA
+<Multi_key> <Cyrillic_pe> <Cyrillic_de>                    : "𝜆" U1D706 # MATHEMATICAL ITALIC SMALL LAMDA
+<Multi_key> <Cyrillic_pe> <Cyrillic_softsign>              : "𝜇" U1D707 # MATHEMATICAL ITALIC SMALL MU
+<Multi_key> <Cyrillic_pe> <Cyrillic_te>                    : "𝜈" U1D708 # MATHEMATICAL ITALIC SMALL NU
+<Multi_key> <Cyrillic_pe> <Cyrillic_shcha>                 : "𝜊" U1D70A # MATHEMATICAL ITALIC SMALL OMICRON
+<Multi_key> <Cyrillic_pe> <Cyrillic_ze>                    : "𝜋" U1D70B # MATHEMATICAL ITALIC SMALL PI
+<Multi_key> <Cyrillic_pe> <comma>                          : ";" U37E # GREEK QUESTION MARK
+<Multi_key> <Cyrillic_pe> <Cyrillic_ka>                    : "𝜌" U1D70C # MATHEMATICAL ITALIC SMALL RHO
+<Multi_key> <Cyrillic_pe> <Cyrillic_yeru>                  : "𝜎" U1D70E # MATHEMATICAL ITALIC SMALL SIGMA
+<Multi_key> <Cyrillic_pe> <Cyrillic_ie>                    : "𝜏" U1D70F # MATHEMATICAL ITALIC SMALL TAU
+<Multi_key> <Cyrillic_pe> <Cyrillic_ghe>                   : "𝜃" U1D703 # MATHEMATICAL ITALIC SMALL THETA
+<Multi_key> <Cyrillic_pe> <Cyrillic_tse>                   : "𝜔" U1D714 # MATHEMATICAL ITALIC SMALL OMEGA
+<Multi_key> <Cyrillic_pe> <Cyrillic_che>                   : "𝜒" U1D712 # MATHEMATICAL ITALIC SMALL CHI
+<Multi_key> <Cyrillic_pe> <Cyrillic_en>                    : "𝜐" U1D710 # MATHEMATICAL ITALIC SMALL UPSILON
+<Multi_key> <Cyrillic_pe> <Cyrillic_ya>                    : "𝜁" U1D701 # MATHEMATICAL ITALIC SMALL ZETA
+<Multi_key> <Cyrillic_pe> <Cyrillic_EF>                    : "𝛢" U1D6E2 # MATHEMATICAL ITALIC CAPITAL ALPHA
+<Multi_key> <Cyrillic_pe> <Cyrillic_I>                     : "𝛣" U1D6E3 # MATHEMATICAL ITALIC CAPITAL BETA
+<Multi_key> <Cyrillic_pe> <Cyrillic_ES>                    : "𝛹" U1D6F9 # MATHEMATICAL ITALIC CAPITAL PSI
+<Multi_key> <Cyrillic_pe> <Cyrillic_VE>                    : "𝛥" U1D6E5 # MATHEMATICAL ITALIC CAPITAL DELTA
+<Multi_key> <Cyrillic_pe> <Cyrillic_U>                     : "𝛦" U1D6E6 # MATHEMATICAL ITALIC CAPITAL EPSILON
+<Multi_key> <Cyrillic_pe> <Cyrillic_A>                     : "𝛷" U1D6F7 # MATHEMATICAL ITALIC CAPITAL PHI
+<Multi_key> <Cyrillic_pe> <Cyrillic_PE>                    : "𝛤" U1D6E4 # MATHEMATICAL ITALIC CAPITAL GAMMA
+<Multi_key> <Cyrillic_pe> <Cyrillic_ER>                    : "𝛨" U1D6E8 # MATHEMATICAL ITALIC CAPITAL ETA
+<Multi_key> <Cyrillic_pe> <Cyrillic_SHA>                   : "𝛪" U1D6EA # MATHEMATICAL ITALIC CAPITAL IOTA
+<Multi_key> <Cyrillic_pe> <Cyrillic_O>                     : "𝛯" U1D6EF # MATHEMATICAL ITALIC CAPITAL XI
+<Multi_key> <Cyrillic_pe> <Cyrillic_EL>                    : "𝛫" U1D6EB # MATHEMATICAL ITALIC CAPITAL KAPPA
+<Multi_key> <Cyrillic_pe> <Cyrillic_DE>                    : "𝛬" U1D6EC # MATHEMATICAL ITALIC CAPITAL LAMDA
+<Multi_key> <Cyrillic_pe> <Cyrillic_SOFTSIGN>              : "𝛭" U1D6ED # MATHEMATICAL ITALIC CAPITAL MU
+<Multi_key> <Cyrillic_pe> <Cyrillic_TE>                    : "𝛮" U1D6EE # MATHEMATICAL ITALIC CAPITAL NU
+<Multi_key> <Cyrillic_pe> <Cyrillic_SHCHA>                 : "𝛰" U1D6F0 # MATHEMATICAL ITALIC CAPITAL OMICRON
+<Multi_key> <Cyrillic_pe> <Cyrillic_ZE>                    : "𝛱" U1D6F1 # MATHEMATICAL ITALIC CAPITAL PI
+<Multi_key> <Cyrillic_pe> <Cyrillic_KA>                    : "𝛲" U1D6F2 # MATHEMATICAL ITALIC CAPITAL RHO
+<Multi_key> <Cyrillic_pe> <Cyrillic_YERU>                  : "𝛴" U1D6F4 # MATHEMATICAL ITALIC CAPITAL SIGMA
+<Multi_key> <Cyrillic_pe> <Cyrillic_IE>                    : "𝛵" U1D6F5 # MATHEMATICAL ITALIC CAPITAL TAU
+<Multi_key> <Cyrillic_pe> <Cyrillic_GHE>                   : "𝛳" U1D6F3 # MATHEMATICAL ITALIC CAPITAL THETA SYMBOL
+<Multi_key> <Cyrillic_pe> <Cyrillic_TSE>                   : "𝛺" U1D6FA # MATHEMATICAL ITALIC CAPITAL OMEGA
+<Multi_key> <Cyrillic_pe> <Cyrillic_CHE>                   : "𝛸" U1D6F8 # MATHEMATICAL ITALIC CAPITAL CHI
+<Multi_key> <Cyrillic_pe> <Cyrillic_EN>                    : "𝛶" U1D6F6 # MATHEMATICAL ITALIC CAPITAL UPSILON
+<Multi_key> <Cyrillic_pe> <Cyrillic_YA>                    : "𝛧" U1D6E7 # MATHEMATICAL ITALIC CAPITAL ZETA
+<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_u>          : "𝜖" U1D716 # MATHEMATICAL ITALIC EPSILON SYMBOL
+<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_el>         : "𝜘" U1D718 # MATHEMATICAL ITALIC KAPPA SYMBOL
+<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_ghe>        : "𝜗" U1D717 # MATHEMATICAL ITALIC THETA SYMBOL
+<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_a>          : "𝜙" U1D719 # MATHEMATICAL ITALIC PHI SYMBOL
+<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_TSE>        : "𝜛" U1D71B # MATHEMATICAL ITALIC PI SYMBOL
+<Multi_key> <Cyrillic_pe> <asterisk> <Cyrillic_ka>         : "𝜚" U1D71A # MATHEMATICAL ITALIC RHO SYMBOL
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ef>             : "𝜶" U1D736 # MATHEMATICAL BOLD ITALIC SMALL ALPHA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_i>              : "𝜷" U1D737 # MATHEMATICAL BOLD ITALIC SMALL BETA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_es>             : "𝝍" U1D74D # MATHEMATICAL BOLD ITALIC SMALL PSI
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ve>             : "𝜹" U1D739 # MATHEMATICAL BOLD ITALIC SMALL DELTA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_u>              : "𝜺" U1D73A # MATHEMATICAL BOLD ITALIC SMALL EPSILON
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_a>              : "𝝓" U1D753 # MATHEMATICAL BOLD ITALIC PHI SYMBOL
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_pe>             : "𝜸" U1D738 # MATHEMATICAL BOLD ITALIC SMALL GAMMA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_er>             : "𝜼" U1D73C # MATHEMATICAL BOLD ITALIC SMALL ETA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_sha>            : "𝜾" U1D73E # MATHEMATICAL BOLD ITALIC SMALL IOTA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_o>              : "𝝃" U1D743 # MATHEMATICAL BOLD ITALIC SMALL XI
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_el>             : "𝝒" U1D752 # MATHEMATICAL BOLD ITALIC KAPPA SYMBOL
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_de>             : "𝝀" U1D740 # MATHEMATICAL BOLD ITALIC SMALL LAMDA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_softsign>       : "𝝁" U1D741 # MATHEMATICAL BOLD ITALIC SMALL MU
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_te>             : "𝝂" U1D742 # MATHEMATICAL BOLD ITALIC SMALL NU
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_shcha>          : "𝝄" U1D744 # MATHEMATICAL BOLD ITALIC SMALL OMICRON
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ze>             : "𝝅" U1D745 # MATHEMATICAL BOLD ITALIC SMALL PI
+<Multi_key> <Cyrillic_pe> <plus> <comma>                   : ";" U37E # GREEK QUESTION MARK
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ka>             : "𝝆" U1D746 # MATHEMATICAL BOLD ITALIC SMALL RHO
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_yeru>           : "𝝈" U1D748 # MATHEMATICAL BOLD ITALIC SMALL SIGMA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ie>             : "𝝉" U1D749 # MATHEMATICAL BOLD ITALIC SMALL TAU
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ghe>            : "𝜽" U1D73D # MATHEMATICAL BOLD ITALIC SMALL THETA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_tse>            : "𝝎" U1D74E # MATHEMATICAL BOLD ITALIC SMALL OMEGA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_che>            : "𝝌" U1D74C # MATHEMATICAL BOLD ITALIC SMALL CHI
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_en>             : "𝝊" U1D74A # MATHEMATICAL BOLD ITALIC SMALL UPSILON
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ya>             : "𝜻" U1D73B # MATHEMATICAL BOLD ITALIC SMALL ZETA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_EF>             : "𝜜" U1D71C # MATHEMATICAL BOLD ITALIC CAPITAL ALPHA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_I>              : "𝜝" U1D71D # MATHEMATICAL BOLD ITALIC CAPITAL BETA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ES>             : "𝜳" U1D733 # MATHEMATICAL BOLD ITALIC CAPITAL PSI
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_VE>             : "𝜟" U1D71F # MATHEMATICAL BOLD ITALIC CAPITAL DELTA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_U>              : "𝜠" U1D720 # MATHEMATICAL BOLD ITALIC CAPITAL EPSILON
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_A>              : "𝜱" U1D731 # MATHEMATICAL BOLD ITALIC CAPITAL PHI
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_PE>             : "𝜞" U1D71E # MATHEMATICAL BOLD ITALIC CAPITAL GAMMA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ER>             : "𝜢" U1D722 # MATHEMATICAL BOLD ITALIC CAPITAL ETA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_SHA>            : "𝜤" U1D724 # MATHEMATICAL BOLD ITALIC CAPITAL IOTA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_O>              : "𝜩" U1D729 # MATHEMATICAL BOLD ITALIC CAPITAL XI
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_EL>             : "𝜥" U1D725 # MATHEMATICAL BOLD ITALIC CAPITAL KAPPA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_DE>             : "𝜦" U1D726 # MATHEMATICAL BOLD ITALIC CAPITAL LAMDA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_SOFTSIGN>       : "𝜧" U1D727 # MATHEMATICAL BOLD ITALIC CAPITAL MU
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_TE>             : "𝜨" U1D728 # MATHEMATICAL BOLD ITALIC CAPITAL NU
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_SHCHA>          : "𝜪" U1D72A # MATHEMATICAL BOLD ITALIC CAPITAL OMICRON
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_ZE>             : "𝜫" U1D72B # MATHEMATICAL BOLD ITALIC CAPITAL PI
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_KA>             : "𝜬" U1D72C # MATHEMATICAL BOLD ITALIC CAPITAL RHO
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_YERU>           : "𝜮" U1D72E # MATHEMATICAL BOLD ITALIC CAPITAL SIGMA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_IE>             : "𝜯" U1D72F # MATHEMATICAL BOLD ITALIC CAPITAL TAU
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_GHE>            : "𝜣" U1D723 # MATHEMATICAL BOLD ITALIC CAPITAL THETA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_TSE>            : "𝜴" U1D734 # MATHEMATICAL BOLD ITALIC CAPITAL OMEGA
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_CHE>            : "𝜲" U1D732 # MATHEMATICAL BOLD ITALIC CAPITAL CHI
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_EN>             : "𝜰" U1D730 # MATHEMATICAL BOLD ITALIC CAPITAL UPSILON
+<Multi_key> <Cyrillic_pe> <plus> <Cyrillic_YA>             : "𝜡" U1D721 # MATHEMATICAL BOLD ITALIC CAPITAL ZETA
+<Multi_key> <Cyrillic_pe> <plus> <asterisk> <Cyrillic_u>   : "𝝐" U1D750 # MATHEMATICAL BOLD ITALIC EPSILON SYMBOL
+<Multi_key> <Cyrillic_pe> <plus> <asterisk> <Cyrillic_el>  : "𝝒" U1D752 # MATHEMATICAL BOLD ITALIC KAPPA SYMBOL
+<Multi_key> <Cyrillic_pe> <plus> <asterisk> <Cyrillic_ghe> : "𝝑" U1D751 # MATHEMATICAL BOLD ITALIC THETA SYMBOL
+<Multi_key> <Cyrillic_pe> <plus> <asterisk> <Cyrillic_a>   : "𝝓" U1D753 # MATHEMATICAL BOLD ITALIC PHI SYMBOL
+<Multi_key> <Cyrillic_pe> <plus> <asterisk> <Cyrillic_TSE> : "𝝕" U1D755 # MATHEMATICAL BOLD ITALIC PI SYMBOL
+<Multi_key> <Cyrillic_pe> <plus> <asterisk> <Cyrillic_ka>  : "𝝔" U1D754 # MATHEMATICAL BOLD ITALIC RHO SYMBOL
 #################
 # MISCELLANEOUS #
 #################
